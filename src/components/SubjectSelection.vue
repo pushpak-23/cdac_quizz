@@ -41,7 +41,7 @@ export default {
   },
   mounted() {
     // Fetch subjects from the API
-    fetch("http://192.168.82.10:8000/subjects")
+    fetch("http://localhost:8000/subjects")
       .then((response) => response.json())
       .then((data) => {
         this.subjects = data;

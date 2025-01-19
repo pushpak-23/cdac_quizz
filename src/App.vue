@@ -99,7 +99,7 @@ export default {
 
       try {
         const response = await fetch(
-          `http://192.168.82.10:8000/questions?subject_id=${subjectId}`
+          `http://localhost:8000/questions?subject_id=${subjectId}`
         );
         const data = await response.json();
 
