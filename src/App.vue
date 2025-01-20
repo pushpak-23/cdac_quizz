@@ -77,13 +77,13 @@ export default {
   },
   data() {
     return {
-      subjects: [],
-      questions: [],
-      currentSubject: null,
-      currentQuestion: null,
-      userAnswers: [],
-      score: 0,
-      isTestCompleted: false,
+      subjects: [], // Array to store subjects
+      questions: [], // Array to store questions for the selected subject
+      currentSubject: null, // Currently selected subject
+      currentQuestion: null, // Currently displayed question
+      userAnswers: [], // User's answers
+      score: 0, // Score calculation
+      isTestCompleted: false, // Flag to mark test completion
       loading: false, // Track loading state
     };
   },
@@ -97,36 +97,24 @@ export default {
       this.currentSubject = subjectId;
       this.loading = true; // Show loader
 
-      try {
-        const response = await fetch(
-          `http://localhost:8000/questions?subject_id=${subjectId}`
-        );
-        const data = await response.json();
+      // Fetch questions for the selected subject
+      const selectedQuestions = this.questions.filter(
+        (question) => question.subject_id === subjectId
+      );
 
-        // Log the API response to inspect its structure
-        console.log("API Response:", data);
+      if (selectedQuestions.length > 0) {
+        this.questions = selectedQuestions; // Set the filtered questions
+        this.shuffleQuestions(); // Shuffle questions
+        this.shuffleOptionsForQuestions(); // Shuffle options for each question
 
-        if (Array.isArray(data) && data.length > 0) {
-          this.questions = data;
-
-          // Shuffle the questions
-          this.shuffleQuestions();
-
-          // Shuffle options for each question
-          this.shuffleOptionsForQuestions();
-
-          // Wait for 3 seconds before showing the questions
-          setTimeout(() => {
-            this.nextQuestion(0); // Start the quiz with the first question
-            this.loading = false; // Hide loader after 3 seconds
-          }, 3000);
-        } else {
-          console.error("No questions found or invalid response structure.");
-          this.endTest(); // End the test if no questions are found
-        }
-      } catch (error) {
-        console.error("Error fetching quiz data:", error);
-        this.endTest(); // Handle error and end the test
+        // Wait for 3 seconds before showing the questions
+        setTimeout(() => {
+          this.nextQuestion(0); // Start the quiz with the first question
+          this.loading = false; // Hide loader after 3 seconds
+        }, 3000);
+      } else {
+        console.error("No questions found for this subject.");
+        this.endTest(); // End the test if no questions are found
       }
     },
 
@@ -200,6 +188,29 @@ export default {
         (answer, index) => answer === this.questions[index].correct_answer
       ).length; // Calculate the score based on correct answers
     },
+  },
+
+  mounted() {
+    // Fetch subjects and questions from db.json located in the public folder
+    fetch("/db.json")
+      .then((response) => response.json())
+      .then((data) => {
+        if (
+          data &&
+          Array.isArray(data.subjects) &&
+          Array.isArray(data.questions)
+        ) {
+          this.subjects = data.subjects; // Store the subjects in the array
+          this.questions = data.questions; // Store all questions in the array
+          console.log("Subjects loaded:", this.subjects); // Optional: log the subjects
+          console.log("Questions loaded:", this.questions); // Optional: log the questions
+        } else {
+          console.error("Invalid data structure in db.json");
+        }
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
   },
 };
 </script>

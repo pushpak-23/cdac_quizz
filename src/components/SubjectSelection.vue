@@ -30,7 +30,7 @@
 export default {
   data() {
     return {
-      subjects: [],
+      subjects: [], // Temporary array to store data from db.json
       selectedSubject: null,
     };
   },
@@ -40,11 +40,13 @@ export default {
     },
   },
   mounted() {
-    // Fetch subjects from the API
-    fetch("http://localhost:8000/subjects")
+    // Fetch subjects from the db.json file located in the public folder
+    fetch("/db.json") // This assumes db.json is in the public folder
       .then((response) => response.json())
       .then((data) => {
-        this.subjects = data;
+        // Assuming your db.json has a structure like { "subjects": [...] }
+        this.subjects = data.subjects; // Store the data in the temporary array
+        console.log("Data loaded:", this.subjects); // Optional: log the loaded data
       })
       .catch((error) => {
         console.error("Error fetching subjects:", error);
