@@ -16,7 +16,8 @@
     { "id": 14, "name": "Cloud and DevOps" },
     { "id": 15, "name": "exam" },
     { "id": 16, "name": "exam-linux" },
-    { "id": 17, "name": "exam-networking" }
+    { "id": 17, "name": "exam-networking" },
+    { "id": 18, "name": "exam-hpc" }
   ],
   "questions": [
     {
@@ -26082,6 +26083,3326 @@
         "Encrypting user data"
       ],
       "correct_answer": "Identifying vulnerabilities in software"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary goal of a data center design?",
+      "options": [
+        "Minimize power consumption",
+        "Ensure high availability and scalability",
+        "Reduce hardware costs",
+        "Enhance security features"
+      ],
+      "correct_answer": "Ensure high availability and scalability"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main purpose of a cooling system in a data center?",
+      "options": [
+        "Prevent overheating of servers",
+        "Increase energy efficiency",
+        "Improve data security",
+        "Reduce operational costs"
+      ],
+      "correct_answer": "Prevent overheating of servers"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a critical factor in data center design?",
+      "options": [
+        "Network bandwidth",
+        "Cost of equipment",
+        "Location of servers",
+        "Power and cooling efficiency"
+      ],
+      "correct_answer": "Power and cooling efficiency"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main purpose of a UPS (Uninterruptible Power Supply) in a data center?",
+      "options": [
+        "Provide backup power during outages",
+        "Regulate server temperature",
+        "Store data securely",
+        "Manage network traffic"
+      ],
+      "correct_answer": "Provide backup power during outages"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does 'Tier' in data center design refer to?",
+      "options": [
+        "Power supply reliability",
+        "Cooling system efficiency",
+        "Data center redundancy and availability",
+        "Server storage capacity"
+      ],
+      "correct_answer": "Data center redundancy and availability"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tier of data center provides the highest level of redundancy and uptime?",
+      "options": ["Tier I", "Tier II", "Tier III", "Tier IV"],
+      "correct_answer": "Tier IV"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a typical risk in data center design?",
+      "options": [
+        "Single points of failure",
+        "Insufficient network bandwidth",
+        "Lack of storage capacity",
+        "Limited server support"
+      ],
+      "correct_answer": "Single points of failure"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the significance of airflow management in a data center?",
+      "options": [
+        "Improves data storage capacity",
+        "Reduces the cost of servers",
+        "Ensures efficient cooling",
+        "Increases power supply"
+      ],
+      "correct_answer": "Ensures efficient cooling"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary concern when designing a data center's electrical infrastructure?",
+      "options": [
+        "Maintaining continuous uptime",
+        "Minimizing energy consumption",
+        "Reducing cooling costs",
+        "Increasing network speed"
+      ],
+      "correct_answer": "Maintaining continuous uptime"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a type of data center architecture?",
+      "options": ["Pod-based", "Star-based", "Mesh-based", "Ring-based"],
+      "correct_answer": "Pod-based"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which type of data center design typically has the highest energy efficiency?",
+      "options": [
+        "Modular data center",
+        "Cloud data center",
+        "Traditional data center",
+        "Edge data center"
+      ],
+      "correct_answer": "Modular data center"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a common way to manage heat in data centers?",
+      "options": [
+        "Use of liquid cooling",
+        "Airflow optimization",
+        "Increasing server density",
+        "Reducing server power"
+      ],
+      "correct_answer": "Airflow optimization"
+    },
+    {
+      "subject_id": 18,
+      "question": "In data center design, what does 'PUE' stand for?",
+      "options": [
+        "Power Unit Efficiency",
+        "Performance Unit Efficiency",
+        "Power Usage Effectiveness",
+        "Performance Usage Effectiveness"
+      ],
+      "correct_answer": "Power Usage Effectiveness"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key feature of disaster recovery in data centers?",
+      "options": [
+        "Backup power systems",
+        "Automated cooling systems",
+        "Data mirroring and replication",
+        "Network firewall systems"
+      ],
+      "correct_answer": "Data mirroring and replication"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the term 'N+1 redundancy' mean in data center design?",
+      "options": [
+        "One extra component for backup",
+        "No redundancy required",
+        "N number of components with no backup",
+        "One component will automatically replace any failed component"
+      ],
+      "correct_answer": "One extra component for backup"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is NOT typically considered in a data center location selection?",
+      "options": [
+        "Proximity to end users",
+        "Availability of skilled labor",
+        "Climate for cooling efficiency",
+        "Proximity to competing data centers"
+      ],
+      "correct_answer": "Proximity to competing data centers"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which technology allows multiple servers in a data center to share storage resources?",
+      "options": [
+        "Cloud computing",
+        "Server virtualization",
+        "Software-defined storage",
+        "Distributed computing"
+      ],
+      "correct_answer": "Software-defined storage"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which factor can significantly impact the Total Cost of Ownership (TCO) of a data center?",
+      "options": [
+        "Capital investment",
+        "Operational costs",
+        "Energy consumption",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of a fire suppression system in a data center?",
+      "options": [
+        "To prevent fire from spreading",
+        "To monitor network traffic",
+        "To cool servers",
+        "To manage power load"
+      ],
+      "correct_answer": "To prevent fire from spreading"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is typically used to measure data center efficiency?",
+      "options": [
+        "PUE (Power Usage Effectiveness)",
+        "RPO (Recovery Point Objective)",
+        "RTO (Recovery Time Objective)",
+        "SLAs (Service Level Agreements)"
+      ],
+      "correct_answer": "PUE (Power Usage Effectiveness)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary reason for using modular data center designs?",
+      "options": [
+        "Faster scalability and easier upgrades",
+        "Reduced server density",
+        "Lower cooling costs",
+        "Increased data security"
+      ],
+      "correct_answer": "Faster scalability and easier upgrades"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a feature of a Tier IV data center?",
+      "options": [
+        "Multiple levels of redundancy",
+        "Single points of failure",
+        "No backup power systems",
+        "Lower availability"
+      ],
+      "correct_answer": "Multiple levels of redundancy"
+    },
+    {
+      "subject_id": 18,
+      "question": "In terms of data center power, what does 'N' refer to in the N+1 redundancy model?",
+      "options": [
+        "Number of servers",
+        "Number of backup power units",
+        "Number of power feeds",
+        "Number of power units in operation"
+      ],
+      "correct_answer": "Number of power units in operation"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is the primary concern when designing for data center security?",
+      "options": [
+        "Physical and network security",
+        "Data storage optimization",
+        "Server cooling efficiency",
+        "Power usage effectiveness"
+      ],
+      "correct_answer": "Physical and network security"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a benefit of using cloud computing in data center design?",
+      "options": [
+        "Elimination of physical infrastructure",
+        "Improved power supply reliability",
+        "Reduced need for backup systems",
+        "Increased control over hardware"
+      ],
+      "correct_answer": "Elimination of physical infrastructure"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main purpose of a data center fire suppression system?",
+      "options": [
+        "Control air quality",
+        "Control water usage",
+        "Minimize fire damage to infrastructure",
+        "Ensure cooling of equipment"
+      ],
+      "correct_answer": "Minimize fire damage to infrastructure"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is typically used to increase the efficiency of data center cooling?",
+      "options": [
+        "Hot and cold aisle containment",
+        "Larger server rooms",
+        "Increased server rack density",
+        "Passive air conditioning"
+      ],
+      "correct_answer": "Hot and cold aisle containment"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which type of data center topology is characterized by interconnected servers and centralized management?",
+      "options": [
+        "Mesh topology",
+        "Star topology",
+        "Ring topology",
+        "Tree topology"
+      ],
+      "correct_answer": "Star topology"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary role of HVAC systems in a data center?",
+      "options": [
+        "Powering the servers",
+        "Maintaining optimal temperature and humidity",
+        "Monitoring data traffic",
+        "Controlling data storage capacity"
+      ],
+      "correct_answer": "Maintaining optimal temperature and humidity"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is NOT a key factor when sizing an HVAC system for a data center?",
+      "options": [
+        "Server heat output",
+        "Rack density",
+        "Outdoor air temperature",
+        "Power consumption of HVAC equipment"
+      ],
+      "correct_answer": "Power consumption of HVAC equipment"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which type of cooling method is commonly used in data centers to handle excess heat from servers?",
+      "options": [
+        "Chilled water systems",
+        "Direct expansion cooling",
+        "Air cooling with fans",
+        "Evaporative cooling"
+      ],
+      "correct_answer": "Chilled water systems"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the term 'Cooling Load' refer to in a data center HVAC design?",
+      "options": [
+        "The total amount of heat the HVAC system needs to remove",
+        "The amount of power required to run the HVAC system",
+        "The amount of energy required to operate the servers",
+        "The total capacity of the cooling equipment"
+      ],
+      "correct_answer": "The total amount of heat the HVAC system needs to remove"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main purpose of using raised floors in data centers in terms of HVAC?",
+      "options": [
+        "To manage power distribution",
+        "To allow cooling air to circulate below the floor",
+        "To store backup equipment",
+        "To house server racks"
+      ],
+      "correct_answer": "To allow cooling air to circulate below the floor"
+    },
+    {
+      "subject_id": 18,
+      "question": "In HVAC system design, what does 'N+1 redundancy' refer to?",
+      "options": [
+        "A system with an additional cooling unit for backup",
+        "A single HVAC unit with no backup",
+        "A system that only uses air-based cooling",
+        "A cooling system with multiple temperature zones"
+      ],
+      "correct_answer": "A system with an additional cooling unit for backup"
+    },
+    {
+      "subject_id": 18,
+      "question": "When considering power sizing for HVAC systems, what is an essential factor?",
+      "options": [
+        "The wattage of cooling fans",
+        "The cooling power of each HVAC unit",
+        "The power consumption of the data center’s lighting",
+        "The power required to run servers"
+      ],
+      "correct_answer": "The cooling power of each HVAC unit"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the effect of poor HVAC sizing in a data center?",
+      "options": [
+        "Increased power usage",
+        "Overheating of servers",
+        "Improper humidity control",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following methods can help improve HVAC efficiency in a data center?",
+      "options": [
+        "Hot aisle and cold aisle containment",
+        "Increasing server density",
+        "Reducing airflow",
+        "Using more servers"
+      ],
+      "correct_answer": "Hot aisle and cold aisle containment"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which unit is used to measure the cooling capacity of HVAC systems?",
+      "options": ["BTU (British Thermal Unit)", "Kilowatts", "Joules", "Watts"],
+      "correct_answer": "BTU (British Thermal Unit)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the typical source of heat that data center HVAC systems are designed to remove?",
+      "options": [
+        "Power supplies",
+        "Servers and networking equipment",
+        "Lighting systems",
+        "Backup power systems"
+      ],
+      "correct_answer": "Servers and networking equipment"
+    },
+    {
+      "subject_id": 18,
+      "question": "How does an increase in server rack density impact HVAC design?",
+      "options": [
+        "Requires higher cooling capacity",
+        "Reduces cooling requirements",
+        "Does not affect the HVAC design",
+        "Reduces power consumption"
+      ],
+      "correct_answer": "Requires higher cooling capacity"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does 'Chiller redundancy' in an HVAC system refer to?",
+      "options": [
+        "Having additional chillers available in case one fails",
+        "Cooling systems operating in parallel",
+        "Using a backup power supply for chillers",
+        "Using two types of chillers simultaneously"
+      ],
+      "correct_answer": "Having additional chillers available in case one fails"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which HVAC configuration is commonly used to manage cooling in large data centers?",
+      "options": [
+        "Centralized cooling",
+        "Distributed cooling",
+        "Hybrid cooling",
+        "Direct expansion cooling"
+      ],
+      "correct_answer": "Centralized cooling"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one of the challenges associated with HVAC system power sizing in data centers?",
+      "options": [
+        "Ensuring efficient airflow",
+        "Managing energy costs while maintaining cooling",
+        "Matching server load with HVAC capacity",
+        "Providing adequate redundancy"
+      ],
+      "correct_answer": "Managing energy costs while maintaining cooling"
+    },
+    {
+      "subject_id": 18,
+      "question": "What type of HVAC system is best suited for small to medium-sized data centers?",
+      "options": [
+        "Packaged units",
+        "Chilled beam systems",
+        "Direct expansion systems",
+        "Geothermal cooling systems"
+      ],
+      "correct_answer": "Direct expansion systems"
+    },
+    {
+      "subject_id": 18,
+      "question": "In data center cooling, what does the term 'dry cooler' refer to?",
+      "options": [
+        "A cooling unit that uses water and air",
+        "A water-based cooling system without evaporative cooling",
+        "An air-cooling system using ambient air only",
+        "A system used for backup cooling"
+      ],
+      "correct_answer": "A water-based cooling system without evaporative cooling"
+    },
+    {
+      "subject_id": 18,
+      "question": "When power sizing for HVAC systems, why is it important to account for the data center’s heat load?",
+      "options": [
+        "To avoid excessive cooling power",
+        "To ensure equipment reliability",
+        "To optimize airflow management",
+        "To reduce energy consumption"
+      ],
+      "correct_answer": "To ensure equipment reliability"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is the best practice for optimizing HVAC system performance in a data center?",
+      "options": [
+        "Maximizing server density",
+        "Using cooling towers",
+        "Using thermal storage systems",
+        "Using energy-efficient chillers"
+      ],
+      "correct_answer": "Using energy-efficient chillers"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the impact of inefficient HVAC system power sizing on data center operations?",
+      "options": [
+        "Higher operational costs",
+        "Increased uptime",
+        "Improved cooling efficiency",
+        "Decreased server performance"
+      ],
+      "correct_answer": "Higher operational costs"
+    },
+    {
+      "subject_id": 18,
+      "question": "How does an increase in ambient temperature outside the data center affect HVAC design?",
+      "options": [
+        "Requires more cooling capacity",
+        "Reduces energy efficiency",
+        "Has no effect on HVAC systems",
+        "Decreases the need for redundancy"
+      ],
+      "correct_answer": "Requires more cooling capacity"
+    },
+    {
+      "subject_id": 18,
+      "question": "What type of HVAC system is most commonly used for data center cooling?",
+      "options": [
+        "Evaporative cooling",
+        "Chilled water system",
+        "Air-cooled units",
+        "Thermal energy storage systems"
+      ],
+      "correct_answer": "Chilled water system"
+    },
+    {
+      "subject_id": 18,
+      "question": "In HVAC design, what is the 'set point temperature'?",
+      "options": [
+        "The target temperature for the server room",
+        "The temperature when the cooling system turns off",
+        "The maximum allowable temperature in a data center",
+        "The temperature at which equipment starts to overheat"
+      ],
+      "correct_answer": "The target temperature for the server room"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a common consequence of poor airflow management in data centers?",
+      "options": [
+        "Uneven temperature distribution",
+        "Reduced cooling efficiency",
+        "Increased power consumption",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is typically included in power sizing for a data center HVAC system?",
+      "options": [
+        "Backup power capacity",
+        "Energy consumption patterns",
+        "HVAC system peak load",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following metrics is used to measure data center efficiency?",
+      "options": [
+        "PUE (Power Usage Effectiveness)",
+        "RTO (Recovery Time Objective)",
+        "RPO (Recovery Point Objective)",
+        "MTTR (Mean Time to Repair)"
+      ],
+      "correct_answer": "PUE (Power Usage Effectiveness)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the term 'MTTR' refer to in the context of data center operations?",
+      "options": [
+        "Mean Time to Recovery",
+        "Mean Time to Repair",
+        "Maximum Time to Resolve",
+        "Minimum Time to Recover"
+      ],
+      "correct_answer": "Mean Time to Repair"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is NOT typically considered a data center security best practice?",
+      "options": [
+        "Implementing multi-factor authentication",
+        "Using encryption for data at rest and in transit",
+        "Allowing unrestricted physical access to the facility",
+        "Regularly updating software and firmware"
+      ],
+      "correct_answer": "Allowing unrestricted physical access to the facility"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which physical security measure is essential for restricting unauthorized access to a data center?",
+      "options": [
+        "Surveillance cameras",
+        "Fire suppression systems",
+        "Air conditioning units",
+        "Backup generators"
+      ],
+      "correct_answer": "Surveillance cameras"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of implementing a 'least privilege' policy in data center security?",
+      "options": [
+        "To reduce the number of access points to the facility",
+        "To limit user access to only what is necessary for their role",
+        "To improve power usage effectiveness",
+        "To minimize data replication requirements"
+      ],
+      "correct_answer": "To limit user access to only what is necessary for their role"
+    },
+    {
+      "subject_id": 18,
+      "question": "In data center security, what is the primary purpose of fire suppression systems?",
+      "options": [
+        "To protect servers from overheating",
+        "To prevent unauthorized access",
+        "To extinguish fires and minimize damage to equipment",
+        "To ensure network stability"
+      ],
+      "correct_answer": "To extinguish fires and minimize damage to equipment"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key element of disaster recovery planning for data centers?",
+      "options": [
+        "Regular backup and testing of critical data",
+        "Physical security of server rooms",
+        "Increasing server density",
+        "Adding cooling units to the facility"
+      ],
+      "correct_answer": "Regular backup and testing of critical data"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the significance of a multi-layer security approach in data centers?",
+      "options": [
+        "It improves the efficiency of HVAC systems",
+        "It ensures redundancy in power systems",
+        "It provides defense at different levels of security",
+        "It decreases data storage costs"
+      ],
+      "correct_answer": "It provides defense at different levels of security"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following best practices helps protect data centers from environmental risks?",
+      "options": [
+        "Location in low-risk areas for natural disasters",
+        "Implementing an open access policy",
+        "Increasing server load without redundancy",
+        "Allowing unrestricted access to third-party vendors"
+      ],
+      "correct_answer": "Location in low-risk areas for natural disasters"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of an access control system in a data center?",
+      "options": [
+        "Regulates the temperature in server rooms",
+        "Monitors data traffic",
+        "Controls physical access to sensitive areas",
+        "Secures network connections"
+      ],
+      "correct_answer": "Controls physical access to sensitive areas"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following security measures is used to protect against unauthorized remote access to a data center network?",
+      "options": [
+        "Firewalls",
+        "Physical barriers",
+        "Surveillance cameras",
+        "Access control lists"
+      ],
+      "correct_answer": "Firewalls"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does 'Zero Trust' security model in data centers emphasize?",
+      "options": [
+        "Trusting internal network traffic only",
+        "Never trusting anyone and always verifying every request",
+        "Allowing unrestricted access to authorized users",
+        "Allowing external access to all systems"
+      ],
+      "correct_answer": "Never trusting anyone and always verifying every request"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which security best practice is essential for protecting sensitive data in a data center?",
+      "options": [
+        "Data encryption",
+        "Increasing server power",
+        "Reducing server rack density",
+        "Optimizing cooling systems"
+      ],
+      "correct_answer": "Data encryption"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a safety risk in a data center related to electrical infrastructure?",
+      "options": [
+        "Overloaded circuits leading to fires",
+        "Increased cooling efficiency",
+        "Improper ventilation of air conditioning units",
+        "Too many access control measures"
+      ],
+      "correct_answer": "Overloaded circuits leading to fires"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of conducting regular security audits in a data center?",
+      "options": [
+        "To evaluate the performance of HVAC systems",
+        "To assess the efficiency of cooling equipment",
+        "To ensure compliance with security standards and identify vulnerabilities",
+        "To optimize the server rack layout"
+      ],
+      "correct_answer": "To ensure compliance with security standards and identify vulnerabilities"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the recommended practice for securing the physical perimeter of a data center?",
+      "options": [
+        "Installation of barriers and surveillance cameras",
+        "Storing backup data on-site",
+        "Using low-cost security equipment",
+        "Allowing access to all visitors without checks"
+      ],
+      "correct_answer": "Installation of barriers and surveillance cameras"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which safety protocol should be followed to reduce the risk of fire hazards in a data center?",
+      "options": [
+        "Regular inspection of electrical and cooling systems",
+        "Installing non-fireproof cables",
+        "Overloading electrical circuits",
+        "Allowing equipment to operate without fire suppression systems"
+      ],
+      "correct_answer": "Regular inspection of electrical and cooling systems"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of biometric access controls in a data center?",
+      "options": [
+        "To reduce electricity consumption",
+        "To ensure only authorized personnel enter sensitive areas",
+        "To monitor server performance",
+        "To monitor air quality"
+      ],
+      "correct_answer": "To ensure only authorized personnel enter sensitive areas"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is an essential feature of a disaster recovery plan for data centers?",
+      "options": [
+        "Frequent power outages",
+        "High-speed internet connectivity",
+        "Automatic failover systems to backup sites",
+        "Limited data storage capacity"
+      ],
+      "correct_answer": "Automatic failover systems to backup sites"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key component of a data center's safety protocol for natural disasters?",
+      "options": [
+        "Designing the building to withstand earthquakes or floods",
+        "Providing unlimited access to all areas",
+        "Increasing server density",
+        "Decreasing backup power sources"
+      ],
+      "correct_answer": "Designing the building to withstand earthquakes or floods"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the best practice to ensure data integrity in case of system failure in a data center?",
+      "options": [
+        "Implementing regular data backups and replication",
+        "Increasing the number of users",
+        "Allowing only one system to run at a time",
+        "Reducing cooling to minimize server load"
+      ],
+      "correct_answer": "Implementing regular data backups and replication"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the recommended practice for managing access to sensitive data in a data center?",
+      "options": [
+        "Use of role-based access control",
+        "Providing unrestricted data access to all employees",
+        "Allowing easy access to physical server rooms",
+        "Avoiding the use of firewalls"
+      ],
+      "correct_answer": "Use of role-based access control"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a key security measure to protect against cyber threats in data centers?",
+      "options": [
+        "Implementation of strong firewall and encryption protocols",
+        "Allowing open access to external networks",
+        "Minimizing physical security measures",
+        "Disabling multi-factor authentication"
+      ],
+      "correct_answer": "Implementation of strong firewall and encryption protocols"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a safety concern related to backup power systems in data centers?",
+      "options": [
+        "Overcharging of batteries",
+        "Excessive cooling requirements",
+        "Inadequate data storage capacity",
+        "Poor network bandwidth"
+      ],
+      "correct_answer": "Overcharging of batteries"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of physical barriers around the data center facility?",
+      "options": [
+        "To restrict unauthorized physical access",
+        "To monitor network traffic",
+        "To store backup equipment",
+        "To improve power efficiency"
+      ],
+      "correct_answer": "To restrict unauthorized physical access"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary advantage of using liquid cooling in data centers?",
+      "options": [
+        "Reduced space requirements",
+        "Increased power consumption",
+        "Enhanced cooling efficiency",
+        "Limited scalability"
+      ],
+      "correct_answer": "Enhanced cooling efficiency"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a common method for rejecting heat from liquid cooling systems in data centers?",
+      "options": [
+        "Using heat exchangers",
+        "Increasing the air flow through the facility",
+        "Raising the temperature of the data center",
+        "Increasing server load"
+      ],
+      "correct_answer": "Using heat exchangers"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the term for the process of reusing heat produced by data center systems for other applications?",
+      "options": [
+        "Heat recovery",
+        "Heat rejection",
+        "Waste energy",
+        "Heat redistribution"
+      ],
+      "correct_answer": "Heat recovery"
+    },
+    {
+      "subject_id": 18,
+      "question": "In liquid cooling, what type of liquid is typically used?",
+      "options": [
+        "Water mixed with antifreeze",
+        "Distilled water",
+        "Oil-based liquids",
+        "Chilled air"
+      ],
+      "correct_answer": "Water mixed with antifreeze"
+    },
+    {
+      "subject_id": 18,
+      "question": "How does liquid cooling help improve energy efficiency in data centers?",
+      "options": [
+        "By requiring less energy for server operations",
+        "By transferring heat directly to the cooling medium",
+        "By increasing the density of server racks",
+        "By lowering the data center's operational costs"
+      ],
+      "correct_answer": "By transferring heat directly to the cooling medium"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one challenge associated with liquid cooling systems in data centers?",
+      "options": [
+        "They are prone to leaks",
+        "They require less maintenance than air cooling",
+        "They reduce the server performance",
+        "They require more power to operate"
+      ],
+      "correct_answer": "They are prone to leaks"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a method for collecting and reusing excess heat from a data center?",
+      "options": [
+        "Using a thermal storage system",
+        "Increasing server temperatures",
+        "Increasing the HVAC system's power usage",
+        "Using heat dissipators on servers"
+      ],
+      "correct_answer": "Using a thermal storage system"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary function of the 'chilled beam' system in data center cooling?",
+      "options": [
+        "It cools air using a chilled water loop",
+        "It directs hot air away from servers",
+        "It absorbs heat directly from servers",
+        "It uses fans to circulate cold air"
+      ],
+      "correct_answer": "It cools air using a chilled water loop"
+    },
+    {
+      "subject_id": 18,
+      "question": "In the context of energy use systems, what does the term 'PUE' (Power Usage Effectiveness) measure?",
+      "options": [
+        "The energy efficiency of the cooling systems",
+        "The total energy consumption of the data center",
+        "The energy consumed per unit of data transferred",
+        "The energy efficiency of servers"
+      ],
+      "correct_answer": "The total energy consumption of the data center"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the benefit of using a 'free cooling' system in a data center?",
+      "options": [
+        "It reduces the need for energy-intensive refrigeration",
+        "It allows for more server rack space",
+        "It uses renewable energy sources",
+        "It improves network throughput"
+      ],
+      "correct_answer": "It reduces the need for energy-intensive refrigeration"
+    },
+    {
+      "subject_id": 18,
+      "question": "How can data centers improve energy efficiency using energy recovery systems?",
+      "options": [
+        "By using waste heat to power cooling systems",
+        "By using backup power systems during peak loads",
+        "By increasing server density",
+        "By lowering power consumption across all systems"
+      ],
+      "correct_answer": "By using waste heat to power cooling systems"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of the 'cable management' system in a data center?",
+      "options": [
+        "To organize and optimize power distribution",
+        "To improve air flow and cooling efficiency",
+        "To prevent unauthorized access to cables",
+        "To increase network bandwidth"
+      ],
+      "correct_answer": "To improve air flow and cooling efficiency"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a benefit of proper cabinet and cable management in a data center?",
+      "options": [
+        "Improved server performance",
+        "Easier troubleshooting and maintenance",
+        "Reduced cooling efficiency",
+        "Lower server load"
+      ],
+      "correct_answer": "Easier troubleshooting and maintenance"
+    },
+    {
+      "subject_id": 18,
+      "question": "How does organized cable management improve cooling efficiency in data centers?",
+      "options": [
+        "By preventing cable congestion that restricts airflow",
+        "By increasing the density of servers",
+        "By lowering overall power consumption",
+        "By preventing server overheating"
+      ],
+      "correct_answer": "By preventing cable congestion that restricts airflow"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a recommended practice for energy management in data centers?",
+      "options": [
+        "Utilizing renewable energy sources",
+        "Reducing server redundancy",
+        "Increasing server temperatures",
+        "Disabling monitoring systems"
+      ],
+      "correct_answer": "Utilizing renewable energy sources"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one advantage of using direct-to-chip liquid cooling systems in data centers?",
+      "options": [
+        "It can efficiently cool high-performance components",
+        "It requires less space than traditional cooling systems",
+        "It uses more power than air-based systems",
+        "It decreases overall server performance"
+      ],
+      "correct_answer": "It can efficiently cool high-performance components"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of 'rack cooling' in a liquid cooling system?",
+      "options": [
+        "It cools the air around server racks",
+        "It removes heat directly from server components",
+        "It ensures adequate power supply to servers",
+        "It prevents humidity buildup in the server room"
+      ],
+      "correct_answer": "It removes heat directly from server components"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of energy-efficient data center designs?",
+      "options": [
+        "To reduce energy costs and environmental impact",
+        "To increase server density",
+        "To maximize network speed",
+        "To improve data throughput"
+      ],
+      "correct_answer": "To reduce energy costs and environmental impact"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is an energy-saving strategy for cooling systems in a data center?",
+      "options": [
+        "Using economizers for free cooling",
+        "Increasing server load",
+        "Disabling backup cooling units",
+        "Reducing server density"
+      ],
+      "correct_answer": "Using economizers for free cooling"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a key consideration when designing energy-efficient data center power systems?",
+      "options": [
+        "Using redundant power supplies",
+        "Increasing cable lengths",
+        "Using underutilized servers",
+        "Reducing server cooling needs"
+      ],
+      "correct_answer": "Using redundant power supplies"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one benefit of using modular cabinet systems in data centers?",
+      "options": [
+        "Faster installation and scalability",
+        "Reduced server performance",
+        "Increased cooling complexity",
+        "Higher energy consumption"
+      ],
+      "correct_answer": "Faster installation and scalability"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one of the challenges of implementing liquid cooling in a large-scale data center?",
+      "options": [
+        "Potential for leaks and spills",
+        "Increased server density",
+        "Increased electrical demand",
+        "Need for more server racks"
+      ],
+      "correct_answer": "Potential for leaks and spills"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of using cable trays in data centers?",
+      "options": [
+        "To organize and route cables efficiently",
+        "To reduce power consumption",
+        "To monitor network activity",
+        "To improve server performance"
+      ],
+      "correct_answer": "To organize and route cables efficiently"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the impact of good cabinet and cable management on a data center's operational costs?",
+      "options": [
+        "It reduces cooling costs by improving airflow",
+        "It increases power consumption",
+        "It decreases network throughput",
+        "It reduces server reliability"
+      ],
+      "correct_answer": "It reduces cooling costs by improving airflow"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of thermal management in data center cooling systems?",
+      "options": [
+        "To maintain optimal operating temperatures for servers",
+        "To increase the density of server racks",
+        "To reduce the number of servers",
+        "To improve network performance"
+      ],
+      "correct_answer": "To maintain optimal operating temperatures for servers"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a key challenge of using free cooling systems in data centers?",
+      "options": [
+        "Dependence on external weather conditions",
+        "Increased cooling costs",
+        "Increased server downtime",
+        "Limited scalability"
+      ],
+      "correct_answer": "Dependence on external weather conditions"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary objective of requirement analysis in software development?",
+      "options": [
+        "To define the software architecture",
+        "To gather and document the needs and expectations of the stakeholders",
+        "To design the database schema",
+        "To implement the software system"
+      ],
+      "correct_answer": "To gather and document the needs and expectations of the stakeholders"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is NOT a typical phase of the requirement analysis process?",
+      "options": [
+        "Requirement gathering",
+        "Requirement validation",
+        "Requirement documentation",
+        "Requirement implementation"
+      ],
+      "correct_answer": "Requirement implementation"
+    },
+    {
+      "subject_id": 18,
+      "question": "What technique is commonly used to elicit requirements from stakeholders?",
+      "options": ["Interviews", "Code reviews", "Unit testing", "Debugging"],
+      "correct_answer": "Interviews"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key component of functional requirements in requirement analysis?",
+      "options": [
+        "System behavior and functionality",
+        "Hardware specifications",
+        "Performance benchmarks",
+        "Security protocols"
+      ],
+      "correct_answer": "System behavior and functionality"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a requirement traceability matrix (RTM) used for?",
+      "options": [
+        "Tracking the project budget",
+        "Mapping requirements to test cases",
+        "Defining system architecture",
+        "Scheduling project tasks"
+      ],
+      "correct_answer": "Mapping requirements to test cases"
+    },
+    {
+      "subject_id": 18,
+      "question": "What type of requirements detail the interactions between the system and its users?",
+      "options": [
+        "Functional requirements",
+        "Non-functional requirements",
+        "User requirements",
+        "System requirements"
+      ],
+      "correct_answer": "User requirements"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which method involves group discussions to identify user requirements?",
+      "options": ["Focus groups", "Surveys", "Interviews", "Prototyping"],
+      "correct_answer": "Focus groups"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a common tool used for documenting requirements?",
+      "options": ["UML diagrams", "Wireframes", "User stories", "Gantt charts"],
+      "correct_answer": "User stories"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a characteristic of a well-defined requirement?",
+      "options": [
+        "Vague and open to interpretation",
+        "Testable and measurable",
+        "Unclear and ambiguous",
+        "Not aligned with business objectives"
+      ],
+      "correct_answer": "Testable and measurable"
+    },
+    {
+      "subject_id": 18,
+      "question": "In requirement analysis, what is the purpose of performing a 'stakeholder analysis'?",
+      "options": [
+        "To identify who will use the system and their needs",
+        "To assess the current system's architecture",
+        "To plan the system's testing process",
+        "To define system integration points"
+      ],
+      "correct_answer": "To identify who will use the system and their needs"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of non-functional requirements in requirement analysis?",
+      "options": [
+        "To define the system's specific behaviors",
+        "To describe system performance, reliability, and security",
+        "To identify hardware specifications",
+        "To define user interactions with the system"
+      ],
+      "correct_answer": "To describe system performance, reliability, and security"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of conducting a 'feasibility study' during the requirement analysis phase?",
+      "options": [
+        "To assess the technical, operational, and financial viability of the project",
+        "To define system interfaces",
+        "To identify system limitations",
+        "To validate the requirements with stakeholders"
+      ],
+      "correct_answer": "To assess the technical, operational, and financial viability of the project"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does 'S.M.A.R.T.' stand for in the context of writing effective requirements?",
+      "options": [
+        "Specific, Measurable, Achievable, Relevant, Time-bound",
+        "Simple, Manageable, Accurate, Robust, Transparent",
+        "Stable, Meaningful, Assessable, Resilient, Testable",
+        "Secure, Modular, Adjustable, Reliable, Testable"
+      ],
+      "correct_answer": "Specific, Measurable, Achievable, Relevant, Time-bound"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which technique involves building a prototype to gather feedback and refine requirements?",
+      "options": [
+        "Prototyping",
+        "Benchmarking",
+        "Surveys",
+        "Documentation review"
+      ],
+      "correct_answer": "Prototyping"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of requirement validation in the requirement analysis process?",
+      "options": [
+        "To ensure the requirements are clear, feasible, and aligned with business goals",
+        "To start coding the application",
+        "To perform stress tests on the system",
+        "To integrate third-party systems"
+      ],
+      "correct_answer": "To ensure the requirements are clear, feasible, and aligned with business goals"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a 'user story' in requirement analysis?",
+      "options": [
+        "A detailed technical specification for developers",
+        "A brief description of a feature from the end-user's perspective",
+        "A formal contract between the project manager and the client",
+        "A list of all technical dependencies in the system"
+      ],
+      "correct_answer": "A brief description of a feature from the end-user's perspective"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is an example of a non-functional requirement?",
+      "options": [
+        "The system must handle 1,000 transactions per second",
+        "The user must be able to log in using a password",
+        "The system must support file uploads",
+        "The system should provide a search functionality"
+      ],
+      "correct_answer": "The system must handle 1,000 transactions per second"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of a 'gap analysis' in requirement analysis?",
+      "options": [
+        "To compare current capabilities with desired capabilities",
+        "To define the hardware requirements for the system",
+        "To assess the security vulnerabilities of the system",
+        "To map requirements to test cases"
+      ],
+      "correct_answer": "To compare current capabilities with desired capabilities"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the difference between 'functional requirements' and 'non-functional requirements'?",
+      "options": [
+        "Functional requirements describe system behavior, while non-functional requirements describe system qualities",
+        "Functional requirements are optional, while non-functional requirements are mandatory",
+        "Functional requirements are only related to hardware, while non-functional requirements are related to software",
+        "There is no difference; they are interchangeable"
+      ],
+      "correct_answer": "Functional requirements describe system behavior, while non-functional requirements describe system qualities"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does 'elicitation' refer to in the context of requirement analysis?",
+      "options": [
+        "The process of gathering requirements from stakeholders",
+        "The process of validating requirements with users",
+        "The process of documenting requirements",
+        "The process of reviewing the architecture of the system"
+      ],
+      "correct_answer": "The process of gathering requirements from stakeholders"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which technique is best suited for resolving conflicting requirements among stakeholders?",
+      "options": ["Prioritization", "Benchmarking", "Prototyping", "Coding"],
+      "correct_answer": "Prioritization"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a tool commonly used for requirement management?",
+      "options": ["Jira", "Photoshop", "Google Docs", "Microsoft Excel"],
+      "correct_answer": "Jira"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of 'assumptions' in requirement analysis?",
+      "options": [
+        "To clarify any uncertain or undefined aspects of the project",
+        "To validate the feasibility of requirements",
+        "To detail specific user interfaces",
+        "To define coding standards"
+      ],
+      "correct_answer": "To clarify any uncertain or undefined aspects of the project"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the term 'scope creep' refer to in requirement analysis?",
+      "options": [
+        "The uncontrolled expansion of project scope due to changing requirements",
+        "The process of defining the project boundaries",
+        "The practice of conducting regular requirements reviews",
+        "The analysis of system bottlenecks"
+      ],
+      "correct_answer": "The uncontrolled expansion of project scope due to changing requirements"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of using 'user personas' in requirement analysis?",
+      "options": [
+        "To create fictional characters that represent different user types for better requirement understanding",
+        "To test the system’s response time",
+        "To define technical system constraints",
+        "To measure system performance"
+      ],
+      "correct_answer": "To create fictional characters that represent different user types for better requirement understanding"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary purpose of High-Performance Computing (HPC)?",
+      "options": [
+        "To run applications with high power consumption",
+        "To perform complex computations faster than traditional computers",
+        "To run simulations on low-cost hardware",
+        "To perform non-critical business tasks"
+      ],
+      "correct_answer": "To perform complex computations faster than traditional computers"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key component of an HPC system?",
+      "options": [
+        "High-performance processors",
+        "Low-power processors",
+        "Personal computers",
+        "Smartphones"
+      ],
+      "correct_answer": "High-performance processors"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the term 'parallel processing' refer to in HPC?",
+      "options": [
+        "Processing data sequentially",
+        "Breaking a task into smaller parts and executing them simultaneously",
+        "Using a single core for all computations",
+        "Running computations on a single server"
+      ],
+      "correct_answer": "Breaking a task into smaller parts and executing them simultaneously"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is an essential feature of a high-performance computing cluster?",
+      "options": [
+        "Multiple interconnected nodes for parallel computation",
+        "Single server with high storage capacity",
+        "Low-power network switches",
+        "Single-core processors"
+      ],
+      "correct_answer": "Multiple interconnected nodes for parallel computation"
+    },
+    {
+      "subject_id": 18,
+      "question": "What type of processor architecture is commonly used in HPC systems to achieve high performance?",
+      "options": [
+        "RISC (Reduced Instruction Set Computing)",
+        "CISC (Complex Instruction Set Computing)",
+        "ARM (Advanced RISC Machine)",
+        "x86 architecture"
+      ],
+      "correct_answer": "RISC (Reduced Instruction Set Computing)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of interconnects in an HPC system?",
+      "options": [
+        "To allow communication between processors and nodes",
+        "To provide storage capacity",
+        "To increase the speed of hard disk access",
+        "To manage user interfaces"
+      ],
+      "correct_answer": "To allow communication between processors and nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is an example of a parallel programming model used in HPC?",
+      "options": [
+        "MPI (Message Passing Interface)",
+        "HTTP (HyperText Transfer Protocol)",
+        "FTP (File Transfer Protocol)",
+        "SMTP (Simple Mail Transfer Protocol)"
+      ],
+      "correct_answer": "MPI (Message Passing Interface)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the function of a compute node in an HPC cluster?",
+      "options": [
+        "It processes computations and runs tasks in parallel",
+        "It stores data",
+        "It connects users to the HPC system",
+        "It manages the system's power usage"
+      ],
+      "correct_answer": "It processes computations and runs tasks in parallel"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the term 'load balancing' refer to in HPC systems?",
+      "options": [
+        "Distributing tasks evenly across nodes to optimize performance",
+        "Storing data across different servers",
+        "Reducing power consumption by turning off idle nodes",
+        "Limiting the number of tasks a single processor can handle"
+      ],
+      "correct_answer": "Distributing tasks evenly across nodes to optimize performance"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which type of memory is typically used in high-performance computing to store frequently accessed data?",
+      "options": [
+        "DRAM (Dynamic Random Access Memory)",
+        "Flash memory",
+        "HDD (Hard Disk Drive)",
+        "SSD (Solid State Drive)"
+      ],
+      "correct_answer": "DRAM (Dynamic Random Access Memory)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of high-speed interconnects like InfiniBand in an HPC environment?",
+      "options": [
+        "To connect storage devices to compute nodes",
+        "To enable fast data transfer between nodes in a cluster",
+        "To provide internet connectivity to the system",
+        "To store large datasets for computations"
+      ],
+      "correct_answer": "To enable fast data transfer between nodes in a cluster"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a GPU (Graphics Processing Unit) used for in HPC?",
+      "options": [
+        "To perform parallel computations efficiently, especially for tasks like simulations and AI",
+        "To display graphics on a monitor",
+        "To handle networking tasks",
+        "To manage user input devices"
+      ],
+      "correct_answer": "To perform parallel computations efficiently, especially for tasks like simulations and AI"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which software library is commonly used for numerical computations in HPC?",
+      "options": [
+        "BLAS (Basic Linear Algebra Subprograms)",
+        "Python",
+        "Adobe Photoshop",
+        "Microsoft Word"
+      ],
+      "correct_answer": "BLAS (Basic Linear Algebra Subprograms)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary advantage of using GPUs over CPUs for specific HPC workloads?",
+      "options": [
+        "GPUs can handle many tasks in parallel more efficiently than CPUs",
+        "GPUs are better at handling sequential tasks",
+        "GPUs are more energy-efficient for all types of tasks",
+        "GPUs are cheaper than CPUs"
+      ],
+      "correct_answer": "GPUs can handle many tasks in parallel more efficiently than CPUs"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of a job scheduler in an HPC environment?",
+      "options": [
+        "To allocate computing resources to various tasks and manage job execution",
+        "To store data on disk",
+        "To handle network requests",
+        "To connect nodes in a cluster"
+      ],
+      "correct_answer": "To allocate computing resources to various tasks and manage job execution"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is an example of a high-performance interconnect used in HPC systems?",
+      "options": ["InfiniBand", "Ethernet", "Wi-Fi", "Bluetooth"],
+      "correct_answer": "InfiniBand"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does 'scalability' refer to in an HPC system?",
+      "options": [
+        "The ability to add more resources, such as nodes, to handle larger workloads",
+        "The ability to reduce the number of resources to save costs",
+        "The ability to increase system security",
+        "The ability to perform parallel tasks"
+      ],
+      "correct_answer": "The ability to add more resources, such as nodes, to handle larger workloads"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of a parallel file system in an HPC environment?",
+      "options": [
+        "To provide high-throughput storage for data-intensive applications",
+        "To manage job scheduling",
+        "To enable user authentication",
+        "To handle email communication"
+      ],
+      "correct_answer": "To provide high-throughput storage for data-intensive applications"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a widely used parallel computing framework in HPC?",
+      "options": [
+        "MPI (Message Passing Interface)",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "correct_answer": "MPI (Message Passing Interface)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the significance of the 'master-slave' architecture in parallel computing?",
+      "options": [
+        "One processor (master) controls other processors (slaves) to execute tasks in parallel",
+        "All processors operate independently",
+        "Processors only work on sequential tasks",
+        "There is no interaction between processors"
+      ],
+      "correct_answer": "One processor (master) controls other processors (slaves) to execute tasks in parallel"
+    },
+    {
+      "subject_id": 18,
+      "question": "In which of the following scenarios would an HPC system be most beneficial?",
+      "options": [
+        "Running large-scale simulations and scientific computations",
+        "Browsing the web",
+        "Editing photos",
+        "Streaming movies"
+      ],
+      "correct_answer": "Running large-scale simulations and scientific computations"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the advantage of using a distributed memory model in HPC?",
+      "options": [
+        "Each processor has its own local memory, enabling efficient parallel execution",
+        "All processors share a single memory pool",
+        "Memory is allocated based on processing time",
+        "Processors can only execute sequential tasks"
+      ],
+      "correct_answer": "Each processor has its own local memory, enabling efficient parallel execution"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary role of a system administrator in an HPC environment?",
+      "options": [
+        "To ensure the smooth operation, maintenance, and performance of the HPC system",
+        "To write parallel code",
+        "To develop simulation models",
+        "To manage the user interface"
+      ],
+      "correct_answer": "To ensure the smooth operation, maintenance, and performance of the HPC system"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the term for the process of distributing a computational task across multiple processors in HPC?",
+      "options": [
+        "Parallelization",
+        "Compilation",
+        "Virtualization",
+        "Encryption"
+      ],
+      "correct_answer": "Parallelization"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the first step in the hardware selection process for an HPC system?",
+      "options": [
+        "Evaluating computational needs and workloads",
+        "Choosing the operating system",
+        "Selecting the interconnect type",
+        "Selecting the memory capacity"
+      ],
+      "correct_answer": "Evaluating computational needs and workloads"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key factor in selecting CPUs for an HPC cluster?",
+      "options": [
+        "Number of cores and clock speed",
+        "Operating system compatibility",
+        "GPU support",
+        "Power consumption only"
+      ],
+      "correct_answer": "Number of cores and clock speed"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following interconnect technologies is commonly used for high-speed communication between nodes in an HPC cluster?",
+      "options": ["InfiniBand", "Wi-Fi", "Ethernet", "Bluetooth"],
+      "correct_answer": "InfiniBand"
+    },
+    {
+      "subject_id": 18,
+      "question": "When planning the storage architecture for an HPC system, what should be prioritized?",
+      "options": [
+        "High throughput and low latency",
+        "Low power consumption",
+        "Single node storage",
+        "Small file sizes"
+      ],
+      "correct_answer": "High throughput and low latency"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary consideration when selecting memory for an HPC system?",
+      "options": [
+        "High bandwidth and low latency",
+        "Low power consumption",
+        "Size of the memory module",
+        "Cost of the memory"
+      ],
+      "correct_answer": "High bandwidth and low latency"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is the main reason for using GPUs in an HPC system?",
+      "options": [
+        "Parallel processing capabilities for tasks like AI and simulations",
+        "Lower cost than CPUs",
+        "Better power efficiency",
+        "Compatibility with all types of software"
+      ],
+      "correct_answer": "Parallel processing capabilities for tasks like AI and simulations"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is an essential part of planning the cluster architecture for an HPC system?",
+      "options": [
+        "Deciding the number and types of nodes",
+        "Choosing the color of the cables",
+        "Selecting the cooling system for the data center",
+        "Determining the software libraries"
+      ],
+      "correct_answer": "Deciding the number and types of nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "When planning cluster nodes, which configuration is commonly used in HPC systems to improve reliability and performance?",
+      "options": [
+        "Redundant nodes with failover capabilities",
+        "Single-node configuration",
+        "Virtualized environments",
+        "Non-redundant configurations"
+      ],
+      "correct_answer": "Redundant nodes with failover capabilities"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of job schedulers in an HPC environment?",
+      "options": [
+        "To manage the execution of tasks across the cluster",
+        "To store data on the hard drives",
+        "To monitor network usage",
+        "To provide a user interface for job management"
+      ],
+      "correct_answer": "To manage the execution of tasks across the cluster"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following Linux distributions is widely used for HPC environments due to its stability and performance?",
+      "options": ["CentOS", "Ubuntu", "Windows Server", "macOS"],
+      "correct_answer": "CentOS"
+    },
+    {
+      "subject_id": 18,
+      "question": "When configuring a standard Linux distribution for an HPC environment, which kernel feature is typically disabled to improve performance?",
+      "options": ["Swapping", "CPU scaling", "USB support", "Firewall"],
+      "correct_answer": "Swapping"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following Linux configurations is essential for optimal performance in an HPC environment?",
+      "options": [
+        "Disabling unnecessary services and daemons",
+        "Enabling GUI interfaces",
+        "Running multiple virtual machines",
+        "Disabling SSH access"
+      ],
+      "correct_answer": "Disabling unnecessary services and daemons"
+    },
+    {
+      "subject_id": 18,
+      "question": "In HPC, which file system is often recommended for handling large datasets efficiently?",
+      "options": ["Lustre", "NTFS", "FAT32", "ext4"],
+      "correct_answer": "Lustre"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main benefit of using MPI (Message Passing Interface) in a Linux-based HPC cluster?",
+      "options": [
+        "It allows for parallel programming and efficient communication between distributed nodes",
+        "It increases graphical rendering capabilities",
+        "It manages the cluster's hardware resources",
+        "It provides a GUI for job management"
+      ],
+      "correct_answer": "It allows for parallel programming and efficient communication between distributed nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "When selecting software for an HPC system, what is the primary consideration?",
+      "options": [
+        "Software scalability and compatibility with the hardware",
+        "User interface complexity",
+        "Cost of software licenses",
+        "Availability of mobile apps"
+      ],
+      "correct_answer": "Software scalability and compatibility with the hardware"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key component in adapting Linux for an HPC environment?",
+      "options": [
+        "Configuring the kernel for high performance and low overhead",
+        "Setting up graphical desktop environments",
+        "Running a database management system",
+        "Installing non-essential software"
+      ],
+      "correct_answer": "Configuring the kernel for high performance and low overhead"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of the Slurm job scheduler in an HPC environment?",
+      "options": [
+        "To allocate resources for computational jobs and manage job execution",
+        "To monitor the performance of GPUs",
+        "To provide a user-friendly interface",
+        "To store data across multiple nodes"
+      ],
+      "correct_answer": "To allocate resources for computational jobs and manage job execution"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a benefit of using a cluster management tool like Kubernetes in an HPC environment?",
+      "options": [
+        "Efficient resource management and container orchestration",
+        "Improved security for all systems",
+        "Centralized storage management",
+        "Reduced power consumption"
+      ],
+      "correct_answer": "Efficient resource management and container orchestration"
+    },
+    {
+      "subject_id": 18,
+      "question": "In an HPC system, which configuration is essential to minimize I/O bottlenecks?",
+      "options": [
+        "Using high-speed storage systems and fast interconnects",
+        "Using SSDs only for temporary storage",
+        "Disabling all I/O operations",
+        "Using multiple redundant power supplies"
+      ],
+      "correct_answer": "Using high-speed storage systems and fast interconnects"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of tuning network settings in a Linux-based HPC system?",
+      "options": [
+        "To optimize the data transfer speed between nodes",
+        "To increase user interface responsiveness",
+        "To improve storage performance",
+        "To enhance graphical performance"
+      ],
+      "correct_answer": "To optimize the data transfer speed between nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is an important consideration when configuring the CPU governor for an HPC environment?",
+      "options": [
+        "Selecting a performance governor to maximize processing power",
+        "Enabling a power-saving mode",
+        "Limiting the number of processors used",
+        "Disabling all power management features"
+      ],
+      "correct_answer": "Selecting a performance governor to maximize processing power"
+    },
+    {
+      "subject_id": 18,
+      "question": "When selecting software libraries for an HPC environment, which of the following is important?",
+      "options": [
+        "Compatibility with parallel computing frameworks like OpenMP and MPI",
+        "Support for mobile platforms",
+        "Ease of use for novice users",
+        "GUI support"
+      ],
+      "correct_answer": "Compatibility with parallel computing frameworks like OpenMP and MPI"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following Linux file systems is most suitable for managing large files and parallel I/O in an HPC environment?",
+      "options": ["Lustre", "NTFS", "exFAT", "ZFS"],
+      "correct_answer": "Lustre"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which configuration is required to ensure optimal performance in an HPC Linux environment?",
+      "options": [
+        "Disabling unnecessary services and configuring the system for minimal overhead",
+        "Running multiple virtual machines on each node",
+        "Using GUI-based tools for system management",
+        "Enabling a wide range of applications on each node"
+      ],
+      "correct_answer": "Disabling unnecessary services and configuring the system for minimal overhead"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary goal of designing an HPC cluster?",
+      "options": [
+        "To create a highly parallel, scalable environment for computational tasks",
+        "To run software with minimal hardware requirements",
+        "To optimize for low-power consumption",
+        "To maximize storage capacity only"
+      ],
+      "correct_answer": "To create a highly parallel, scalable environment for computational tasks"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key factor when designing the hardware architecture of an HPC cluster?",
+      "options": [
+        "Scalability, performance, and reliability",
+        "Only focusing on CPU performance",
+        "Prioritizing low-cost components",
+        "Choosing the least complex network topology"
+      ],
+      "correct_answer": "Scalability, performance, and reliability"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following interconnects is commonly used to connect nodes in an HPC cluster for high-speed communication?",
+      "options": ["InfiniBand", "Ethernet", "Wi-Fi", "Bluetooth"],
+      "correct_answer": "InfiniBand"
+    },
+    {
+      "subject_id": 18,
+      "question": "When designing an HPC cluster, what is the significance of redundancy in the system?",
+      "options": [
+        "Redundancy ensures fault tolerance and high availability",
+        "Redundancy increases computational power",
+        "Redundancy reduces the number of nodes needed",
+        "Redundancy is not important in HPC design"
+      ],
+      "correct_answer": "Redundancy ensures fault tolerance and high availability"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is typically used as a storage solution in an HPC cluster?",
+      "options": [
+        "Lustre or GPFS (General Parallel File System)",
+        "Traditional HDDs",
+        "Cloud storage services",
+        "USB flash drives"
+      ],
+      "correct_answer": "Lustre or GPFS (General Parallel File System)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What type of topology is most commonly used for interconnecting nodes in an HPC cluster?",
+      "options": [
+        "Fat-tree or Clos topology",
+        "Ring topology",
+        "Bus topology",
+        "Star topology"
+      ],
+      "correct_answer": "Fat-tree or Clos topology"
+    },
+    {
+      "subject_id": 18,
+      "question": "What role does a job scheduler play in an HPC cluster?",
+      "options": [
+        "It allocates resources and schedules the execution of computational tasks",
+        "It monitors the health of hardware components",
+        "It stores large datasets used in computations",
+        "It runs the user interface of the cluster"
+      ],
+      "correct_answer": "It allocates resources and schedules the execution of computational tasks"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which operating system is most commonly used for an HPC cluster due to its scalability and performance features?",
+      "options": [
+        "Linux (e.g., CentOS, Ubuntu)",
+        "Windows Server",
+        "macOS",
+        "FreeBSD"
+      ],
+      "correct_answer": "Linux (e.g., CentOS, Ubuntu)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main benefit of using GPUs (Graphics Processing Units) in an HPC cluster?",
+      "options": [
+        "They are optimized for parallel processing and large-scale computations",
+        "They can reduce the overall cost of the system",
+        "They improve the user interface experience",
+        "They provide larger storage capacity"
+      ],
+      "correct_answer": "They are optimized for parallel processing and large-scale computations"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which software library is commonly used for parallel computation in an HPC cluster?",
+      "options": [
+        "MPI (Message Passing Interface)",
+        "Java",
+        "HTML",
+        "WordPress"
+      ],
+      "correct_answer": "MPI (Message Passing Interface)"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which configuration is most commonly used in the design of compute nodes in an HPC cluster?",
+      "options": [
+        "Multi-core processors with high memory bandwidth",
+        "Low-power single-core processors",
+        "High-storage single-core processors",
+        "Standalone non-networked servers"
+      ],
+      "correct_answer": "Multi-core processors with high memory bandwidth"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a major consideration when selecting the power supply for an HPC cluster?",
+      "options": [
+        "Ensuring sufficient redundancy and high-efficiency power units",
+        "Maximizing the wattage",
+        "Using low-cost power supplies",
+        "Limiting the number of power cords"
+      ],
+      "correct_answer": "Ensuring sufficient redundancy and high-efficiency power units"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following factors should be considered when designing the cooling system for an HPC cluster?",
+      "options": [
+        "The amount of heat generated by the processors and GPUs",
+        "Only the size of the data center",
+        "The type of storage devices",
+        "The number of monitors"
+      ],
+      "correct_answer": "The amount of heat generated by the processors and GPUs"
+    },
+    {
+      "subject_id": 18,
+      "question": "In an HPC cluster, what is the function of the management node?",
+      "options": [
+        "It manages the cluster, including hardware monitoring and job scheduling",
+        "It stores all the computation results",
+        "It is responsible for user authentication",
+        "It runs simulation tasks"
+      ],
+      "correct_answer": "It manages the cluster, including hardware monitoring and job scheduling"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a major challenge in designing an HPC cluster?",
+      "options": [
+        "Balancing cost, performance, and energy efficiency",
+        "Selecting the best graphics card for gaming",
+        "Choosing between SSD and HDD for all data storage",
+        "Selecting a GUI-based operating system"
+      ],
+      "correct_answer": "Balancing cost, performance, and energy efficiency"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of an interconnect in an HPC cluster?",
+      "options": [
+        "To facilitate high-speed communication between nodes",
+        "To store computation results",
+        "To power the system",
+        "To run the cluster's operating system"
+      ],
+      "correct_answer": "To facilitate high-speed communication between nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following network configurations is commonly used to optimize the inter-node communication in an HPC cluster?",
+      "options": [
+        "High-bandwidth low-latency networks like InfiniBand",
+        "Wi-Fi networks",
+        "Ethernet with low-speed connections",
+        "Bluetooth networks"
+      ],
+      "correct_answer": "High-bandwidth low-latency networks like InfiniBand"
+    },
+    {
+      "subject_id": 18,
+      "question": "When designing the storage system for an HPC cluster, which type of storage is most appropriate for handling large-scale, parallel data access?",
+      "options": [
+        "Parallel file systems like Lustre or GPFS",
+        "Single-user file systems like NTFS",
+        "Optical storage devices",
+        "USB flash drives"
+      ],
+      "correct_answer": "Parallel file systems like Lustre or GPFS"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is typically included in the design of an HPC cluster to ensure high availability and fault tolerance?",
+      "options": [
+        "Redundant power supplies and network connections",
+        "Low-power processors",
+        "Single-node setups",
+        "Cloud-based resource allocation"
+      ],
+      "correct_answer": "Redundant power supplies and network connections"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the significance of a high-throughput network in an HPC cluster?",
+      "options": [
+        "It ensures fast data transfer between nodes and storage devices",
+        "It increases the graphical rendering speed",
+        "It allows better compatibility with user applications",
+        "It reduces the cluster's power consumption"
+      ],
+      "correct_answer": "It ensures fast data transfer between nodes and storage devices"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of the master node in an HPC cluster?",
+      "options": [
+        "It controls and manages job distribution to compute nodes",
+        "It performs heavy computation tasks",
+        "It stores computation results",
+        "It handles network requests from users"
+      ],
+      "correct_answer": "It controls and manages job distribution to compute nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is critical to ensure the scalability of an HPC cluster?",
+      "options": [
+        "The ability to add more compute nodes without significant reconfiguration",
+        "Limiting the number of users",
+        "Using a fixed amount of storage for all nodes",
+        "Using a single interconnect type for all systems"
+      ],
+      "correct_answer": "The ability to add more compute nodes without significant reconfiguration"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary consideration when designing an HPC cluster for specific workloads, such as simulations or AI?",
+      "options": [
+        "Optimizing the system for parallel processing and resource allocation",
+        "Minimizing the number of cores used",
+        "Maximizing the number of connected devices",
+        "Using only one type of storage"
+      ],
+      "correct_answer": "Optimizing the system for parallel processing and resource allocation"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which software tool is often used for managing resources and job scheduling in an HPC cluster?",
+      "options": ["Slurm", "Apache Hadoop", "MySQL", "Microsoft Excel"],
+      "correct_answer": "Slurm"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a popular open-source tool for managing and building HPC clusters?",
+      "options": ["Slurm", "Windows PowerShell", "Docker", "Apache Hadoop"],
+      "correct_answer": "Slurm"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary function of the Ansible automation tool in cluster building?",
+      "options": [
+        "Automating the configuration and management of nodes",
+        "Running machine learning algorithms",
+        "Managing network connectivity",
+        "Scheduling jobs on the cluster"
+      ],
+      "correct_answer": "Automating the configuration and management of nodes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is used to configure and manage high-performance computing clusters with an emphasis on parallel jobs?",
+      "options": ["Slurm", "Docker Swarm", "Kubernetes", "Jenkins"],
+      "correct_answer": "Slurm"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool allows for orchestration and management of containers across multiple nodes in a cluster?",
+      "options": ["Kubernetes", "Apache Spark", "TensorFlow", "Docker Compose"],
+      "correct_answer": "Kubernetes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is most commonly used for creating a parallel file system for an HPC cluster?",
+      "options": ["Lustre", "Jenkins", "GitLab", "Kubernetes"],
+      "correct_answer": "Lustre"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is used to monitor the health and performance of nodes in an HPC cluster?",
+      "options": ["Nagios", "Jenkins", "GitLab", "TensorFlow"],
+      "correct_answer": "Nagios"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is specifically designed for configuration management and automation in an HPC cluster environment?",
+      "options": ["Ansible", "Apache Mesos", "Slurm", "Kubernetes"],
+      "correct_answer": "Ansible"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is most useful for orchestrating and managing distributed storage in an HPC cluster?",
+      "options": ["Ceph", "Docker", "Apache Kafka", "Mesos"],
+      "correct_answer": "Ceph"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is primarily used for setting up and maintaining virtualized infrastructure in a cluster?",
+      "options": ["Vagrant", "Docker", "Kubernetes", "Git"],
+      "correct_answer": "Vagrant"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary function of the OpenMPI library in cluster environments?",
+      "options": [
+        "Providing tools for parallel programming in distributed environments",
+        "Managing jobs on the cluster",
+        "Scheduling jobs",
+        "Optimizing file transfers between nodes"
+      ],
+      "correct_answer": "Providing tools for parallel programming in distributed environments"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool provides a framework for managing large-scale distributed systems and is commonly used in building clusters?",
+      "options": ["Apache Mesos", "Apache Hadoop", "Vagrant", "Slurm"],
+      "correct_answer": "Apache Mesos"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool allows for setting up software environments and dependencies across multiple nodes in a cluster?",
+      "options": ["Docker", "Ansible", "Jenkins", "Ceph"],
+      "correct_answer": "Docker"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which software is primarily used to create a distributed storage cluster that can scale horizontally across multiple nodes?",
+      "options": ["Ceph", "Git", "Apache Kafka", "Kubernetes"],
+      "correct_answer": "Ceph"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is used for job scheduling and workload management in an HPC cluster?",
+      "options": ["Slurm", "Docker Compose", "Apache Kafka", "Vagrant"],
+      "correct_answer": "Slurm"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is most commonly used for deploying and managing microservices in a cluster?",
+      "options": ["Kubernetes", "Ansible", "Mesos", "Slurm"],
+      "correct_answer": "Kubernetes"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of Terraform in building clusters?",
+      "options": [
+        "Automating the provisioning and management of infrastructure",
+        "Managing job scheduling",
+        "Providing storage for the cluster",
+        "Monitoring network usage"
+      ],
+      "correct_answer": "Automating the provisioning and management of infrastructure"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is used to perform automated configuration management and provisioning of resources in HPC clusters?",
+      "options": ["Chef", "Docker", "Ceph", "Kubernetes"],
+      "correct_answer": "Chef"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is best suited for managing multi-cloud environments in an HPC cluster setup?",
+      "options": ["Kubernetes", "AWS EC2", "Terraform", "Jenkins"],
+      "correct_answer": "Terraform"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which cluster management tool is used for provisioning, configuring, and maintaining large-scale distributed systems?",
+      "options": ["Apache Mesos", "Slurm", "Docker", "Ceph"],
+      "correct_answer": "Apache Mesos"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is used to automate and orchestrate containerized applications within a cluster?",
+      "options": ["Kubernetes", "Jenkins", "Ansible", "Vagrant"],
+      "correct_answer": "Kubernetes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is widely used for continuous integration and continuous delivery (CI/CD) in a cluster environment?",
+      "options": ["Jenkins", "Docker", "Slurm", "Ansible"],
+      "correct_answer": "Jenkins"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is commonly used for version control and collaboration in HPC cluster environments?",
+      "options": ["Git", "Jenkins", "Vagrant", "Terraform"],
+      "correct_answer": "Git"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool is used for provisioning and managing virtual machines in a cluster?",
+      "options": ["Vagrant", "Docker", "Kubernetes", "Slurm"],
+      "correct_answer": "Vagrant"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a feature of Slurm used in HPC cluster management?",
+      "options": [
+        "Job scheduling and resource allocation",
+        "Container orchestration",
+        "Cloud resource management",
+        "Network monitoring"
+      ],
+      "correct_answer": "Job scheduling and resource allocation"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is used for resource scheduling and management in a Kubernetes cluster?",
+      "options": ["Kube-Scheduler", "Slurm", "Terraform", "Chef"],
+      "correct_answer": "Kube-Scheduler"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools can be used to create and manage containers across a cluster of nodes?",
+      "options": ["Docker", "Ansible", "Slurm", "Ceph"],
+      "correct_answer": "Docker"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is used to deploy containers in a multi-node environment?",
+      "options": ["Docker Swarm", "Jenkins", "Vagrant", "Kubernetes"],
+      "correct_answer": "Docker Swarm"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary advantage of multicore architecture in computational systems?",
+      "options": [
+        "Parallel processing capabilities to improve performance",
+        "Reduced power consumption compared to single-core processors",
+        "Increased memory capacity",
+        "Lower system cost"
+      ],
+      "correct_answer": "Parallel processing capabilities to improve performance"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a feature of NVIDIA's Pascal architecture?",
+      "options": [
+        "It introduces the Volta architecture for deep learning.",
+        "It uses 16nm FinFET process technology for better efficiency.",
+        "It is optimized for general-purpose CPU workloads.",
+        "It includes 8GB of HBM2 memory for higher bandwidth."
+      ],
+      "correct_answer": "It uses 16nm FinFET process technology for better efficiency."
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following accelerator cards is based on NVIDIA's Pascal architecture?",
+      "options": [
+        "Tesla P100",
+        "GeForce GTX 980",
+        "AMD Radeon RX 580",
+        "Intel Xeon Phi"
+      ],
+      "correct_answer": "Tesla P100"
+    },
+    {
+      "subject_id": 18,
+      "question": "In a multicore architecture, what is the primary purpose of each core?",
+      "options": [
+        "To execute instructions independently, improving throughput",
+        "To manage memory and storage",
+        "To reduce heat generation during computation",
+        "To interact with external devices only"
+      ],
+      "correct_answer": "To execute instructions independently, improving throughput"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which type of accelerator card is designed specifically for tasks like deep learning and scientific computations?",
+      "options": [
+        "GPU (Graphics Processing Unit)",
+        "CPU (Central Processing Unit)",
+        "TPU (Tensor Processing Unit)",
+        "FPGAs (Field-Programmable Gate Arrays)"
+      ],
+      "correct_answer": "GPU (Graphics Processing Unit)"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which programming language is primarily used for developing applications for CUDA-enabled GPUs?",
+      "options": ["C++", "Python", "Java", "C"],
+      "correct_answer": "C++"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of the CUDA library?",
+      "options": [
+        "To optimize computations for NVIDIA GPUs and manage parallel workloads",
+        "To manage general-purpose CPU workloads",
+        "To facilitate communication between different hardware components",
+        "To configure hardware for specific tasks"
+      ],
+      "correct_answer": "To optimize computations for NVIDIA GPUs and manage parallel workloads"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which CUDA component is responsible for memory management and kernel launching on the GPU?",
+      "options": [
+        "CUDA Driver",
+        "CUDA Toolkit",
+        "CUDA Runtime",
+        "CUDA Compiler"
+      ],
+      "correct_answer": "CUDA Runtime"
+    },
+    {
+      "subject_id": 18,
+      "question": "In CUDA, which function is used to allocate memory on the device (GPU)?",
+      "options": [
+        "cudaMalloc()",
+        "cudaFree()",
+        "cudaMemcpy()",
+        "cudaDeviceSynchronize()"
+      ],
+      "correct_answer": "cudaMalloc()"
+    },
+    {
+      "subject_id": 18,
+      "question": "In the Pascal architecture, what is the main benefit of Tensor Cores?",
+      "options": [
+        "They accelerate deep learning computations by performing mixed-precision matrix multiplications.",
+        "They reduce memory latency in GPU processing.",
+        "They improve the GPU's clock speed.",
+        "They provide support for 3D rendering and graphics processing."
+      ],
+      "correct_answer": "They accelerate deep learning computations by performing mixed-precision matrix multiplications."
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main purpose of accelerator cards in a system?",
+      "options": [
+        "To offload specialized tasks from the CPU and improve overall computational performance",
+        "To handle network traffic",
+        "To store data on disk drives",
+        "To increase the CPU's clock speed"
+      ],
+      "correct_answer": "To offload specialized tasks from the CPU and improve overall computational performance"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is the primary use case for GPUs in a multicore architecture?",
+      "options": [
+        "Parallel computation for tasks such as graphics rendering, simulations, and machine learning",
+        "Handling basic arithmetic operations",
+        "Increasing single-thread performance",
+        "Managing storage devices"
+      ],
+      "correct_answer": "Parallel computation for tasks such as graphics rendering, simulations, and machine learning"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one of the key features of the NVIDIA Tesla V100 accelerator card based on Volta architecture?",
+      "options": [
+        "It offers support for mixed-precision computing for deep learning workloads.",
+        "It is designed primarily for gaming applications.",
+        "It is limited to only compute-heavy tasks.",
+        "It does not support parallel processing."
+      ],
+      "correct_answer": "It offers support for mixed-precision computing for deep learning workloads."
+    },
+    {
+      "subject_id": 18,
+      "question": "When configuring an environment for using CUDA, what is the first step to ensure proper GPU access?",
+      "options": [
+        "Install the CUDA Toolkit and drivers for the GPU.",
+        "Disable the onboard CPU to reduce interference.",
+        "Install a separate operating system for the GPU.",
+        "Use only the most recent GPU model available."
+      ],
+      "correct_answer": "Install the CUDA Toolkit and drivers for the GPU."
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main function of the NVIDIA CUDA Compiler (nvcc)?",
+      "options": [
+        "Compiling CUDA C/C++ code into binary executable code for the GPU",
+        "Scheduling jobs on a GPU",
+        "Managing memory on the device",
+        "Optimizing kernel execution on the GPU"
+      ],
+      "correct_answer": "Compiling CUDA C/C++ code into binary executable code for the GPU"
+    },
+    {
+      "subject_id": 18,
+      "question": "In CUDA, which function is used to copy data between the host (CPU) and the device (GPU)?",
+      "options": [
+        "cudaMemcpy()",
+        "cudaMalloc()",
+        "cudaFree()",
+        "cudaDeviceSynchronize()"
+      ],
+      "correct_answer": "cudaMemcpy()"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of CUDA Streams in the context of accelerator cards?",
+      "options": [
+        "To enable asynchronous execution of kernel calls and memory copies",
+        "To provide better support for parallel file systems",
+        "To synchronize data transfer between different machines",
+        "To debug the execution of kernel code"
+      ],
+      "correct_answer": "To enable asynchronous execution of kernel calls and memory copies"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key advantage of using accelerator cards like GPUs in multicore systems for deep learning?",
+      "options": [
+        "They can perform thousands of computations in parallel, significantly speeding up training.",
+        "They manage all system memory for faster access to data.",
+        "They handle the entire computing workload without needing a CPU.",
+        "They reduce the energy consumption of the system."
+      ],
+      "correct_answer": "They can perform thousands of computations in parallel, significantly speeding up training."
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one key feature of Pascal GPUs regarding FP16 (half-precision floating point) computations?",
+      "options": [
+        "They provide better performance for deep learning workloads that use FP16 precision.",
+        "They exclusively support FP16 without FP32 support.",
+        "They eliminate the need for FP32 precision.",
+        "They only handle single-precision FP32 computations."
+      ],
+      "correct_answer": "They provide better performance for deep learning workloads that use FP16 precision."
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is required for a system to use CUDA-enabled GPU acceleration?",
+      "options": [
+        "A compatible NVIDIA GPU, CUDA Toolkit, and appropriate drivers",
+        "A non-NVIDIA GPU and a third-party library",
+        "A dedicated CPU core for GPU management",
+        "A high-speed internet connection for GPU access"
+      ],
+      "correct_answer": "A compatible NVIDIA GPU, CUDA Toolkit, and appropriate drivers"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which CUDA function is used to synchronize all threads within a block?",
+      "options": [
+        "__syncthreads()",
+        "cudaDeviceSynchronize()",
+        "cudaMemcpy()",
+        "cudaMalloc()"
+      ],
+      "correct_answer": "__syncthreads()"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is an example of a task that benefits from using accelerator cards in multicore systems?",
+      "options": [
+        "Training deep neural networks for image recognition",
+        "Running basic office applications",
+        "Playing video games",
+        "Browsing the web"
+      ],
+      "correct_answer": "Training deep neural networks for image recognition"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of the CUDA Toolkit in configuring an accelerator card environment?",
+      "options": [
+        "It provides the necessary software development tools and libraries for building GPU-accelerated applications.",
+        "It manages memory usage across different CPUs in a system.",
+        "It handles job scheduling on GPUs.",
+        "It synchronizes multiple GPUs in a cluster."
+      ],
+      "correct_answer": "It provides the necessary software development tools and libraries for building GPU-accelerated applications."
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of the `nvprof` tool in the CUDA Toolkit?",
+      "options": [
+        "It provides performance profiling for CUDA applications.",
+        "It manages memory allocation on the GPU.",
+        "It automates kernel execution scheduling.",
+        "It compiles CUDA code into executable binaries."
+      ],
+      "correct_answer": "It provides performance profiling for CUDA applications."
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary purpose of High Performance Computing (HPC)?",
+      "options": [
+        "To solve complex problems faster by using parallel processing",
+        "To reduce energy consumption in computer systems",
+        "To increase the physical size of computing systems",
+        "To simplify computer programming for the user"
+      ],
+      "correct_answer": "To solve complex problems faster by using parallel processing"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a key trend in the evolution of HPC systems?",
+      "options": [
+        "The increasing integration of artificial intelligence and machine learning into HPC workloads",
+        "Decreasing data storage capacity",
+        "The removal of parallel computing techniques",
+        "The transition from multi-core to single-core processors"
+      ],
+      "correct_answer": "The increasing integration of artificial intelligence and machine learning into HPC workloads"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is one of the key challenges in scaling HPC systems?",
+      "options": [
+        "Managing power consumption and cooling",
+        "Reducing hardware costs",
+        "Increasing the clock speed of processors",
+        "Improving software compatibility with all systems"
+      ],
+      "correct_answer": "Managing power consumption and cooling"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the main advantage of using GPUs for HPC workloads?",
+      "options": [
+        "High throughput for parallel processing tasks",
+        "Low power consumption compared to CPUs",
+        "Larger memory bandwidth compared to CPUs",
+        "Better for single-threaded applications"
+      ],
+      "correct_answer": "High throughput for parallel processing tasks"
+    },
+    {
+      "subject_id": 18,
+      "question": "In which areas are HPC solutions commonly used?",
+      "options": [
+        "Weather forecasting, computational fluid dynamics, and genomics",
+        "Web browsing, social media, and gaming",
+        "Basic office applications",
+        "Video streaming and media editing"
+      ],
+      "correct_answer": "Weather forecasting, computational fluid dynamics, and genomics"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which company developed the Param Shavak supercomputer?",
+      "options": [
+        "C-DAC (Centre for Development of Advanced Computing)",
+        "NVIDIA",
+        "IBM",
+        "Intel"
+      ],
+      "correct_answer": "C-DAC (Centre for Development of Advanced Computing)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the purpose of the Param Shavak supercomputer in the context of HPC?",
+      "options": [
+        "To provide high-performance computing capabilities for research and industry in India",
+        "To serve as a cloud-based storage system",
+        "To replace traditional desktop computing systems",
+        "To serve as an educational tool for learning programming languages"
+      ],
+      "correct_answer": "To provide high-performance computing capabilities for research and industry in India"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following use cases are commonly associated with the Param Shavak supercomputer?",
+      "options": [
+        "Weather modeling, climate simulation, and seismic data analysis",
+        "Game development and multimedia rendering",
+        "Data entry and word processing",
+        "Cloud storage and data backup"
+      ],
+      "correct_answer": "Weather modeling, climate simulation, and seismic data analysis"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one of the notable features of the Param Shavak supercomputer?",
+      "options": [
+        "It provides petascale computing capabilities for a wide range of scientific applications",
+        "It is designed primarily for consumer-grade computing tasks",
+        "It operates on a single-core CPU for maximum efficiency",
+        "It is limited to only scientific computing applications"
+      ],
+      "correct_answer": "It provides petascale computing capabilities for a wide range of scientific applications"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a key benefit of using HPC solutions like Param Shavak for research in genomics?",
+      "options": [
+        "Accelerated processing of large datasets for genomic analysis",
+        "Low-cost hardware solutions",
+        "Simple user interfaces for non-technical users",
+        "Reduced need for data storage"
+      ],
+      "correct_answer": "Accelerated processing of large datasets for genomic analysis"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which programming model is commonly used to write parallel programs for HPC systems like Param Shavak?",
+      "options": [
+        "MPI (Message Passing Interface)",
+        "Python",
+        "HTML",
+        "JavaScript"
+      ],
+      "correct_answer": "MPI (Message Passing Interface)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is one of the key advantages of integrating AI/ML technologies with HPC systems?",
+      "options": [
+        "Improved efficiency in solving complex problems such as optimization and pattern recognition",
+        "Decreased system performance",
+        "Higher energy consumption",
+        "Less data storage required"
+      ],
+      "correct_answer": "Improved efficiency in solving complex problems such as optimization and pattern recognition"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which type of hardware is most commonly used to speed up deep learning tasks in HPC environments?",
+      "options": [
+        "GPUs (Graphics Processing Units)",
+        "CPUs (Central Processing Units)",
+        "TPUs (Tensor Processing Units)",
+        "FPGAs (Field-Programmable Gate Arrays)"
+      ],
+      "correct_answer": "GPUs (Graphics Processing Units)"
+    },
+    {
+      "subject_id": 18,
+      "question": "How does the use of accelerator cards like GPUs benefit HPC performance?",
+      "options": [
+        "By providing parallel processing power for handling large-scale computations",
+        "By reducing the need for network connectivity",
+        "By increasing the energy efficiency of HPC systems",
+        "By simplifying software development"
+      ],
+      "correct_answer": "By providing parallel processing power for handling large-scale computations"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a typical application of Param Shavak in the field of computational fluid dynamics?",
+      "options": [
+        "Simulating airflow over wings to optimize aircraft design",
+        "Rendering images for video games",
+        "Managing online databases",
+        "Running social media analytics"
+      ],
+      "correct_answer": "Simulating airflow over wings to optimize aircraft design"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is an important characteristic of modern HPC systems like Param Shavak?",
+      "options": [
+        "Massive parallel processing capabilities",
+        "Use of single-core processors for speed",
+        "Limited application support",
+        "Reliance on traditional hard drives for storage"
+      ],
+      "correct_answer": "Massive parallel processing capabilities"
+    },
+    {
+      "subject_id": 18,
+      "question": "What type of cooling technology is typically used in large HPC systems to prevent overheating?",
+      "options": [
+        "Liquid cooling systems",
+        "Air cooling systems",
+        "Passive cooling through heat sinks",
+        "Cryogenic cooling"
+      ],
+      "correct_answer": "Liquid cooling systems"
+    },
+    {
+      "subject_id": 18,
+      "question": "What role does software optimization play in maximizing the performance of an HPC system like Param Shavak?",
+      "options": [
+        "It ensures efficient resource allocation and minimizes computational delays",
+        "It increases the physical size of the hardware components",
+        "It reduces the overall need for data storage",
+        "It prevents the need for hardware upgrades"
+      ],
+      "correct_answer": "It ensures efficient resource allocation and minimizes computational delays"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a key use case of Param Shavak in the field of seismic data analysis?",
+      "options": [
+        "Processing large datasets of seismic readings to understand earth movements",
+        "Simulating digital animations of earthquakes",
+        "Running database management systems for geological data",
+        "Rendering 3D models for earthquake disaster planning"
+      ],
+      "correct_answer": "Processing large datasets of seismic readings to understand earth movements"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the future trend for HPC systems in relation to cloud computing?",
+      "options": [
+        "The integration of HPC systems with cloud-based services for scalable and flexible computing power",
+        "The complete replacement of physical servers with virtual machines",
+        "The use of cloud storage instead of local storage for HPC workloads",
+        "A shift to smaller, less powerful computing devices"
+      ],
+      "correct_answer": "The integration of HPC systems with cloud-based services for scalable and flexible computing power"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the significance of using liquid cooling in HPC systems like Param Shavak?",
+      "options": [
+        "It helps dissipate the heat generated by high-performance processors efficiently",
+        "It increases system power consumption",
+        "It limits the number of cores available for processing",
+        "It simplifies the software installation process"
+      ],
+      "correct_answer": "It helps dissipate the heat generated by high-performance processors efficiently"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following applications benefits from Param Shavak's high computational power for data processing?",
+      "options": [
+        "Big data analytics and machine learning tasks",
+        "Video streaming",
+        "Basic web browsing",
+        "Gaming applications"
+      ],
+      "correct_answer": "Big data analytics and machine learning tasks"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary benefit of parallel computing in HPC systems?",
+      "options": [
+        "It divides a task into smaller parts that can be processed simultaneously to reduce computation time",
+        "It increases power consumption without improving performance",
+        "It simplifies system architecture",
+        "It eliminates the need for storage devices"
+      ],
+      "correct_answer": "It divides a task into smaller parts that can be processed simultaneously to reduce computation time"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does IPMI stand for in the context of server management?",
+      "options": [
+        "Internet Protocol Management Interface",
+        "Intelligent Platform Management Interface",
+        "Integrated Power Management Interface",
+        "Internal Power Management Interface"
+      ],
+      "correct_answer": "Intelligent Platform Management Interface"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary function of IPMI in server management?",
+      "options": [
+        "Remote management and monitoring of system hardware independently of the operating system",
+        "Managing the operating system configurations remotely",
+        "Overclocking processor speeds for performance improvement",
+        "Installing and managing software updates on servers"
+      ],
+      "correct_answer": "Remote management and monitoring of system hardware independently of the operating system"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following components can be monitored using IPMI?",
+      "options": [
+        "Processor temperature",
+        "Fan speed",
+        "Power supply status",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which system provides management capabilities for IBM servers such as power control, system health monitoring, and recovery?",
+      "options": [
+        "HMC (Hardware Management Console)",
+        "IPMI (Intelligent Platform Management Interface)",
+        "BMC (Baseboard Management Controller)",
+        "VNC (Virtual Network Computing)"
+      ],
+      "correct_answer": "HMC (Hardware Management Console)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary role of an HMC in server management?",
+      "options": [
+        "Providing centralized management of IBM POWER and IBM System i servers",
+        "Remote monitoring of server performance via SNMP",
+        "Managing network configurations across a large data center",
+        "Handling operating system patching and updates"
+      ],
+      "correct_answer": "Providing centralized management of IBM POWER and IBM System i servers"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following can be used for centralized user management in a Linux environment?",
+      "options": [
+        "LDAP (Lightweight Directory Access Protocol)",
+        "SMTP (Simple Mail Transfer Protocol)",
+        "FTP (File Transfer Protocol)",
+        "DNS (Domain Name System)"
+      ],
+      "correct_answer": "LDAP (Lightweight Directory Access Protocol)"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which protocol is commonly used to manage user information across multiple systems in Unix-based environments?",
+      "options": [
+        "NIS (Network Information Service)",
+        "SNMP (Simple Network Management Protocol)",
+        "IMAP (Internet Message Access Protocol)",
+        "POP3 (Post Office Protocol)"
+      ],
+      "correct_answer": "NIS (Network Information Service)"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a function of an LDAP server?",
+      "options": [
+        "Centralized authentication and directory services for user and group management",
+        "File sharing across multiple servers",
+        "Performance monitoring of network devices",
+        "Encryption of all network traffic"
+      ],
+      "correct_answer": "Centralized authentication and directory services for user and group management"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which command is used to check memory usage in a Linux-based system?",
+      "options": ["free", "top", "df", "meminfo"],
+      "correct_answer": "free"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which command provides detailed information about processor usage on a Linux server?",
+      "options": ["top", "ps", "vmstat", "htop"],
+      "correct_answer": "top"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the `top` command show in a Linux environment?",
+      "options": [
+        "Current CPU usage, memory usage, and running processes",
+        "System uptime and network usage",
+        "Disk usage and network statistics",
+        "Active user accounts and their processes"
+      ],
+      "correct_answer": "Current CPU usage, memory usage, and running processes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is used to monitor memory usage and identify memory leaks in a Linux-based system?",
+      "options": ["vmstat", "htop", "free", "iostat"],
+      "correct_answer": "vmstat"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which command is used to display the current network usage on a Linux system?",
+      "options": ["ifconfig", "netstat", "ping", "nmap"],
+      "correct_answer": "netstat"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a common tool for monitoring network traffic and performance in a Linux-based system?",
+      "options": ["iftop", "netstat", "ip addr", "top"],
+      "correct_answer": "iftop"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a tool commonly used for monitoring nodes in a large-scale cluster environment?",
+      "options": ["Ganglia", "Nagios", "Prometheus", "Zabbix"],
+      "correct_answer": "Ganglia"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the primary use of Nagios in a server infrastructure?",
+      "options": [
+        "Network monitoring, service monitoring, and alerting on system status",
+        "Database management and optimization",
+        "User authentication and directory services",
+        "Hardware failure prediction"
+      ],
+      "correct_answer": "Network monitoring, service monitoring, and alerting on system status"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following can be monitored using Nagios?",
+      "options": [
+        "CPU usage",
+        "Memory usage",
+        "Disk space",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a feature of Ganglia in an HPC environment?",
+      "options": [
+        "Real-time monitoring of cluster health and resource usage",
+        "Automated system updates and patch management",
+        "Cloud resource management",
+        "Distributed file system support"
+      ],
+      "correct_answer": "Real-time monitoring of cluster health and resource usage"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a typical use case of Ganglia?",
+      "options": [
+        "Real-time visualization of the system performance metrics across large clusters",
+        "Providing a file server for large datasets",
+        "Encryption of sensitive user data in a database",
+        "Centralized backup of all system data"
+      ],
+      "correct_answer": "Real-time visualization of the system performance metrics across large clusters"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is the best description of node resources in a cluster?",
+      "options": [
+        "Resources such as CPU, memory, disk, and network interfaces that are available on each individual node",
+        "The total storage capacity of a cluster",
+        "The total network bandwidth between nodes",
+        "The total number of nodes in the cluster"
+      ],
+      "correct_answer": "Resources such as CPU, memory, disk, and network interfaces that are available on each individual node"
+    },
+    {
+      "subject_id": 18,
+      "question": "In the context of system monitoring, which term refers to the amount of memory available for applications to use?",
+      "options": ["Free memory", "Buffer memory", "Swap memory", "Used memory"],
+      "correct_answer": "Free memory"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools allows monitoring of CPU, memory, and disk usage across all nodes in a cluster?",
+      "options": ["Ganglia", "Nagios", "Zabbix", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following protocols is commonly used by NIS (Network Information Service) for communication between client and server?",
+      "options": ["UDP", "TCP", "ICMP", "HTTP"],
+      "correct_answer": "UDP"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the role of `nmon` in a Linux-based system?",
+      "options": [
+        "It provides real-time performance monitoring of CPU, memory, disk, and network usage",
+        "It is used for managing file systems",
+        "It automates server updates and patches",
+        "It assists in system backups"
+      ],
+      "correct_answer": "It provides real-time performance monitoring of CPU, memory, disk, and network usage"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which tool can be used to monitor system resources such as CPU, memory, network, and disk I/O performance over time in an interactive interface?",
+      "options": ["htop", "netstat", "vmstat", "top"],
+      "correct_answer": "htop"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following tools is a comprehensive system and network monitoring solution commonly used to monitor large clusters and datacenters?",
+      "options": ["Nagios", "Wireshark", "ifstat", "psacct"],
+      "correct_answer": "Nagios"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does HPL stand for in the context of system benchmarking?",
+      "options": [
+        "High Performance Lattice",
+        "High Performance Linear",
+        "High Performance Linpack",
+        "High Precision Load"
+      ],
+      "correct_answer": "High Performance Linpack"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following does the HPL benchmark primarily test?",
+      "options": [
+        "The system’s floating-point performance",
+        "Disk I/O performance",
+        "Network bandwidth",
+        "GPU processing speed"
+      ],
+      "correct_answer": "The system’s floating-point performance"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the theoretical peak performance of a system?",
+      "options": [
+        "The maximum performance the system can achieve under ideal conditions",
+        "The average performance of the system over time",
+        "The performance measured during normal usage",
+        "The performance during peak workload"
+      ],
+      "correct_answer": "The maximum performance the system can achieve under ideal conditions"
+    },
+    {
+      "subject_id": 18,
+      "question": "In the context of HPL benchmarking, what does the problem size refer to?",
+      "options": [
+        "The size of the matrix being solved",
+        "The number of processing units available",
+        "The total amount of memory used during the benchmark",
+        "The disk space required to store the results"
+      ],
+      "correct_answer": "The size of the matrix being solved"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following can impact the performance of the HPL benchmark?",
+      "options": [
+        "Block size and process grid configuration",
+        "Operating system type",
+        "Network latency",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is a typical unit of measurement for performance in the HPL benchmark?",
+      "options": [
+        "FLOPS (Floating Point Operations Per Second)",
+        "TPS (Transactions Per Second)",
+        "MB/s (Megabytes per Second)",
+        "GB (Gigabytes)"
+      ],
+      "correct_answer": "FLOPS (Floating Point Operations Per Second)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the process grid PxQ configuration in HPL represent?",
+      "options": [
+        "The number of rows (P) and columns (Q) of processes used in parallel execution",
+        "The number of threads and cores used in the system",
+        "The number of processors used in the benchmark",
+        "The problem size and block size parameters"
+      ],
+      "correct_answer": "The number of rows (P) and columns (Q) of processes used in parallel execution"
+    },
+    {
+      "subject_id": 18,
+      "question": "In HPL benchmarking, what is the significance of the block size parameter?",
+      "options": [
+        "It determines the amount of data processed by each process during the benchmark",
+        "It controls the memory footprint of the entire system",
+        "It refers to the number of processors available for the test",
+        "It defines the number of iterations in the benchmark"
+      ],
+      "correct_answer": "It determines the amount of data processed by each process during the benchmark"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following factors should be considered when tuning the HPL benchmark?",
+      "options": [
+        "Block size, process grid configuration, and memory utilization",
+        "Only the number of cores available",
+        "The operating system version",
+        "The network speed"
+      ],
+      "correct_answer": "Block size, process grid configuration, and memory utilization"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does increasing the block size in HPL typically do?",
+      "options": [
+        "Increases memory usage but can reduce communication overhead",
+        "Decreases the memory footprint and speeds up execution",
+        "Reduces system reliability",
+        "Has no significant impact on performance"
+      ],
+      "correct_answer": "Increases memory usage but can reduce communication overhead"
+    },
+    {
+      "subject_id": 18,
+      "question": "In HPL benchmarking, what is the effect of increasing the process grid size?",
+      "options": [
+        "It allows for more processes to run in parallel, potentially improving performance",
+        "It reduces the number of operations performed by each process",
+        "It lowers the overall system performance due to increased communication overhead",
+        "It has no effect on performance"
+      ],
+      "correct_answer": "It allows for more processes to run in parallel, potentially improving performance"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which performance metric is used to compare systems based on the HPL benchmark?",
+      "options": [
+        "FLOPS (Floating Point Operations per Second)",
+        "Speedup",
+        "Throughput",
+        "Response time"
+      ],
+      "correct_answer": "FLOPS (Floating Point Operations per Second)"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the typical range of problem sizes used in HPL benchmarking?",
+      "options": [
+        "From small matrices with a few thousand elements to large matrices with millions of elements",
+        "From small matrices with less than 100 elements to medium-sized matrices",
+        "From small problem sizes that require minimal computational resources",
+        "Typically only one fixed problem size"
+      ],
+      "correct_answer": "From small matrices with a few thousand elements to large matrices with millions of elements"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is true about the relationship between process grid size and HPL performance?",
+      "options": [
+        "Optimal process grid size can reduce computation time by distributing workload efficiently",
+        "Larger process grid sizes always result in better performance",
+        "Smaller process grid sizes improve communication overhead",
+        "The process grid size does not impact HPL performance"
+      ],
+      "correct_answer": "Optimal process grid size can reduce computation time by distributing workload efficiently"
+    },
+    {
+      "subject_id": 18,
+      "question": "How can tuning the block size improve HPL performance?",
+      "options": [
+        "By reducing the number of data transfers between processes",
+        "By increasing the total amount of memory needed",
+        "By reducing the system's power consumption",
+        "By changing the network topology"
+      ],
+      "correct_answer": "By reducing the number of data transfers between processes"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is the best way to ensure that HPL performs optimally on a given system?",
+      "options": [
+        "Fine-tune the block size, process grid configuration, and memory allocation",
+        "Use the maximum possible number of processes",
+        "Choose the smallest possible problem size",
+        "Use a single large processor for all calculations"
+      ],
+      "correct_answer": "Fine-tune the block size, process grid configuration, and memory allocation"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the process grid configuration PxQ impact in HPL benchmarking?",
+      "options": [
+        "The parallelization of the computation across multiple processes",
+        "The overall disk space required for running the benchmark",
+        "The cooling requirements of the system",
+        "The number of iterations in the benchmark"
+      ],
+      "correct_answer": "The parallelization of the computation across multiple processes"
+    },
+    {
+      "subject_id": 18,
+      "question": "What is the typical effect of reducing the process grid size in HPL?",
+      "options": [
+        "It may reduce communication overhead but may also reduce parallelism",
+        "It speeds up computation by increasing parallelism",
+        "It has no effect on overall performance",
+        "It increases memory usage"
+      ],
+      "correct_answer": "It may reduce communication overhead but may also reduce parallelism"
+    },
+    {
+      "subject_id": 18,
+      "question": "In the HPL benchmark, which of the following does the 'Peak Performance' refer to?",
+      "options": [
+        "The maximum performance achievable under ideal conditions",
+        "The average performance across multiple runs",
+        "The performance under normal system load",
+        "The performance at 100% CPU utilization"
+      ],
+      "correct_answer": "The maximum performance achievable under ideal conditions"
+    },
+    {
+      "subject_id": 18,
+      "question": "When tuning HPL for a specific architecture, which of the following factors should be taken into consideration?",
+      "options": [
+        "Block size, process grid size, CPU architecture, and memory hierarchy",
+        "Only the number of available CPUs",
+        "The operating system’s disk I/O performance",
+        "Only the network bandwidth"
+      ],
+      "correct_answer": "Block size, process grid size, CPU architecture, and memory hierarchy"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is true about the impact of block size on HPL performance?",
+      "options": [
+        "Smaller block sizes can reduce memory usage but increase communication time",
+        "Larger block sizes always result in faster execution",
+        "Block size has no impact on HPL performance",
+        "Smaller block sizes reduce overall system reliability"
+      ],
+      "correct_answer": "Smaller block sizes can reduce memory usage but increase communication time"
+    },
+    {
+      "subject_id": 18,
+      "question": "What does the process grid size in PxQ format represent in HPL?",
+      "options": [
+        "The number of parallel processes running in the system, arranged in P rows and Q columns",
+        "The number of iterations per block",
+        "The amount of memory allocated to each processor",
+        "The block size used during the computation"
+      ],
+      "correct_answer": "The number of parallel processes running in the system, arranged in P rows and Q columns"
+    },
+    {
+      "subject_id": 18,
+      "question": "Which of the following is a factor that influences the performance of HPL benchmarks on a distributed system?",
+      "options": [
+        "Network bandwidth and latency between processes",
+        "The speed of disk I/O",
+        "Operating system kernel version",
+        "The amount of time the system spends idle"
+      ],
+      "correct_answer": "Network bandwidth and latency between processes"
+    },
+    {
+      "subject_id": 18,
+      "question": "When adjusting the process grid for better HPL performance, what should you aim for?",
+      "options": [
+        "An even distribution of work across processors to minimize communication",
+        "Maximizing the number of processes regardless of efficiency",
+        "Using the maximum possible number of processes",
+        "Having a smaller process grid for better load balancing"
+      ],
+      "correct_answer": "An even distribution of work across processors to minimize communication"
     }
   ]
 }
