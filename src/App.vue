@@ -12,7 +12,6 @@
         :timePerQuestion="60"
         @end-test="endTest"
       />
-
       <EndTestButton
         @end-test="endTest"
         class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -26,7 +25,7 @@
       class="w-full bg-white/80 rounded-lg p-6 shadow-xl"
     />
 
-    <!-- Loader (Shows before loading the quiz) -->
+    <!-- Loader -->
     <div v-if="loading" class="flex justify-center items-center h-full w-full">
       <div
         class="spinner-border animate-spin border-4 border-blue-500 rounded-full w-16 h-16"
@@ -34,9 +33,7 @@
     </div>
 
     <!-- Loading State -->
-    <div
-      v-if="currentSubject && !currentQuestion && !isTestCompleted && !loading"
-    >
+    <div v-if="loadingState && !isTestCompleted">
       <p class="text-center text-xl text-gray-700">Loading questions...</p>
     </div>
 
@@ -45,7 +42,7 @@
       v-if="currentQuestion && !isTestCompleted && !loading"
       :question="currentQuestion"
       @answer-selected="handleAnswer"
-      :index="questionIndex"
+      :index="userAnswers.length"
       class="w-full p-6 bg-white/80 rounded-lg shadow-xl"
     />
 
@@ -75,84 +72,77 @@ export default {
     EndTestButton,
     ResultDisplay,
   },
+
   data() {
     return {
-      subjects: [], // Array to store subjects
-      questions: [], // Array to store questions for the selected subject
-      currentSubject: null, // Currently selected subject
-      currentQuestion: null, // Currently displayed question
-      userAnswers: [], // User's answers
-      score: 0, // Score calculation
-      isTestCompleted: false, // Flag to mark test completion
-      loading: false, // Track loading state
+      subjects: [],
+      questions: [],
+      currentSubject: null,
+      currentQuestion: null,
+      userAnswers: [],
+      score: 0,
+      isTestCompleted: false,
+      loading: false,
     };
   },
+
   computed: {
-    questionIndex() {
-      return this.userAnswers.length; // The index is the length of userAnswers
+    loadingState() {
+      return this.currentSubject && !this.currentQuestion && !this.loading;
     },
   },
+
   methods: {
     async loadQuiz(subjectId) {
       this.currentSubject = subjectId;
-      this.loading = true; // Show loader
-
-      // Fetch questions for the selected subject
+      this.loading = true;
       const selectedQuestions = this.questions.filter(
-        (question) => question.subject_id === subjectId
+        (q) => q.subject_id === subjectId
       );
 
       if (selectedQuestions.length > 0) {
-        this.questions = selectedQuestions; // Set the filtered questions
-        this.shuffleQuestions(); // Shuffle questions
-        this.shuffleOptionsForQuestions(); // Shuffle options for each question
+        this.questions = selectedQuestions;
+        this.shuffleQuestions();
+        this.shuffleOptionsForQuestions();
 
-        // Wait for 3 seconds before showing the questions
         setTimeout(() => {
-          this.nextQuestion(0); // Start the quiz with the first question
-          this.loading = false; // Hide loader after 3 seconds
+          this.nextQuestion(0);
+          this.loading = false;
         }, 3000);
       } else {
         console.error("No questions found for this subject.");
-        this.endTest(); // End the test if no questions are found
+        this.endTest();
       }
     },
 
     shuffleQuestions() {
-      // Fisher-Yates shuffle algorithm to randomize the questions
       for (let i = this.questions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [this.questions[i], this.questions[j]] = [
           this.questions[j],
           this.questions[i],
-        ]; // Swap elements
+        ];
       }
     },
 
     shuffleOptionsForQuestions() {
-      // Shuffle options for each question
-      this.questions.forEach((question) => {
-        const optionsCopy = [...question.options]; // Copy options to avoid mutating the original array
-        for (let i = optionsCopy.length - 1; i > 0; i--) {
+      this.questions.forEach((q) => {
+        for (let i = q.options.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
-          [optionsCopy[i], optionsCopy[j]] = [optionsCopy[j], optionsCopy[i]]; // Swap elements
+          [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
         }
-        question.options = optionsCopy; // Assign shuffled options back to the question
       });
     },
 
     nextQuestion(index) {
       if (index < this.questions.length) {
         const question = this.questions[index];
-
         if (
-          question &&
-          typeof question.question === "string" &&
+          question?.question &&
           Array.isArray(question.options) &&
           question.options.length > 0 &&
-          typeof question.correct_answer === "string"
+          question.correct_answer
         ) {
-          // Assign a fallback question_id if it's missing
           question.question_id = question.question_id || `question-${index}`;
           this.currentQuestion = question;
         } else {
@@ -168,42 +158,29 @@ export default {
     },
 
     handleAnswer(selectedAnswer) {
-      // Store the selected answer and proceed to the next question
       this.userAnswers.push(selectedAnswer);
-
-      // Debugging log to check answer selections
-      console.log("User Answers:", this.userAnswers);
-
-      // Move to the next question
       this.nextQuestion(this.userAnswers.length);
     },
 
     endTest() {
-      this.isTestCompleted = true; // Mark the test as completed
-      this.calculateScore(); // Calculate the score even if not all questions are answered
+      this.isTestCompleted = true;
+      this.calculateScore();
     },
 
     calculateScore() {
       this.score = this.userAnswers.filter(
         (answer, index) => answer === this.questions[index].correct_answer
-      ).length; // Calculate the score based on correct answers
+      ).length;
     },
   },
 
   mounted() {
-    // Fetch subjects and questions from db.json located in the public folder
     fetch("/db.json")
       .then((response) => response.json())
       .then((data) => {
-        if (
-          data &&
-          Array.isArray(data.subjects) &&
-          Array.isArray(data.questions)
-        ) {
-          this.subjects = data.subjects; // Store the subjects in the array
-          this.questions = data.questions; // Store all questions in the array
-          console.log("Subjects loaded:", this.subjects); // Optional: log the subjects
-          console.log("Questions loaded:", this.questions); // Optional: log the questions
+        if (Array.isArray(data.subjects) && Array.isArray(data.questions)) {
+          this.subjects = data.subjects;
+          this.questions = data.questions;
         } else {
           console.error("Invalid data structure in db.json");
         }
@@ -220,7 +197,6 @@ export default {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
 }
 
-/* Loader Styling */
 .spinner-border {
   border-top-color: transparent;
   border-right-color: transparent;
