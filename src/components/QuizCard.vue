@@ -1,24 +1,24 @@
 <template>
   <div
     v-if="question"
-    class="quiz-card w-[50vw] min-h-[40vh] p-8 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl flex flex-col justify-between space-y-6"
+    class="quiz-card w-[90vw] sm:w-[70vw] md:w-[50vw] min-h-[40vh] p-6 sm:p-8 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl flex flex-col justify-between space-y-6"
   >
     <!-- Question Text with Index -->
-    <p class="text-3xl font-semibold text-gray-800">
+    <p class="text-2xl sm:text-3xl font-semibold text-gray-800">
       {{ index + 1 }}. {{ question.question }}
     </p>
 
     <!-- Options List -->
     <div class="space-y-4">
       <div
-        v-for="(option, index) in shuffledOptions"
-        :key="index"
+        v-for="(option, optionIndex) in shuffledOptions"
+        :key="optionIndex"
         class="flex items-center space-x-4"
       >
         <!-- Use a unique id for each radio button -->
         <input
           type="radio"
-          :id="'option-' + index"
+          :id="'option-' + optionIndex"
           :name="sanitizedQuestionId"
           :value="option"
           v-model="selectedAnswer"
@@ -27,8 +27,8 @@
 
         <!-- Make the entire label clickable by associating it with the radio button -->
         <label
-          :for="'option-' + index"
-          class="flex items-center space-x-4 cursor-pointer text-lg text-gray-700"
+          :for="'option-' + optionIndex"
+          class="flex items-center space-x-4 cursor-pointer text-lg sm:text-xl text-gray-700"
         >
           <span
             class="w-6 h-6 flex justify-center items-center border border-gray-300 rounded-full"

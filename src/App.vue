@@ -5,16 +5,17 @@
     <!-- Timer and End Test Button (Side by Side) -->
     <div
       v-if="currentQuestion && !isTestCompleted"
-      class="flex justify-between items-center w-full max-w-3xl mb-6"
+      class="flex flex-wrap justify-between items-center w-full max-w-3xl mb-6 space-y-4 sm:space-y-0 sm:flex-row"
     >
       <Timer
         :questionCount="questions.length"
         :timePerQuestion="60"
         @end-test="endTest"
+        class="w-full sm:w-auto"
       />
       <EndTestButton
         @end-test="endTest"
-        class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-auto"
       />
     </div>
 
@@ -22,7 +23,7 @@
     <SubjectSelection
       v-if="!currentSubject && !isTestCompleted"
       @subject-selected="loadQuiz"
-      class="w-full bg-white/80 rounded-lg p-6 shadow-xl"
+      class="w-full sm:w-[80%] md:w-[60%] bg-white/80 rounded-lg p-6 shadow-xl"
     />
 
     <!-- Loader -->
@@ -33,8 +34,8 @@
     </div>
 
     <!-- Loading State -->
-    <div v-if="loadingState && !isTestCompleted">
-      <p class="text-center text-xl text-gray-700">Loading questions...</p>
+    <div v-if="loadingState && !isTestCompleted" class="w-full text-center">
+      <p class="text-xl text-gray-700">Loading questions...</p>
     </div>
 
     <!-- QuizCard Component -->
@@ -43,7 +44,7 @@
       :question="currentQuestion"
       @answer-selected="handleAnswer"
       :index="userAnswers.length"
-      class="w-full p-6 bg-white/80 rounded-lg shadow-xl"
+      class="w-full sm:w-[90%] lg:w-[80%] p-6 bg-white/80 rounded-lg shadow-xl"
     />
 
     <!-- Result Display -->
@@ -52,7 +53,7 @@
       :questions="questions"
       :userAnswers="userAnswers"
       :score="score"
-      class="w-full p-6 bg-white/80 rounded-lg shadow-xl text-center mt-6"
+      class="w-full sm:w-[90%] lg:w-[80%] p-6 bg-white/80 rounded-lg shadow-xl text-center mt-6"
     />
   </div>
 </template>

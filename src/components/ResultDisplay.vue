@@ -1,8 +1,8 @@
 <template>
   <div
-    class="result-display w-[80vw] min-h-[70vh] p-8 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl space-y-6 flex flex-col"
+    class="result-display w-full sm:w-[80vw] min-h-[70vh] p-8 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl space-y-6 flex flex-col"
   >
-    <h2 class="text-4xl font-semibold text-center">
+    <h2 class="text-3xl sm:text-4xl font-semibold text-center">
       <span class="text-teal-600">Your Score:</span>
       <span class="text-blue-500"> {{ score }} </span>
       <span class="text-blue-500">/ {{ attemptedQuestions.length }}</span>
@@ -14,17 +14,17 @@
         class="p-6 bg-white/70 backdrop-blur-lg rounded-lg shadow-lg transition-all hover:scale-105"
       >
         <!-- Display the index of the question -->
-        <p class="text-xl font-medium text-gray-800">
+        <p class="text-xl sm:text-2xl font-medium text-gray-800">
           Question {{ index + 1 }}: {{ question.question }}
         </p>
 
-        <p class="text-lg text-gray-700">
+        <p class="text-lg sm:text-xl text-gray-700">
           Correct answer:
           <span class="font-semibold text-green-500">
             {{ question.correct_answer }}
           </span>
         </p>
-        <p class="text-lg text-gray-700">
+        <p class="text-lg sm:text-xl text-gray-700">
           Your answer:
           <span
             :class="{

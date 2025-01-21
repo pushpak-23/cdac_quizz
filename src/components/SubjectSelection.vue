@@ -1,18 +1,18 @@
 <template>
   <div
-    class="subject-selection w-[80vw] min-h-[50vh] p-8 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl flex flex-col justify-center space-y-6"
+    class="subject-selection w-[80vw] sm:w-[90vw] md:w-[70vw] lg:w-[60vw] min-h-[50vh] p-8 bg-white/80 backdrop-blur-xl rounded-xl shadow-xl flex flex-col justify-center items-center space-y-6"
   >
-    <h2 class="text-3xl font-semibold text-center text-red-800">
+    <h2 class="text-3xl sm:text-2xl font-semibold text-center text-red-800">
       Welcome Fuckers!!!
     </h2>
-    <h2 class="text-3xl font-semibold text-center text-gray-800">
+    <h2 class="text-3xl sm:text-2xl font-semibold text-center text-gray-800">
       Select a Subject
     </h2>
-    <div class="flex justify-center">
+    <div class="flex justify-center w-full">
       <select
         v-model="selectedSubject"
         @change="loadQuestions"
-        class="w-[60%] p-4 bg-white/60 backdrop-blur-lg border-2 border-gray-300 rounded-lg text-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="w-full sm:w-[60%] p-4 bg-white/60 backdrop-blur-lg border-2 border-gray-300 rounded-lg text-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
       >
         <option
           v-for="subject in subjects"
