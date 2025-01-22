@@ -17,7 +17,8 @@
     { "id": 15, "name": "exam" },
     { "id": 16, "name": "exam-linux" },
     { "id": 17, "name": "exam-networking" },
-    { "id": 18, "name": "exam-hpc" }
+    { "id": 18, "name": "exam-hpc" },
+    { "id": 19, "name": "exam-RMA" }
   ],
   "questions": [
     {
@@ -29403,6 +29404,1552 @@
         "Having a smaller process grid for better load balancing"
       ],
       "correct_answer": "An even distribution of work across processors to minimize communication"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a batch system?",
+      "options": [
+        "A system that processes tasks one at a time",
+        "A system that processes tasks concurrently",
+        "A type of database",
+        "A file storage system"
+      ],
+      "correct_answer": "A system that processes tasks one at a time"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the main function of a resource manager in a batch system?",
+      "options": [
+        "To execute tasks",
+        "To allocate resources to tasks",
+        "To monitor the status of tasks",
+        "To schedule tasks"
+      ],
+      "correct_answer": "To allocate resources to tasks"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of a scheduler in a batch system?",
+      "options": [
+        "To execute tasks as they arrive",
+        "To monitor resource utilization",
+        "To determine the order in which tasks are processed",
+        "To allocate resources to tasks"
+      ],
+      "correct_answer": "To determine the order in which tasks are processed"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is an example of a batch system?",
+      "options": [
+        "Apache Hadoop",
+        "Windows Task Scheduler",
+        "Unix Shell Script",
+        "Database Management System"
+      ],
+      "correct_answer": "Apache Hadoop"
+    },
+    {
+      "subject_id": 19,
+      "question": "In batch systems, what does a 'job' refer to?",
+      "options": [
+        "A task that is executed by the system",
+        "A request for resources",
+        "A system administrator's task",
+        "A type of algorithm"
+      ],
+      "correct_answer": "A task that is executed by the system"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which scheduling algorithm is commonly used in batch systems?",
+      "options": [
+        "First-Come-First-Served (FCFS)",
+        "Round Robin",
+        "Shortest Job Next (SJN)",
+        "Priority Scheduling"
+      ],
+      "correct_answer": "First-Come-First-Served (FCFS)"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does a resource manager in a batch system typically monitor?",
+      "options": [
+        "The number of tasks in the system",
+        "The available CPU, memory, and disk resources",
+        "The users running tasks",
+        "The state of the operating system"
+      ],
+      "correct_answer": "The available CPU, memory, and disk resources"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is NOT a typical task of a resource manager in a batch system?",
+      "options": [
+        "Allocating memory to tasks",
+        "Controlling the execution of tasks",
+        "Scheduling task execution order",
+        "Monitoring system health"
+      ],
+      "correct_answer": "Scheduling task execution order"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following batch systems is widely used for high-performance computing?",
+      "options": [
+        "Apache Spark",
+        "Slurm",
+        "Windows Task Scheduler",
+        "Job Queue Management"
+      ],
+      "correct_answer": "Slurm"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is an advantage of batch processing in large-scale systems?",
+      "options": [
+        "Real-time execution",
+        "Efficient use of system resources",
+        "Increased security",
+        "Automatic resource allocation"
+      ],
+      "correct_answer": "Efficient use of system resources"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the term 'job queue' in a batch system refer to?",
+      "options": [
+        "A list of tasks waiting to be processed",
+        "A storage location for task data",
+        "A list of available resources",
+        "A user interface for submitting tasks"
+      ],
+      "correct_answer": "A list of tasks waiting to be processed"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a batch system, what does the 'wait time' refer to?",
+      "options": [
+        "The time a task spends in the queue waiting for resources",
+        "The time a task spends executing",
+        "The time a task is idle",
+        "The time a resource is unavailable"
+      ],
+      "correct_answer": "The time a task spends in the queue waiting for resources"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which scheduling algorithm minimizes the average waiting time for jobs in a batch system?",
+      "options": [
+        "First-Come-First-Served (FCFS)",
+        "Shortest Job Next (SJN)",
+        "Round Robin",
+        "Priority Scheduling"
+      ],
+      "correct_answer": "Shortest Job Next (SJN)"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the primary goal of load balancing in a batch system?",
+      "options": [
+        "To evenly distribute tasks across available resources",
+        "To prioritize high-priority tasks",
+        "To minimize wait time for tasks",
+        "To increase CPU utilization"
+      ],
+      "correct_answer": "To evenly distribute tasks across available resources"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is a disadvantage of batch systems?",
+      "options": [
+        "High real-time responsiveness",
+        "Need for constant monitoring",
+        "Potential delay in task execution",
+        "Low resource utilization"
+      ],
+      "correct_answer": "Potential delay in task execution"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the term 'fair sharing' in the context of resource management?",
+      "options": [
+        "Ensuring that all tasks are executed in parallel",
+        "Ensuring that resources are distributed equally among tasks",
+        "Prioritizing the execution of large tasks",
+        "Giving preference to long-running tasks"
+      ],
+      "correct_answer": "Ensuring that resources are distributed equally among tasks"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following scheduling algorithms is most suitable for time-sharing systems?",
+      "options": [
+        "Round Robin",
+        "First-Come-First-Served (FCFS)",
+        "Shortest Job Next (SJN)",
+        "Priority Scheduling"
+      ],
+      "correct_answer": "Round Robin"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a 'priority queue' in the context of batch systems?",
+      "options": [
+        "A queue in which tasks are sorted by priority",
+        "A queue that stores only high-priority tasks",
+        "A queue for tasks that require resources",
+        "A queue that stores tasks based on execution time"
+      ],
+      "correct_answer": "A queue in which tasks are sorted by priority"
+    },
+    {
+      "subject_id": 19,
+      "question": "What type of systems commonly use resource managers and schedulers?",
+      "options": [
+        "Web servers",
+        "High-performance computing clusters",
+        "File systems",
+        "Database servers"
+      ],
+      "correct_answer": "High-performance computing clusters"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is a key difference between a resource manager and a task scheduler?",
+      "options": [
+        "Resource managers manage tasks, while schedulers allocate resources",
+        "Resource managers allocate resources, while schedulers determine task order",
+        "Schedulers allocate resources, while resource managers manage tasks",
+        "They are the same thing"
+      ],
+      "correct_answer": "Resource managers allocate resources, while schedulers determine task order"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a batch system, what is the purpose of preemption?",
+      "options": [
+        "Stopping a task to give resources to another",
+        "Waiting for a task to finish execution",
+        "Allocating resources to high-priority tasks",
+        "Pausing a task for later execution"
+      ],
+      "correct_answer": "Stopping a task to give resources to another"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is a batch processing tool designed for big data workloads?",
+      "options": ["Hadoop MapReduce", "PostgreSQL", "Apache Tomcat", "Nginx"],
+      "correct_answer": "Hadoop MapReduce"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a key challenge in designing a resource manager for large-scale systems?",
+      "options": [
+        "Managing the physical memory on the system",
+        "Ensuring security of data",
+        "Efficiently handling resource contention and load balancing",
+        "Minimizing the number of tasks"
+      ],
+      "correct_answer": "Efficiently handling resource contention and load balancing"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a 'job scheduler' used for in a batch system?",
+      "options": [
+        "It executes jobs automatically based on a set schedule",
+        "It monitors system resources",
+        "It checks for errors in tasks",
+        "It allocates resources to tasks"
+      ],
+      "correct_answer": "It executes jobs automatically based on a set schedule"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a 'backlog' in a batch system?",
+      "options": [
+        "A list of tasks waiting to be executed",
+        "A type of resource manager",
+        "A queue for high-priority tasks",
+        "A tool for debugging tasks"
+      ],
+      "correct_answer": "A list of tasks waiting to be executed"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following techniques is used to handle high-priority tasks in batch systems?",
+      "options": [
+        "Preemption",
+        "FIFO scheduling",
+        "Round-robin",
+        "Task queue priority"
+      ],
+      "correct_answer": "Preemption"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a batch script?",
+      "options": [
+        "A script used to interact with the operating system",
+        "A sequence of commands that are executed without user interaction",
+        "A program written in a compiled language",
+        "A graphical user interface for scheduling jobs"
+      ],
+      "correct_answer": "A sequence of commands that are executed without user interaction"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which file extension is commonly associated with batch scripts in Linux/Unix systems?",
+      "options": [".bat", ".sh", ".exe", ".py"],
+      "correct_answer": ".sh"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the main advantage of using batch scripts to submit jobs in a batch system?",
+      "options": [
+        "Increased processing speed",
+        "Reduced complexity in managing resources",
+        "Automated task submission and management",
+        "Real-time task execution"
+      ],
+      "correct_answer": "Automated task submission and management"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command in Linux is commonly used to make a script executable?",
+      "options": ["chmod +x", "execute", "run", "bash"],
+      "correct_answer": "chmod +x"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a batch script, which statement is typically used to run a command or job?",
+      "options": ["run", "start", "execute", "command"],
+      "correct_answer": "command"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the '#!' (shebang) at the beginning of a shell script?",
+      "options": [
+        "It specifies the file type",
+        "It specifies the script's interpreter",
+        "It starts a loop",
+        "It comments out the first line"
+      ],
+      "correct_answer": "It specifies the script's interpreter"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is an essential part of a job submission in a batch system?",
+      "options": [
+        "Job description",
+        "Execution command",
+        "Resource request",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a batch script, which of the following commands is used to redirect the output to a file?",
+      "options": [">", ">>", "&>", "<", ">"],
+      "correct_answer": ">"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the role of job scheduler software in batch systems?",
+      "options": [
+        "To execute jobs immediately after submission",
+        "To track the execution of jobs and manage priorities",
+        "To provide the user interface for script writing",
+        "To manage network resources"
+      ],
+      "correct_answer": "To track the execution of jobs and manage priorities"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is a key benefit of using job submission scripts in batch processing?",
+      "options": [
+        "Manual task tracking",
+        "Automatic dependency management",
+        "Real-time job monitoring",
+        "Resource scheduling"
+      ],
+      "correct_answer": "Automatic dependency management"
+    },
+    {
+      "subject_id": 19,
+      "question": "In batch scripts, which of the following is commonly used to define a comment?",
+      "options": ["#", "//", "/* */", ";"],
+      "correct_answer": "#"
+    },
+    {
+      "subject_id": 19,
+      "question": "How would you submit a job using a batch script on a typical Linux system?",
+      "options": ["run job.sh", "bash job.sh", "submit job.sh", "sh job.sh"],
+      "correct_answer": "bash job.sh"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is used to submit jobs to a Slurm-based batch system?",
+      "options": ["sbatch", "squeue", "ssh", "qsub"],
+      "correct_answer": "sbatch"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a job array in a batch script?",
+      "options": [
+        "A group of jobs submitted as one job",
+        "A method for running multiple tasks in parallel",
+        "A queue for jobs to be executed sequentially",
+        "A resource manager configuration"
+      ],
+      "correct_answer": "A group of jobs submitted as one job"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following commands is used to check the status of a running job in a batch system?",
+      "options": ["status", "squeue", "jobstatus", "jobmonitor"],
+      "correct_answer": "squeue"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a batch script, how do you specify the number of processors needed for a job in a Slurm-based system?",
+      "options": [
+        "#SBATCH --cpus-per-task=4",
+        "#SBATCH --nodes=4",
+        "#SBATCH --processors=4",
+        "#SBATCH --tasks=4"
+      ],
+      "correct_answer": "#SBATCH --cpus-per-task=4"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the 'wait' command in a batch script?",
+      "options": [
+        "To delay the execution of the next command",
+        "To run jobs in parallel",
+        "To monitor job execution",
+        "To wait for user input"
+      ],
+      "correct_answer": "To delay the execution of the next command"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following can be specified in a job script to limit the maximum execution time of a job?",
+      "options": [
+        "#SBATCH --time=hh:mm:ss",
+        "#SBATCH --cpu-limit=4000",
+        "#SBATCH --priority=high",
+        "#SBATCH --job-duration=10"
+      ],
+      "correct_answer": "#SBATCH --time=hh:mm:ss"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'SBATCH' directive in a Slurm batch script do?",
+      "options": [
+        "It runs a job with the specified parameters",
+        "It specifies job parameters like resource usage",
+        "It starts the job immediately",
+        "It queues the job for later execution"
+      ],
+      "correct_answer": "It specifies job parameters like resource usage"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the 'dependency' feature in job management?",
+      "options": [
+        "It ensures that jobs are executed based on the order of their arrival",
+        "It prevents jobs from running simultaneously",
+        "It allows one job to be executed only after the successful completion of another job",
+        "It schedules jobs based on available resources"
+      ],
+      "correct_answer": "It allows one job to be executed only after the successful completion of another job"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a job submission script, what is the purpose of the 'output' parameter?",
+      "options": [
+        "To specify where the job’s results will be written",
+        "To set the priority of the job",
+        "To define the job’s resource requirements",
+        "To set a maximum execution time"
+      ],
+      "correct_answer": "To specify where the job’s results will be written"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'qsub' command do in a job submission system like PBS?",
+      "options": [
+        "It submits a job to the batch system",
+        "It checks the status of a job",
+        "It cancels a job",
+        "It lists all available jobs"
+      ],
+      "correct_answer": "It submits a job to the batch system"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a batch script, how do you specify an email address to receive job notifications upon completion?",
+      "options": [
+        "#SBATCH --mail-user=email@example.com",
+        "#SBATCH --email=email@example.com",
+        "#SBATCH --notify=email@example.com",
+        "#SBATCH --email-notify=email@example.com"
+      ],
+      "correct_answer": "#SBATCH --mail-user=email@example.com"
+    },
+    {
+      "subject_id": 19,
+      "question": "How can you submit multiple jobs in a batch system using a job script?",
+      "options": [
+        "By creating a loop within the script",
+        "By running multiple scripts simultaneously",
+        "By submitting each job individually",
+        "By using job arrays"
+      ],
+      "correct_answer": "By using job arrays"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a job script, what does the 'module load' command do?",
+      "options": [
+        "It loads a specific software module for the job",
+        "It compiles the job script",
+        "It checks the availability of resources",
+        "It cancels the current job"
+      ],
+      "correct_answer": "It loads a specific software module for the job"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does a job scheduler typically do when a job exceeds its allocated time limit?",
+      "options": [
+        "It waits for resources to become available",
+        "It automatically retries the job",
+        "It terminates the job",
+        "It extends the job's time limit"
+      ],
+      "correct_answer": "It terminates the job"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command is used to cancel a job that has been submitted to a Slurm system?",
+      "options": ["scancel", "qdel", "canceljob", "terminate"],
+      "correct_answer": "scancel"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is Slurm?",
+      "options": [
+        "A distributed file system",
+        "A job scheduling system for Linux clusters",
+        "A programming language",
+        "A hardware management tool"
+      ],
+      "correct_answer": "A job scheduling system for Linux clusters"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which package manager is commonly used to install Slurm on Linux?",
+      "options": ["apt", "yum", "dnf", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "In a Slurm configuration, which file is typically used to configure the Slurm daemon?",
+      "options": ["slurm.conf", "slurm.sh", "slurmd.conf", "slurm.cfg"],
+      "correct_answer": "slurm.conf"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the role of the Slurm controller (slurmctld)?",
+      "options": [
+        "To allocate resources to jobs",
+        "To maintain the job queue and resource state",
+        "To monitor user activity",
+        "To execute jobs"
+      ],
+      "correct_answer": "To maintain the job queue and resource state"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command is used to check the status of a Slurm job queue?",
+      "options": ["squeue", "slurmstatus", "jobstatus", "sinfo"],
+      "correct_answer": "squeue"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which Slurm command is used to submit a job to the job queue?",
+      "options": ["sbatch", "srun", "squeue", "jobsubmit"],
+      "correct_answer": "sbatch"
+    },
+    {
+      "subject_id": 19,
+      "question": "How would you specify the number of nodes in a Slurm job submission script?",
+      "options": [
+        "#SBATCH --nodes=4",
+        "#SBATCH --num-nodes=4",
+        "#SBATCH --cpus-per-node=4",
+        "#SBATCH --nodes-count=4"
+      ],
+      "correct_answer": "#SBATCH --nodes=4"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in Slurm specifies the time limit for a job?",
+      "options": [
+        "#SBATCH --time=hh:mm:ss",
+        "#SBATCH --duration=hh:mm:ss",
+        "#SBATCH --max-time=hh:mm:ss",
+        "#SBATCH --timelimit=hh:mm:ss"
+      ],
+      "correct_answer": "#SBATCH --time=hh:mm:ss"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the 'srun' command in Slurm?",
+      "options": [
+        "To submit a job to the scheduler",
+        "To run a job interactively on allocated resources",
+        "To check the status of jobs",
+        "To cancel a job"
+      ],
+      "correct_answer": "To run a job interactively on allocated resources"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the command to cancel a job in Slurm?",
+      "options": ["scancel", "jobcancel", "suspend", "qdel"],
+      "correct_answer": "scancel"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is NOT a valid job state in Slurm?",
+      "options": ["RUNNING", "PENDING", "SUSPENDED", "PAUSED"],
+      "correct_answer": "PAUSED"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'scontrol' command do in Slurm?",
+      "options": [
+        "Displays job queue information",
+        "Manages Slurm job configurations",
+        "Manipulates job and node states",
+        "Runs batch jobs"
+      ],
+      "correct_answer": "Manipulates job and node states"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is the correct way to load a software module in Slurm?",
+      "options": [
+        "module load [software]",
+        "sbatch module load [software]",
+        "loadmodule [software]",
+        "slurm module load [software]"
+      ],
+      "correct_answer": "module load [software]"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the directive '#SBATCH --output' do in a Slurm job script?",
+      "options": [
+        "Specifies the file to which job output will be written",
+        "Sets the output format for job information",
+        "Defines the maximum output size for the job",
+        "Defines the time format for job output"
+      ],
+      "correct_answer": "Specifies the file to which job output will be written"
+    },
+    {
+      "subject_id": 19,
+      "question": "How can you request the use of GPUs in a Slurm job submission script?",
+      "options": [
+        "#SBATCH --gres=gpu:2",
+        "#SBATCH --gpu=2",
+        "#SBATCH --gpus=2",
+        "#SBATCH --nodes=2 --gpus"
+      ],
+      "correct_answer": "#SBATCH --gres=gpu:2"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the '#SBATCH --partition' directive?",
+      "options": [
+        "To specify the job's resource allocation",
+        "To define the maximum number of jobs",
+        "To specify the partition (queue) in which to submit the job",
+        "To define the priority of the job"
+      ],
+      "correct_answer": "To specify the partition (queue) in which to submit the job"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the default partition in Slurm if none is specified?",
+      "options": ["default", "normal", "batch", "compute"],
+      "correct_answer": "normal"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which Slurm command can you use to check detailed information about a specific job?",
+      "options": [
+        "scontrol show job [job_id]",
+        "sjobstatus [job_id]",
+        "squeue --info [job_id]",
+        "showjob [job_id]"
+      ],
+      "correct_answer": "scontrol show job [job_id]"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a Slurm job array?",
+      "options": [
+        "A group of jobs that are scheduled to run in parallel with the same parameters",
+        "A job that runs sequentially based on resource availability",
+        "A set of jobs running on the same node",
+        "A queue for jobs that require the same resources"
+      ],
+      "correct_answer": "A group of jobs that are scheduled to run in parallel with the same parameters"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which Slurm directive would you use to request a specific number of CPU cores per task?",
+      "options": [
+        "#SBATCH --cpus-per-task=4",
+        "#SBATCH --cores-per-task=4",
+        "#SBATCH --cpu-cores=4",
+        "#SBATCH --tasks=4"
+      ],
+      "correct_answer": "#SBATCH --cpus-per-task=4"
+    },
+    {
+      "subject_id": 19,
+      "question": "How do you specify an email notification when your job completes in Slurm?",
+      "options": [
+        "#SBATCH --mail-user=email@example.com --mail-type=END",
+        "#SBATCH --notify=email@example.com",
+        "#SBATCH --mail=email@example.com",
+        "#SBATCH --email=onend"
+      ],
+      "correct_answer": "#SBATCH --mail-user=email@example.com --mail-type=END"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command is used to view available partitions and nodes in a Slurm system?",
+      "options": ["sinfo", "squeue", "scontrol", "sbatch"],
+      "correct_answer": "sinfo"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the function of the 'slurmd' daemon?",
+      "options": [
+        "It manages the job queues",
+        "It executes jobs on worker nodes",
+        "It manages the Slurm controller",
+        "It schedules jobs"
+      ],
+      "correct_answer": "It executes jobs on worker nodes"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the directive '#SBATCH --mem' specify?",
+      "options": [
+        "The amount of memory required for the job",
+        "The number of memory channels to use",
+        "The type of memory required",
+        "The memory allocation method"
+      ],
+      "correct_answer": "The amount of memory required for the job"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is true about Slurm job dependencies?",
+      "options": [
+        "Jobs can be submitted with dependencies that ensure one job runs only after another completes",
+        "Job dependencies prevent jobs from running in parallel",
+        "Dependencies must always be manually set during job submission",
+        "Job dependencies are used to define resource limits"
+      ],
+      "correct_answer": "Jobs can be submitted with dependencies that ensure one job runs only after another completes"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is the correct way to set a dependency between two Slurm jobs?",
+      "options": [
+        "#SBATCH --dependency=afterok:[job_id]",
+        "#SBATCH --depend=[job_id]",
+        "#SBATCH --dependency=beforeok:[job_id]",
+        "#SBATCH --depend=afterok"
+      ],
+      "correct_answer": "#SBATCH --dependency=afterok:[job_id]"
+    },
+    {
+      "subject_id": 19,
+      "question": "How do you monitor resource usage for a job in Slurm?",
+      "options": ["sstat", "sinfo", "squeue", "scontrol"],
+      "correct_answer": "sstat"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'scontrol' command do in the context of job management?",
+      "options": [
+        "It provides detailed information about job states and control options",
+        "It submits jobs to the queue",
+        "It schedules jobs to run on nodes",
+        "It manages user permissions"
+      ],
+      "correct_answer": "It provides detailed information about job states and control options"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the primary role of nodes in Slurm?",
+      "options": [
+        "To execute and manage user jobs",
+        "To submit jobs to the scheduler",
+        "To allocate memory for job execution",
+        "To monitor job statuses"
+      ],
+      "correct_answer": "To execute and manage user jobs"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command is used to view the status of nodes in Slurm?",
+      "options": ["scontrol show nodes", "sinfo", "squeue", "nodeinfo"],
+      "correct_answer": "sinfo"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'NodeName' parameter in the slurm.conf file specify?",
+      "options": [
+        "The name of a compute node",
+        "The type of job a node will run",
+        "The number of processors for a node",
+        "The location of the node in the cluster"
+      ],
+      "correct_answer": "The name of a compute node"
+    },
+    {
+      "subject_id": 19,
+      "question": "How can you configure a node to be excluded from scheduling jobs in Slurm?",
+      "options": [
+        "By setting 'NodeName=<node_name> State=DOWN' in slurm.conf",
+        "By disabling the node using 'scontrol disable <node_name>'",
+        "By using 'scontrol update NodeName=<node_name> State=EXCLUDED'",
+        "By removing the node from the slurm.conf file"
+      ],
+      "correct_answer": "By using 'scontrol update NodeName=<node_name> State=EXCLUDED'"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in slurm.conf allows for the setting of the maximum number of jobs a node can run concurrently?",
+      "options": [
+        "MaxJobCount",
+        "MaxTasksPerNode",
+        "NodeLimit",
+        "JobConcurrencyLimit"
+      ],
+      "correct_answer": "MaxTasksPerNode"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, how can you change the state of a node to idle?",
+      "options": [
+        "scontrol update NodeName=<node_name> State=IDLE",
+        "scontrol resume <node_name>",
+        "scontrol restart <node_name>",
+        "scontrol set node <node_name> idle"
+      ],
+      "correct_answer": "scontrol update NodeName=<node_name> State=IDLE"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the 'NodeWeight' parameter in Slurm node configuration?",
+      "options": [
+        "It determines the priority of a node for job scheduling",
+        "It specifies the amount of memory available on the node",
+        "It defines the power consumption of the node",
+        "It indicates the number of cores available on the node"
+      ],
+      "correct_answer": "It determines the priority of a node for job scheduling"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a node’s ‘state’ in Slurm?",
+      "options": [
+        "It represents the node's current job allocation",
+        "It shows the availability and usage status of the node",
+        "It defines the scheduling policy for the node",
+        "It is the maximum number of jobs allowed to run"
+      ],
+      "correct_answer": "It shows the availability and usage status of the node"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following node states indicates the node is not available for job scheduling in Slurm?",
+      "options": ["DOWN", "IDLE", "ALLOCATED", "STARTING"],
+      "correct_answer": "DOWN"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in slurm.conf is used to set the default time limit for jobs running on a specific node?",
+      "options": [
+        "DefaultTimeLimit",
+        "NodeTimeLimit",
+        "JobTimeLimit",
+        "MaxTime"
+      ],
+      "correct_answer": "NodeTimeLimit"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'GRES' parameter in the Slurm node configuration specify?",
+      "options": [
+        "It defines special resources like GPUs or other accelerators on the node",
+        "It sets the maximum number of tasks per node",
+        "It defines the memory usage per job",
+        "It specifies job partition assignments"
+      ],
+      "correct_answer": "It defines special resources like GPUs or other accelerators on the node"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command in Slurm is used to restart a node after hardware or configuration issues?",
+      "options": [
+        "scontrol reconfigure",
+        "scontrol update NodeName=<node_name> State=IDLE",
+        "scontrol reboot <node_name>",
+        "scontrol restart <node_name>"
+      ],
+      "correct_answer": "scontrol reconfigure"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, which of the following policies can be set for job scheduling?",
+      "options": [
+        "Fairshare",
+        "Backfill",
+        "Priority-based",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in slurm.conf is used to set the maximum amount of memory a node can allocate per job?",
+      "options": ["MemoryLimit", "MaxMemPerNode", "NodeMemory", "MaxMemory"],
+      "correct_answer": "MaxMemPerNode"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the 'Backfill' policy in Slurm job scheduling?",
+      "options": [
+        "It ensures that high-priority jobs are always scheduled first",
+        "It allows lower-priority jobs to run if no higher-priority jobs are waiting",
+        "It restricts job submissions to certain nodes",
+        "It schedules jobs in a round-robin fashion"
+      ],
+      "correct_answer": "It allows lower-priority jobs to run if no higher-priority jobs are waiting"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in slurm.conf determines how Slurm handles job priority in the queue?",
+      "options": [
+        "PriorityWeightJobAge",
+        "JobPriorityConfig",
+        "JobPriority",
+        "JobSchedulingPriority"
+      ],
+      "correct_answer": "PriorityWeightJobAge"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which scheduling policy does Slurm use to distribute jobs across nodes based on job resource requirements?",
+      "options": [
+        "Fairshare",
+        "Priority-based scheduling",
+        "Backfill",
+        "Load-balancing"
+      ],
+      "correct_answer": "Load-balancing"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the 'PriorityWeightPartition' parameter used for in Slurm?",
+      "options": [
+        "It adjusts the priority of jobs based on the partition they belong to",
+        "It limits the number of jobs that can run in a partition",
+        "It defines the partition’s time limit for job scheduling",
+        "It defines the hardware resources available in each partition"
+      ],
+      "correct_answer": "It adjusts the priority of jobs based on the partition they belong to"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in slurm.conf is used to define the priority of jobs based on job age?",
+      "options": [
+        "PriorityWeightJobAge",
+        "PriorityWeightTimeLimit",
+        "JobPriorityAge",
+        "JobSchedulingAge"
+      ],
+      "correct_answer": "PriorityWeightJobAge"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which Slurm command allows you to modify the configuration of an individual node without restarting the entire system?",
+      "options": [
+        "scontrol reconfigure",
+        "scontrol update NodeName=<node_name>",
+        "scontrol restart node <node_name>",
+        "scontrol modify node <node_name>"
+      ],
+      "correct_answer": "scontrol update NodeName=<node_name>"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, which of the following options can you use to manage job priorities?",
+      "options": [
+        "PriorityWeightFairshare",
+        "PriorityWeightPartition",
+        "PriorityWeightJobAge",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which Slurm command can be used to check the configuration of a specific node?",
+      "options": [
+        "scontrol show node <node_name>",
+        "scontrol node status <node_name>",
+        "sinfo -n <node_name>",
+        "squeue --node <node_name>"
+      ],
+      "correct_answer": "scontrol show node <node_name>"
+    },
+    {
+      "subject_id": 19,
+      "question": "How can you ensure that jobs from high-priority users get scheduled first in Slurm?",
+      "options": [
+        "By setting higher values for 'PriorityWeightUser' in slurm.conf",
+        "By assigning high-priority users to specific partitions",
+        "By configuring job preemption",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the effect of setting the 'PreemptType' directive in slurm.conf?",
+      "options": [
+        "It allows higher-priority jobs to preempt lower-priority jobs",
+        "It sets the maximum number of jobs that can preempt others",
+        "It enables nodes to be dynamically allocated to jobs",
+        "It determines the scheduling algorithm used"
+      ],
+      "correct_answer": "It allows higher-priority jobs to preempt lower-priority jobs"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the default behavior of Slurm when no 'PreemptType' is set?",
+      "options": [
+        "Jobs do not preempt other jobs",
+        "Jobs with the earliest submission time are given priority",
+        "Lower-priority jobs can preempt higher-priority jobs",
+        "Job priority is solely based on job size"
+      ],
+      "correct_answer": "Jobs do not preempt other jobs"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the primary function of the Slurm scheduler?",
+      "options": [
+        "To allocate and manage jobs across a cluster of nodes",
+        "To monitor system performance",
+        "To configure hardware resources",
+        "To provide user interfaces for job submission"
+      ],
+      "correct_answer": "To allocate and manage jobs across a cluster of nodes"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which algorithm does Slurm use by default for job scheduling?",
+      "options": [
+        "First-Come, First-Served (FCFS)",
+        "Shortest Job Next (SJN)",
+        "Round-Robin",
+        "Priority-based Scheduling"
+      ],
+      "correct_answer": "First-Come, First-Served (FCFS)"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, what does the 'Priority-based Scheduling' algorithm prioritize?",
+      "options": [
+        "It schedules jobs based on job priority",
+        "It schedules jobs based on job size",
+        "It schedules jobs in a round-robin fashion",
+        "It schedules jobs based on the node resource availability"
+      ],
+      "correct_answer": "It schedules jobs based on job priority"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which Slurm configuration directive controls the weighting of job priority?",
+      "options": [
+        "PriorityWeightJobAge",
+        "PriorityWeightPartition",
+        "PriorityWeightFairshare",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the 'Fairshare' algorithm in Slurm?",
+      "options": [
+        "To balance job scheduling based on resource usage over time",
+        "To ensure that the smallest jobs are scheduled first",
+        "To prioritize jobs from specific users or groups",
+        "To balance the load between partitions"
+      ],
+      "correct_answer": "To balance job scheduling based on resource usage over time"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does Slurm's 'Backfill' scheduling policy do?",
+      "options": [
+        "It allows lower-priority jobs to run in available time slots if no higher-priority jobs are waiting",
+        "It reorders job priorities to make sure all jobs are scheduled",
+        "It ensures that only the highest priority jobs are run",
+        "It schedules jobs on a first-come-first-served basis"
+      ],
+      "correct_answer": "It allows lower-priority jobs to run in available time slots if no higher-priority jobs are waiting"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, what does the 'PriorityWeightFairshare' configuration parameter do?",
+      "options": [
+        "It adjusts job priorities based on resource usage over time for fair share scheduling",
+        "It prioritizes jobs based on fair distribution across users",
+        "It determines the maximum number of jobs that can be scheduled concurrently",
+        "It sets the priority of jobs based on partition limits"
+      ],
+      "correct_answer": "It adjusts job priorities based on resource usage over time for fair share scheduling"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is true about the 'First-Come, First-Served' (FCFS) algorithm?",
+      "options": [
+        "Jobs are scheduled in the order they arrive, without any priority consideration",
+        "Jobs with the highest priority are scheduled first",
+        "Jobs with the shortest runtime are scheduled first",
+        "Jobs are scheduled based on job size"
+      ],
+      "correct_answer": "Jobs are scheduled in the order they arrive, without any priority consideration"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'Backfill' scheduling algorithm help to prevent in Slurm?",
+      "options": [
+        "It prevents idle nodes by allowing lower-priority jobs to run when no higher-priority jobs are pending",
+        "It prevents jobs from being scheduled in the wrong partition",
+        "It ensures that all jobs have equal priority",
+        "It restricts job execution to specific nodes"
+      ],
+      "correct_answer": "It prevents idle nodes by allowing lower-priority jobs to run when no higher-priority jobs are pending"
+    },
+    {
+      "subject_id": 19,
+      "question": "What scheduling policy is used in Slurm when the priority of jobs from different users needs to be compared?",
+      "options": [
+        "Fairshare",
+        "Backfill",
+        "First-Come, First-Served",
+        "Priority-based Scheduling"
+      ],
+      "correct_answer": "Fairshare"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, which scheduler algorithm uses job priority and job size for job allocation?",
+      "options": [
+        "Priority-based Scheduling",
+        "Round-robin Scheduling",
+        "First-Come, First-Served",
+        "Fairshare Scheduling"
+      ],
+      "correct_answer": "Priority-based Scheduling"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the 'Round-Robin' scheduling algorithm in Slurm used for?",
+      "options": [
+        "To evenly distribute jobs across multiple nodes in a circular manner",
+        "To schedule jobs based on job size",
+        "To assign the highest-priority jobs first",
+        "To allocate resources in a first-come-first-served order"
+      ],
+      "correct_answer": "To evenly distribute jobs across multiple nodes in a circular manner"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'PriorityWeightPartition' parameter affect in Slurm?",
+      "options": [
+        "It adjusts the priority of jobs based on the partition they belong to",
+        "It adjusts the priority of jobs based on the resources required",
+        "It defines the maximum number of jobs allowed in each partition",
+        "It limits the number of partitions available for scheduling"
+      ],
+      "correct_answer": "It adjusts the priority of jobs based on the partition they belong to"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is true about Slurm's backfilling mechanism?",
+      "options": [
+        "It allows lower-priority jobs to run if resources are available, helping to maximize resource utilization",
+        "It ensures that high-priority jobs are never delayed",
+        "It prevents jobs from running if higher-priority jobs are pending",
+        "It schedules jobs based on random allocation"
+      ],
+      "correct_answer": "It allows lower-priority jobs to run if resources are available, helping to maximize resource utilization"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which directive in Slurm's configuration file is used to adjust the impact of job priority on scheduling?",
+      "options": [
+        "PriorityWeightJobAge",
+        "PriorityWeightPartition",
+        "PriorityWeightFairshare",
+        "PriorityWeightUsage"
+      ],
+      "correct_answer": "PriorityWeightJobAge"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is a key benefit of Slurm's 'Fairshare' scheduling algorithm?",
+      "options": [
+        "It ensures that all users get a fair share of resources over time, preventing resource monopolization",
+        "It prioritizes jobs based on job size",
+        "It prevents jobs from being allocated to the wrong node",
+        "It ensures that only the largest jobs are scheduled"
+      ],
+      "correct_answer": "It ensures that all users get a fair share of resources over time, preventing resource monopolization"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the function of 'PriorityWeightFairshare' in Slurm's job scheduling?",
+      "options": [
+        "It adjusts the job priority based on the amount of resources consumed by a user or group over time",
+        "It sets the fair share allocation for each user",
+        "It calculates job priority based on job runtime",
+        "It defines job resource limits"
+      ],
+      "correct_answer": "It adjusts the job priority based on the amount of resources consumed by a user or group over time"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following scheduler algorithms is used in Slurm to give preference to jobs that have been waiting the longest?",
+      "options": [
+        "First-Come, First-Served (FCFS)",
+        "Priority-based Scheduling",
+        "Round-Robin",
+        "Fairshare"
+      ],
+      "correct_answer": "First-Come, First-Served (FCFS)"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, which parameter controls how job priorities are determined in the scheduling process?",
+      "options": [
+        "PriorityWeightJobAge",
+        "PriorityWeightPartition",
+        "PriorityWeightFairshare",
+        "PriorityWeightJobSize"
+      ],
+      "correct_answer": "PriorityWeightJobAge"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which scheduling algorithm does Slurm use to ensure that jobs are scheduled in a way that maximizes resource utilization while respecting job priorities?",
+      "options": [
+        "Backfill Scheduling",
+        "First-Come, First-Served",
+        "Round-Robin Scheduling",
+        "Priority-based Scheduling"
+      ],
+      "correct_answer": "Backfill Scheduling"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'Preemption' feature in Slurm scheduling allow?",
+      "options": [
+        "It allows higher-priority jobs to interrupt lower-priority jobs",
+        "It adjusts job priorities based on job type",
+        "It ensures no jobs can run on idle nodes",
+        "It limits the number of jobs each user can run"
+      ],
+      "correct_answer": "It allows higher-priority jobs to interrupt lower-priority jobs"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'PriorityWeightUsage' directive in Slurm control?",
+      "options": [
+        "It adjusts job priority based on the user's or group’s historical usage of resources",
+        "It limits the maximum job priority",
+        "It defines the resource usage limits for jobs",
+        "It adjusts job priority based on job completion time"
+      ],
+      "correct_answer": "It adjusts job priority based on the user's or group’s historical usage of resources"
+    },
+    {
+      "subject_id": 19,
+      "question": "In Slurm, what is the effect of the 'PreemptMode' configuration?",
+      "options": [
+        "It enables or disables job preemption based on priority",
+        "It adjusts the maximum priority for jobs",
+        "It determines job allocation based on job type",
+        "It limits the number of preemptive jobs that can run"
+      ],
+      "correct_answer": "It enables or disables job preemption based on priority"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is SLURM accounting used for?",
+      "options": [
+        "To track job and resource usage",
+        "To configure job scheduling policies",
+        "To allocate resources across partitions",
+        "To manage user accounts"
+      ],
+      "correct_answer": "To track job and resource usage"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which SLURM command is used to retrieve job accounting information?",
+      "options": ["sacct", "squeue", "scontrol", "sinus"],
+      "correct_answer": "sacct"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is required for SLURM accounting to function?",
+      "options": [
+        "SlurmDBD (Slurm Database Daemon)",
+        "A job scheduler",
+        "A resource manager",
+        "Slurm controller"
+      ],
+      "correct_answer": "SlurmDBD (Slurm Database Daemon)"
+    },
+    {
+      "subject_id": 19,
+      "question": "Where is SLURM accounting data typically stored?",
+      "options": [
+        "In a relational database",
+        "In a flat file",
+        "In memory",
+        "On local disk"
+      ],
+      "correct_answer": "In a relational database"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which database system is commonly used with SLURM for accounting purposes?",
+      "options": ["MySQL", "PostgreSQL", "SQLite", "Oracle"],
+      "correct_answer": "MySQL"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the SLURM command 'sacct' display?",
+      "options": [
+        "Job accounting information",
+        "Current job status",
+        "Node usage statistics",
+        "Partition usage details"
+      ],
+      "correct_answer": "Job accounting information"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which SLURM component is responsible for storing job accounting records?",
+      "options": ["SlurmDBD", "Slurmctld", "Slurmd", "Sched"],
+      "correct_answer": "SlurmDBD"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the 'sacct' command's 'format' option?",
+      "options": [
+        "To define the columns of job accounting information",
+        "To specify the output file",
+        "To select the jobs to display",
+        "To filter jobs by user"
+      ],
+      "correct_answer": "To define the columns of job accounting information"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is NOT a valid accounting field when using 'sacct' in SLURM?",
+      "options": ["JobID", "Elapsed", "CPUTime", "ExecutionTime"],
+      "correct_answer": "ExecutionTime"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which SLURM configuration directive enables the use of accounting?",
+      "options": [
+        "AccountingStorageType",
+        "AccountingStorageHost",
+        "JobAcctGatherType",
+        "AccountName"
+      ],
+      "correct_answer": "AccountingStorageType"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the purpose of the 'AccountingStorageHost' configuration parameter in SLURM?",
+      "options": [
+        "It defines the host where the accounting database is located",
+        "It specifies the location of job logs",
+        "It determines the number of nodes in the cluster",
+        "It configures user permissions for job accounting"
+      ],
+      "correct_answer": "It defines the host where the accounting database is located"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command in SLURM provides job statistics for completed jobs?",
+      "options": ["sacct", "scontrol show job", "squeue", "sreport"],
+      "correct_answer": "sacct"
+    },
+    {
+      "subject_id": 19,
+      "question": "How can you filter job information by a specific time period in 'sacct'?",
+      "options": [
+        "Using the 'starttime' and 'endtime' options",
+        "Using the '--start' and '--end' flags",
+        "By specifying a date range in the command",
+        "By defining job time limits in slurm.conf"
+      ],
+      "correct_answer": "Using the '--start' and '--end' flags"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following SLURM commands can generate accounting reports?",
+      "options": ["sreport", "sacct", "scontrol", "sinfo"],
+      "correct_answer": "sreport"
+    },
+    {
+      "subject_id": 19,
+      "question": "In SLURM accounting, which field provides the total CPU time consumed by a job?",
+      "options": ["CPUTime", "Elapsed", "TotalCPU", "ResourceUsage"],
+      "correct_answer": "CPUTime"
+    },
+    {
+      "subject_id": 19,
+      "question": "What is the function of the 'JobAcctGatherType' configuration parameter in SLURM?",
+      "options": [
+        "It specifies how job statistics are gathered for accounting purposes",
+        "It sets the maximum number of jobs per user",
+        "It defines the job priorities",
+        "It limits job time for accounting purposes"
+      ],
+      "correct_answer": "It specifies how job statistics are gathered for accounting purposes"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which of the following is a valid job accounting status in SLURM?",
+      "options": ["RUNNING", "COMPLETED", "CANCELLED", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'sacct' command's '--format' option allow you to specify?",
+      "options": [
+        "The columns to display in the output",
+        "The date range for the job data",
+        "The nodes to be queried",
+        "The partitions to include"
+      ],
+      "correct_answer": "The columns to display in the output"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which SLURM configuration directive is used to specify the type of accounting storage?",
+      "options": [
+        "AccountingStorageType",
+        "AccountingStorageHost",
+        "JobAcctGatherType",
+        "AccountName"
+      ],
+      "correct_answer": "AccountingStorageType"
+    },
+    {
+      "subject_id": 19,
+      "question": "In SLURM accounting, which of the following is a valid job completion status?",
+      "options": ["FAILED", "SUSPENDED", "RUNNING", "PENDING"],
+      "correct_answer": "FAILED"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which configuration option is used to specify the host that stores the SLURM accounting data?",
+      "options": [
+        "AccountingStorageHost",
+        "SlurmDBDHost",
+        "JobAcctGatherHost",
+        "SlurmctldHost"
+      ],
+      "correct_answer": "AccountingStorageHost"
+    },
+    {
+      "subject_id": 19,
+      "question": "How can SLURM accounting data be accessed for a specific job?",
+      "options": [
+        "Using the 'sacct' command with the JobID",
+        "Using the 'scontrol' command",
+        "By querying the SlurmDBD directly",
+        "By accessing the log files"
+      ],
+      "correct_answer": "Using the 'sacct' command with the JobID"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which SLURM configuration file defines settings for job accounting?",
+      "options": [
+        "slurm.conf",
+        "slurmdbd.conf",
+        "scontrol.conf",
+        "jobacct.conf"
+      ],
+      "correct_answer": "slurmdbd.conf"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which command can be used to generate accounting reports by user or group in SLURM?",
+      "options": ["sreport", "sacct", "squeue", "scontrol"],
+      "correct_answer": "sreport"
+    },
+    {
+      "subject_id": 19,
+      "question": "What does the 'sacct' command's 'state' option allow you to filter?",
+      "options": [
+        "The job's current status",
+        "The time the job was executed",
+        "The resource usage",
+        "The job owner"
+      ],
+      "correct_answer": "The job's current status"
+    },
+    {
+      "subject_id": 19,
+      "question": "Which SLURM command allows you to display accounting information in a human-readable format?",
+      "options": ["sacct -l", "sreport -h", "sacct -o", "sacct -f"],
+      "correct_answer": "sacct -o"
+    },
+    {
+      "subject_id": 19,
+      "question": "In SLURM, how is user job accounting data stored?",
+      "options": ["In a database", "In a flat file", "In memory", "On disk"],
+      "correct_answer": "In a database"
     }
   ]
 }
