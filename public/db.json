@@ -18,7 +18,8 @@
     { "id": 16, "name": "exam-linux" },
     { "id": 17, "name": "exam-networking" },
     { "id": 18, "name": "exam-hpc" },
-    { "id": 19, "name": "exam-RMA" }
+    { "id": 19, "name": "exam-RMA" },
+    { "id": 20, "name": "exam-STM" }
   ],
   "questions": [
     {
@@ -30950,6 +30951,4334 @@
       "question": "In SLURM, how is user job accounting data stored?",
       "options": ["In a database", "In a flat file", "In memory", "On disk"],
       "correct_answer": "In a database"
+    },
+    {
+      "subject_id": 20,
+      "question": "Why is Information Security important?",
+      "options": [
+        "To protect data from unauthorized access or corruption",
+        "To ensure network bandwidth optimization",
+        "To reduce electricity consumption in data centers",
+        "To make websites load faster"
+      ],
+      "correct_answer": "To protect data from unauthorized access or corruption"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the financial impact of a security breach?",
+      "options": [
+        "It can lead to significant costs, including fines, legal fees, and loss of reputation",
+        "It only leads to minor expenses like increased energy consumption",
+        "It causes temporary downtime with no lasting impact",
+        "It can lead to reduced software costs"
+      ],
+      "correct_answer": "It can lead to significant costs, including fines, legal fees, and loss of reputation"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a security vulnerability?",
+      "options": [
+        "A weakness in a system that could be exploited by an attacker",
+        "A user's personal data",
+        "A tool used to monitor network traffic",
+        "A type of malware"
+      ],
+      "correct_answer": "A weakness in a system that could be exploited by an attacker"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a threat in the context of Information Security?",
+      "options": [
+        "A potential event that could cause harm to a system or data",
+        "A software that helps prevent data breaches",
+        "A tool that detects vulnerabilities",
+        "An encryption method for securing data"
+      ],
+      "correct_answer": "A potential event that could cause harm to a system or data"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary goal of risk management in Information Security?",
+      "options": [
+        "To minimize the likelihood and impact of security threats",
+        "To maximize the revenue of an organization",
+        "To reduce the cost of system maintenance",
+        "To improve system uptime"
+      ],
+      "correct_answer": "To minimize the likelihood and impact of security threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the term 'QoS' (Quality of Service) refer to in the context of network traffic management?",
+      "options": [
+        "The prioritization of certain types of network traffic over others to ensure performance",
+        "The speed at which data is transmitted over a network",
+        "The encryption standards used in network communication",
+        "The number of users connected to a network"
+      ],
+      "correct_answer": "The prioritization of certain types of network traffic over others to ensure performance"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a vulnerability?",
+      "options": [
+        "A misconfigured firewall",
+        "A denial of service attack",
+        "A phishing email",
+        "A brute force attack"
+      ],
+      "correct_answer": "A misconfigured firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes 'Risk' in Information Security?",
+      "options": [
+        "The potential for a threat to exploit a vulnerability",
+        "The probability of a system malfunction",
+        "The time taken to respond to a security incident",
+        "The cost of implementing security protocols"
+      ],
+      "correct_answer": "The potential for a threat to exploit a vulnerability"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the relationship between Vulnerability, Threat, and Risk in Information Security?",
+      "options": [
+        "Vulnerabilities provide the opportunity for threats to exploit, creating risk",
+        "Threats prevent vulnerabilities from being exploited",
+        "Risk eliminates vulnerabilities and threats",
+        "Threats and vulnerabilities are unrelated"
+      ],
+      "correct_answer": "Vulnerabilities provide the opportunity for threats to exploit, creating risk"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT considered a type of network security threat?",
+      "options": ["Phishing", "Malware", "Denial of Service", "Encryption"],
+      "correct_answer": "Encryption"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which internet statistic is crucial for assessing security from a network traffic perspective?",
+      "options": [
+        "Bandwidth usage and traffic spikes",
+        "Average session duration",
+        "Total number of users",
+        "Number of advertisements on a website"
+      ],
+      "correct_answer": "Bandwidth usage and traffic spikes"
+    },
+    {
+      "subject_id": 20,
+      "question": "Why do organizations need to monitor internet statistics for security purposes?",
+      "options": [
+        "To identify unusual traffic patterns that could indicate security incidents",
+        "To ensure the fastest internet connection",
+        "To minimize the number of ads displayed on websites",
+        "To improve customer service response times"
+      ],
+      "correct_answer": "To identify unusual traffic patterns that could indicate security incidents"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a common method used to protect against network traffic attacks such as DoS (Denial of Service)?",
+      "options": [
+        "Rate limiting and traffic filtering",
+        "Increasing the internet connection speed",
+        "Reducing the number of users on the network",
+        "Allowing only trusted IP addresses"
+      ],
+      "correct_answer": "Rate limiting and traffic filtering"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the financial effect of a cyber-attack on an organization?",
+      "options": [
+        "It can lead to significant costs including legal fees, loss of revenue, and damage to reputation",
+        "It results in a minor one-time expense for software updates",
+        "It decreases the electricity costs for running servers",
+        "It improves the efficiency of network traffic"
+      ],
+      "correct_answer": "It can lead to significant costs including legal fees, loss of revenue, and damage to reputation"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a direct consequence of security breaches in organizations?",
+      "options": [
+        "Loss of customer trust and business reputation",
+        "Increased system uptime",
+        "Faster network speeds",
+        "Lower operational costs"
+      ],
+      "correct_answer": "Loss of customer trust and business reputation"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary aim of implementing Quality of Service (QoS) in network traffic management?",
+      "options": [
+        "To prioritize critical applications and ensure adequate bandwidth for them",
+        "To reduce the cost of internet bandwidth",
+        "To encrypt network traffic for security",
+        "To monitor network usage statistics"
+      ],
+      "correct_answer": "To prioritize critical applications and ensure adequate bandwidth for them"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can an organization reduce the risks associated with network traffic?",
+      "options": [
+        "By implementing strong traffic monitoring and management policies",
+        "By blocking all incoming traffic",
+        "By increasing the speed of the network",
+        "By reducing the number of employees using the network"
+      ],
+      "correct_answer": "By implementing strong traffic monitoring and management policies"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of encryption in Information Security?",
+      "options": [
+        "To protect data during transmission and prevent unauthorized access",
+        "To compress data for faster transmission",
+        "To increase the visibility of network traffic",
+        "To increase the internet speed"
+      ],
+      "correct_answer": "To protect data during transmission and prevent unauthorized access"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a security threat?",
+      "options": ["Phishing", "SQL Injection", "Firewall", "Malware"],
+      "correct_answer": "Firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a firewall in network security?",
+      "options": [
+        "To monitor and control incoming and outgoing network traffic",
+        "To provide encryption for all data transmitted over the network",
+        "To speed up network traffic by caching data",
+        "To automatically remove malware from the network"
+      ],
+      "correct_answer": "To monitor and control incoming and outgoing network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does a Denial of Service (DoS) attack aim to do?",
+      "options": [
+        "To make a network resource unavailable to its users by overwhelming it with traffic",
+        "To increase the available bandwidth on a network",
+        "To encrypt sensitive data",
+        "To reduce network latency"
+      ],
+      "correct_answer": "To make a network resource unavailable to its users by overwhelming it with traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main challenge organizations face when managing internet statistics for security?",
+      "options": [
+        "Detecting anomalies in large volumes of traffic",
+        "Reducing the total traffic volume",
+        "Increasing the speed of data transfer",
+        "Limiting user access to the internet"
+      ],
+      "correct_answer": "Detecting anomalies in large volumes of traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a security risk caused by traffic management issues?",
+      "options": [
+        "A Distributed Denial of Service (DDoS) attack",
+        "Encryption of sensitive information",
+        "A firewall blocking legitimate traffic",
+        "Access control management"
+      ],
+      "correct_answer": "A Distributed Denial of Service (DDoS) attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which term refers to the process of minimizing the damage of a security breach by controlling the affected network traffic?",
+      "options": [
+        "Traffic Filtering",
+        "Traffic Shaping",
+        "Traffic Analysis",
+        "Traffic Prioritization"
+      ],
+      "correct_answer": "Traffic Filtering"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does Quality of Service (QoS) improve network performance in security terms?",
+      "options": [
+        "By ensuring critical applications receive the necessary bandwidth to function smoothly",
+        "By reducing the number of users accessing the network",
+        "By providing stronger encryption for all traffic",
+        "By increasing the bandwidth for non-critical services"
+      ],
+      "correct_answer": "By ensuring critical applications receive the necessary bandwidth to function smoothly"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary purpose of a firewall in network security?",
+      "options": [
+        "To monitor and control incoming and outgoing network traffic based on security rules",
+        "To increase the speed of network communication",
+        "To compress data for faster transfer",
+        "To monitor system resource usage"
+      ],
+      "correct_answer": "To monitor and control incoming and outgoing network traffic based on security rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a Demilitarized Zone (DMZ) in network security?",
+      "options": [
+        "A physical or logical subnetwork that separates an internal network from external networks",
+        "A type of firewall",
+        "A network traffic monitoring tool",
+        "A secure method for storing data"
+      ],
+      "correct_answer": "A physical or logical subnetwork that separates an internal network from external networks"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is one method of implementing a firewall?",
+      "options": [
+        "Packet filtering",
+        "Data compression",
+        "Data encryption",
+        "Load balancing"
+      ],
+      "correct_answer": "Packet filtering"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is another method of implementing a firewall?",
+      "options": [
+        "Stateful inspection",
+        "Traffic analysis",
+        "Traffic shaping",
+        "Load balancing"
+      ],
+      "correct_answer": "Stateful inspection"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a type of firewall that inspects traffic at the application layer?",
+      "options": [
+        "Application-level gateway",
+        "Packet filtering firewall",
+        "Proxy firewall",
+        "Stateful inspection firewall"
+      ],
+      "correct_answer": "Application-level gateway"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does a packet filtering firewall do?",
+      "options": [
+        "It checks the header of each packet and allows or denies it based on predefined security rules",
+        "It inspects the content of each packet for malware",
+        "It checks the source IP address of each packet",
+        "It encrypts data packets before they are sent over the network"
+      ],
+      "correct_answer": "It checks the header of each packet and allows or denies it based on predefined security rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the function of a proxy firewall?",
+      "options": [
+        "It acts as an intermediary between the internal network and external resources",
+        "It filters packets based on security policies",
+        "It inspects traffic for malware",
+        "It establishes VPN connections"
+      ],
+      "correct_answer": "It acts as an intermediary between the internal network and external resources"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a DMZ in enhancing network security?",
+      "options": [
+        "It creates an isolated zone between an internal network and the internet, reducing exposure to attacks",
+        "It acts as a secondary firewall",
+        "It filters network traffic for malware",
+        "It encrypts data in transit"
+      ],
+      "correct_answer": "It creates an isolated zone between an internal network and the internet, reducing exposure to attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an advantage of placing servers in a DMZ?",
+      "options": [
+        "It protects the internal network from direct exposure to the internet",
+        "It increases the speed of data transfer",
+        "It reduces the need for firewalls",
+        "It encrypts traffic by default"
+      ],
+      "correct_answer": "It protects the internal network from direct exposure to the internet"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a typical firewall type?",
+      "options": [
+        "Packet filtering firewall",
+        "Stateful inspection firewall",
+        "Application-level gateway",
+        "Database firewall"
+      ],
+      "correct_answer": "Database firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of firewall tracks the state of active connections and makes decisions based on the context of traffic?",
+      "options": [
+        "Stateful inspection firewall",
+        "Packet filtering firewall",
+        "Proxy firewall",
+        "Application-level gateway"
+      ],
+      "correct_answer": "Stateful inspection firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key benefit of using a firewall in risk management?",
+      "options": [
+        "It helps to reduce exposure to threats by controlling the flow of traffic",
+        "It encrypts sensitive data",
+        "It automatically patches vulnerabilities",
+        "It prevents unauthorized access to physical servers"
+      ],
+      "correct_answer": "It helps to reduce exposure to threats by controlling the flow of traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does a stateful inspection firewall differ from a packet filtering firewall?",
+      "options": [
+        "A stateful inspection firewall tracks the state of active connections, while a packet filtering firewall does not",
+        "A packet filtering firewall uses deep packet inspection, while a stateful firewall only checks headers",
+        "A stateful inspection firewall is faster than a packet filtering firewall",
+        "A packet filtering firewall can encrypt traffic, while a stateful firewall cannot"
+      ],
+      "correct_answer": "A stateful inspection firewall tracks the state of active connections, while a packet filtering firewall does not"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which firewall type can operate as a proxy server to mediate traffic between users and the internet?",
+      "options": [
+        "Proxy firewall",
+        "Packet filtering firewall",
+        "Stateful inspection firewall",
+        "Application-level gateway"
+      ],
+      "correct_answer": "Proxy firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the concept of 'exposure' refer to in risk management?",
+      "options": [
+        "The degree to which a system is vulnerable to threats",
+        "The amount of network traffic being handled",
+        "The cost of implementing security measures",
+        "The performance of security protocols"
+      ],
+      "correct_answer": "The degree to which a system is vulnerable to threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a countermeasure to reduce network security risks?",
+      "options": [
+        "Implementing firewalls to control network traffic",
+        "Reducing the size of the network",
+        "Increasing the number of users on the network",
+        "Ignoring security patches"
+      ],
+      "correct_answer": "Implementing firewalls to control network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a DMZ in protecting web servers?",
+      "options": [
+        "It isolates web servers from the internal network, providing an additional layer of protection",
+        "It encrypts traffic between the internal network and web servers",
+        "It ensures web servers are not exposed to the internet",
+        "It stores web server logs"
+      ],
+      "correct_answer": "It isolates web servers from the internal network, providing an additional layer of protection"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does a packet filtering firewall handle traffic?",
+      "options": [
+        "It checks the header of each packet to determine whether it should be allowed or blocked",
+        "It inspects the entire content of each packet for malware",
+        "It tracks active connections to determine if packets should be allowed",
+        "It acts as a proxy to mediate all traffic"
+      ],
+      "correct_answer": "It checks the header of each packet to determine whether it should be allowed or blocked"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a characteristic of a stateful inspection firewall?",
+      "options": [
+        "It inspects packets based on the context of traffic and maintains information about active connections",
+        "It only checks the source and destination IP addresses of packets",
+        "It operates as a proxy between users and the internet",
+        "It encrypts all outgoing traffic"
+      ],
+      "correct_answer": "It inspects packets based on the context of traffic and maintains information about active connections"
+    },
+    {
+      "subject_id": 20,
+      "question": "Why is implementing a firewall considered a key countermeasure in risk management?",
+      "options": [
+        "It controls access and reduces the chance of unauthorized access to systems",
+        "It increases network speed",
+        "It reduces the cost of implementing security measures",
+        "It automatically patches vulnerabilities in systems"
+      ],
+      "correct_answer": "It controls access and reduces the chance of unauthorized access to systems"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which firewall type is specifically designed to inspect traffic at the application layer of the OSI model?",
+      "options": [
+        "Application-level gateway",
+        "Stateful inspection firewall",
+        "Packet filtering firewall",
+        "Proxy firewall"
+      ],
+      "correct_answer": "Application-level gateway"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main benefit of implementing a DMZ in an organization's network?",
+      "options": [
+        "It separates the internal network from the external network, reducing risk of attack",
+        "It improves network performance by reducing the number of nodes",
+        "It increases bandwidth for internal systems",
+        "It makes internal systems directly accessible to the internet"
+      ],
+      "correct_answer": "It separates the internal network from the external network, reducing risk of attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of firewall provides the most detailed inspection of network traffic?",
+      "options": [
+        "Application-level gateway",
+        "Stateful inspection firewall",
+        "Packet filtering firewall",
+        "Proxy firewall"
+      ],
+      "correct_answer": "Application-level gateway"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a Packet Filtering Firewall?",
+      "options": [
+        "A firewall that inspects network traffic based on packet headers and allows or blocks traffic based on defined rules",
+        "A firewall that encrypts all data packets",
+        "A firewall that tracks active connections and allows traffic based on session state",
+        "A firewall that acts as an intermediary for all internet traffic"
+      ],
+      "correct_answer": "A firewall that inspects network traffic based on packet headers and allows or blocks traffic based on defined rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does a Screened Host Firewall typically include?",
+      "options": [
+        "A combination of a packet filtering firewall and a bastion host",
+        "A proxy server acting as a barrier between internal and external networks",
+        "A stateful inspection firewall with deep packet inspection",
+        "A DMZ that isolates traffic from trusted and untrusted zones"
+      ],
+      "correct_answer": "A combination of a packet filtering firewall and a bastion host"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a Bastion Host in network security?",
+      "options": [
+        "It is a highly secure server exposed to the internet that acts as a gateway to the internal network",
+        "It encrypts all incoming network traffic",
+        "It performs deep packet inspection on all network traffic",
+        "It provides backup for internal systems in case of failure"
+      ],
+      "correct_answer": "It is a highly secure server exposed to the internet that acts as a gateway to the internal network"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a Stateful Inspection Firewall?",
+      "options": [
+        "A firewall that inspects packets based on the state of active connections and context of traffic",
+        "A firewall that only checks packet headers without considering the connection state",
+        "A firewall that encrypts all incoming and outgoing packets",
+        "A firewall that blocks all traffic unless explicitly permitted"
+      ],
+      "correct_answer": "A firewall that inspects packets based on the state of active connections and context of traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of the Firewalld in Linux systems?",
+      "options": [
+        "It provides a dynamic firewall management tool that can be used to configure network zones and filtering rules",
+        "It encrypts all system communications",
+        "It tracks the state of connections in real time",
+        "It scans for malicious traffic"
+      ],
+      "correct_answer": "It provides a dynamic firewall management tool that can be used to configure network zones and filtering rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which firewall management tool is commonly used in Linux systems for managing firewalls dynamically?",
+      "options": ["Firewalld", "iptables", "pfSense", "Windows Firewall"],
+      "correct_answer": "Firewalld"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary benefit of using a Bastion Host?",
+      "options": [
+        "It serves as a secure entry point into an internal network while minimizing exposure to external threats",
+        "It acts as an intermediary between internal users and external websites",
+        "It encrypts all data entering and leaving the network",
+        "It improves network bandwidth"
+      ],
+      "correct_answer": "It serves as a secure entry point into an internal network while minimizing exposure to external threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the concept of 'state' refer to in a Stateful Inspection Firewall?",
+      "options": [
+        "The tracking of ongoing connections and their context in relation to network traffic",
+        "The type of packet being filtered",
+        "The encryption status of the network traffic",
+        "The physical location of the firewall"
+      ],
+      "correct_answer": "The tracking of ongoing connections and their context in relation to network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What feature of Firewalld makes it different from iptables?",
+      "options": [
+        "Firewalld allows for dynamic updates of firewall rules without restarting the system",
+        "Firewalld is only used for packet filtering, whereas iptables handles more functions",
+        "Firewalld is not compatible with Linux distributions other than Red Hat-based ones",
+        "Firewalld does not support network zones"
+      ],
+      "correct_answer": "Firewalld allows for dynamic updates of firewall rules without restarting the system"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of Threat Management Gateway (TMG)?",
+      "options": [
+        "To provide a secure network gateway, filtering traffic and offering a comprehensive suite of security services",
+        "To encrypt all communications within an internal network",
+        "To manage user credentials and access policies",
+        "To monitor system performance and resource usage"
+      ],
+      "correct_answer": "To provide a secure network gateway, filtering traffic and offering a comprehensive suite of security services"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of firewall combines multiple security functions, including packet filtering, VPN support, and intrusion detection?",
+      "options": [
+        "Stateful Inspection Firewall",
+        "Firewalld",
+        "TMG (Threat Management Gateway)",
+        "Bastion Host"
+      ],
+      "correct_answer": "TMG (Threat Management Gateway)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key advantage of using Firewalld in a Linux system?",
+      "options": [
+        "It simplifies the management of network traffic by defining zones with specific security levels",
+        "It provides real-time traffic analysis and reporting",
+        "It only supports IPv4 traffic filtering",
+        "It automatically updates the system with the latest security patches"
+      ],
+      "correct_answer": "It simplifies the management of network traffic by defining zones with specific security levels"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a common feature of TMG (Threat Management Gateway)?",
+      "options": [
+        "Network address translation (NAT)",
+        "Web filtering",
+        "Intrusion prevention system (IPS)",
+        "Data backup management"
+      ],
+      "correct_answer": "Data backup management"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of firewall is designed to handle connections from untrusted sources by acting as a gateway?",
+      "options": [
+        "Bastion Host",
+        "Stateful Inspection Firewall",
+        "Packet Filtering Firewall",
+        "Firewalld"
+      ],
+      "correct_answer": "Bastion Host"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an essential role of a Bastion Host?",
+      "options": [
+        "To minimize the risk of exposing internal systems to external attacks",
+        "To encrypt data transmitted over the network",
+        "To perform real-time monitoring of system health",
+        "To store sensitive data securely"
+      ],
+      "correct_answer": "To minimize the risk of exposing internal systems to external attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one key difference between Stateful Inspection Firewalls and Packet Filtering Firewalls?",
+      "options": [
+        "Stateful Inspection Firewalls track active connections and examine traffic in context, while Packet Filtering Firewalls only inspect individual packets",
+        "Stateful Inspection Firewalls use encryption, while Packet Filtering Firewalls do not",
+        "Packet Filtering Firewalls support dynamic updates, while Stateful Inspection Firewalls do not",
+        "Stateful Inspection Firewalls cannot inspect traffic in real-time"
+      ],
+      "correct_answer": "Stateful Inspection Firewalls track active connections and examine traffic in context, while Packet Filtering Firewalls only inspect individual packets"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a feature of Firewalld in Linux?",
+      "options": [
+        "The ability to manage firewall rules dynamically without restarting the firewall",
+        "The ability to detect and block malware",
+        "The ability to provide real-time traffic monitoring",
+        "The ability to implement encryption for all outgoing traffic"
+      ],
+      "correct_answer": "The ability to manage firewall rules dynamically without restarting the firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a function of TMG (Threat Management Gateway)?",
+      "options": [
+        "Filtering inbound and outbound web traffic to prevent security threats",
+        "Providing real-time system resource usage statistics",
+        "Monitoring local network traffic and bandwidth usage",
+        "Blocking all inbound traffic by default"
+      ],
+      "correct_answer": "Filtering inbound and outbound web traffic to prevent security threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main advantage of a Bastion Host in a DMZ?",
+      "options": [
+        "It provides a secure point of entry while minimizing exposure to internal systems",
+        "It automatically encrypts all data",
+        "It blocks all outgoing traffic from the internal network",
+        "It serves as a backup server for internal applications"
+      ],
+      "correct_answer": "It provides a secure point of entry while minimizing exposure to internal systems"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one key benefit of using TMG for network security?",
+      "options": [
+        "It provides comprehensive security services, including filtering, monitoring, and intrusion prevention",
+        "It is a lightweight solution that does not require configuration",
+        "It provides only packet filtering functionality",
+        "It automates data encryption for all network traffic"
+      ],
+      "correct_answer": "It provides comprehensive security services, including filtering, monitoring, and intrusion prevention"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which firewall type is specifically designed to monitor the state of connections and make decisions based on the context of traffic?",
+      "options": [
+        "Stateful Inspection Firewall",
+        "Packet Filtering Firewall",
+        "Bastion Host",
+        "TMG (Threat Management Gateway)"
+      ],
+      "correct_answer": "Stateful Inspection Firewall"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following does Firewalld support that iptables does not?",
+      "options": [
+        "Dynamic updates of firewall rules",
+        "Stateful inspection of packets",
+        "Real-time traffic filtering",
+        "Intrusion detection"
+      ],
+      "correct_answer": "Dynamic updates of firewall rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is Firewalld in Linux systems?",
+      "options": [
+        "A dynamic firewall management tool that uses zones to define traffic filtering rules",
+        "A static firewall that only supports IPv4",
+        "A tool for encrypting network traffic",
+        "A tool for monitoring system resource usage"
+      ],
+      "correct_answer": "A dynamic firewall management tool that uses zones to define traffic filtering rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "What are zones in Firewalld?",
+      "options": [
+        "A way to group network interfaces with specific security policies",
+        "A type of packet filter",
+        "A method of encrypting data",
+        "A tool for monitoring traffic"
+      ],
+      "correct_answer": "A way to group network interfaces with specific security policies"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command is used to check the active configuration of Firewalld?",
+      "options": [
+        "firewall-cmd --state",
+        "firewalld-cmd --status",
+        "firewall-cmd --status",
+        "firewall-cmd --list-all"
+      ],
+      "correct_answer": "firewall-cmd --state"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command is used to display all the available zones in Firewalld?",
+      "options": [
+        "firewall-cmd --get-zones",
+        "firewall-cmd --list-zones",
+        "firewall-cmd --zones",
+        "firewall-cmd --status"
+      ],
+      "correct_answer": "firewall-cmd --get-zones"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of the default zone in Firewalld?",
+      "options": [
+        "It defines the security level for network interfaces that do not have a specific zone assigned",
+        "It acts as a backup in case of firewall failure",
+        "It is used to define custom rules for specific services",
+        "It blocks all incoming traffic by default"
+      ],
+      "correct_answer": "It defines the security level for network interfaces that do not have a specific zone assigned"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you view the list of active zones in Firewalld?",
+      "options": [
+        "firewall-cmd --get-active-zones",
+        "firewall-cmd --list-active-zones",
+        "firewall-cmd --view-zones",
+        "firewall-cmd --active-zones"
+      ],
+      "correct_answer": "firewall-cmd --get-active-zones"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'drop' zone in Firewalld do?",
+      "options": [
+        "It drops all incoming packets without responding to them",
+        "It allows all traffic from trusted sources",
+        "It drops all traffic except from whitelisted sources",
+        "It blocks all outgoing traffic"
+      ],
+      "correct_answer": "It drops all incoming packets without responding to them"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of the 'block' zone in Firewalld?",
+      "options": [
+        "It blocks all incoming traffic and responds with an ICMP unreachable message",
+        "It allows only traffic from local network interfaces",
+        "It allows traffic from all sources but only on specific ports",
+        "It allows traffic from trusted IP addresses"
+      ],
+      "correct_answer": "It blocks all incoming traffic and responds with an ICMP unreachable message"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command can you use to view all the services that are configured in Firewalld?",
+      "options": [
+        "firewall-cmd --get-services",
+        "firewall-cmd --list-services",
+        "firewall-cmd --show-services",
+        "firewall-cmd --list-all"
+      ],
+      "correct_answer": "firewall-cmd --list-services"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you make permanent changes to the Firewalld configuration?",
+      "options": [
+        "firewall-cmd --permanent",
+        "firewall-cmd --save",
+        "firewall-cmd --commit",
+        "firewall-cmd --make-permanent"
+      ],
+      "correct_answer": "firewall-cmd --permanent"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the significance of 'services' in Firewalld?",
+      "options": [
+        "They define the types of network traffic allowed or blocked based on predefined rules",
+        "They are used to monitor network performance",
+        "They specify the physical devices managed by Firewalld",
+        "They provide encryption for all communication"
+      ],
+      "correct_answer": "They define the types of network traffic allowed or blocked based on predefined rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is the correct command to list all available services in Firewalld?",
+      "options": [
+        "firewall-cmd --list-all",
+        "firewall-cmd --list-services",
+        "firewall-cmd --show-services",
+        "firewall-cmd --all-services"
+      ],
+      "correct_answer": "firewall-cmd --list-services"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you check which zone a network interface is assigned to in Firewalld?",
+      "options": [
+        "firewall-cmd --get-zone-of-interface=eth0",
+        "firewall-cmd --zone=eth0",
+        "firewall-cmd --interface=eth0",
+        "firewall-cmd --interface-assign=eth0"
+      ],
+      "correct_answer": "firewall-cmd --get-zone-of-interface=eth0"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'trusted' zone in Firewalld allow?",
+      "options": [
+        "It allows all traffic, both incoming and outgoing",
+        "It blocks all incoming and outgoing traffic",
+        "It allows only trusted IP addresses",
+        "It restricts traffic to specific ports only"
+      ],
+      "correct_answer": "It allows all traffic, both incoming and outgoing"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the command to make a permanent change to the active zone in Firewalld?",
+      "options": [
+        "firewall-cmd --set-zone=public --permanent",
+        "firewall-cmd --zone=public --permanent",
+        "firewall-cmd --zone=public --add",
+        "firewall-cmd --set-zone-permanent=public"
+      ],
+      "correct_answer": "firewall-cmd --set-zone=public --permanent"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you view the default zone in Firewalld?",
+      "options": [
+        "firewall-cmd --get-default-zone",
+        "firewall-cmd --default-zone",
+        "firewall-cmd --show-default-zone",
+        "firewall-cmd --list-default-zone"
+      ],
+      "correct_answer": "firewall-cmd --get-default-zone"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to add a service to a specific zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --add-service=http",
+        "firewall-cmd --zone=public --service-add=http",
+        "firewall-cmd --add-service=http --zone=public",
+        "firewall-cmd --service=http --zone=public"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --add-service=http"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you remove a service from a Firewalld zone?",
+      "options": [
+        "firewall-cmd --zone=public --remove-service=http",
+        "firewall-cmd --zone=public --delete-service=http",
+        "firewall-cmd --remove-zone=public --service=http",
+        "firewall-cmd --zone=public --del-service=http"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --remove-service=http"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to make temporary changes to a Firewalld zone?",
+      "options": [
+        "firewall-cmd --zone=public --add-service=http",
+        "firewall-cmd --zone=public --add-service=http --temporary",
+        "firewall-cmd --temporary --zone=public --add-service=http",
+        "firewall-cmd --zone=public --service=http --temporary"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --add-service=http"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you make Firewalld immediately apply changes that you have made?",
+      "options": [
+        "firewall-cmd --reload",
+        "firewall-cmd --apply",
+        "firewall-cmd --activate",
+        "firewall-cmd --restart"
+      ],
+      "correct_answer": "firewall-cmd --reload"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a valid Firewalld zone?",
+      "options": ["public", "trusted", "home", "outgoing"],
+      "correct_answer": "outgoing"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'public' zone in Firewalld typically allow?",
+      "options": [
+        "It allows incoming traffic for only essential services like SSH and HTTP",
+        "It allows all traffic from trusted sources",
+        "It blocks all incoming traffic by default",
+        "It allows all traffic without restrictions"
+      ],
+      "correct_answer": "It allows incoming traffic for only essential services like SSH and HTTP"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you prevent a service from starting on boot in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --remove-service=http --permanent",
+        "firewall-cmd --service=http --disable",
+        "firewall-cmd --service=http --off",
+        "firewall-cmd --zone=public --disable-service=http"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --remove-service=http --permanent"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the difference between runtime and permanent configuration in Firewalld?",
+      "options": [
+        "Runtime configuration affects the current session, while permanent configuration persists across reboots",
+        "Runtime configuration is stored on disk, while permanent configuration is stored in memory",
+        "Runtime configuration is more secure than permanent configuration",
+        "Permanent configuration can only be applied once per session"
+      ],
+      "correct_answer": "Runtime configuration affects the current session, while permanent configuration persists across reboots"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you add a connection to a zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --add-interface=eth0",
+        "firewall-cmd --zone=public --add-connection=eth0",
+        "firewall-cmd --zone=public --add-network=eth0",
+        "firewall-cmd --zone=public --interface=eth0"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --add-interface=eth0"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you remove a connection from a zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --remove-interface=eth0",
+        "firewall-cmd --zone=public --del-interface=eth0",
+        "firewall-cmd --zone=public --delete-interface=eth0",
+        "firewall-cmd --zone=public --remove-network=eth0"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --remove-interface=eth0"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you add a service to a zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --add-service=http",
+        "firewall-cmd --zone=public --add-http-service",
+        "firewall-cmd --zone=public --add-http-port",
+        "firewall-cmd --zone=public --service-add=http"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --add-service=http"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you remove a service from a zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --remove-service=http",
+        "firewall-cmd --zone=public --delete-service=http",
+        "firewall-cmd --zone=public --del-service=http",
+        "firewall-cmd --zone=public --disable-service=http"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --remove-service=http"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is Firewalld Panic Mode?",
+      "options": [
+        "A mode that disables all incoming and outgoing traffic except for local traffic",
+        "A mode that enables all services and accepts all traffic by default",
+        "A mode that restricts traffic to specific zones only",
+        "A mode that blocks all network traffic, allowing only firewall management traffic"
+      ],
+      "correct_answer": "A mode that disables all incoming and outgoing traffic except for local traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to enable Panic Mode in Firewalld?",
+      "options": [
+        "firewall-cmd --panic-on",
+        "firewall-cmd --panic-enable",
+        "firewall-cmd --set-panic",
+        "firewall-cmd --enable-panic"
+      ],
+      "correct_answer": "firewall-cmd --panic-on"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to disable Panic Mode in Firewalld?",
+      "options": [
+        "firewall-cmd --panic-off",
+        "firewall-cmd --disable-panic",
+        "firewall-cmd --set-panic-off",
+        "firewall-cmd --disable-panic-mode"
+      ],
+      "correct_answer": "firewall-cmd --panic-off"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the impact of enabling Firewalld Panic Mode?",
+      "options": [
+        "All incoming and outgoing traffic is blocked except for local traffic and management ports",
+        "It allows all traffic from trusted networks only",
+        "It disables the firewall completely",
+        "It only restricts traffic for a specific zone"
+      ],
+      "correct_answer": "All incoming and outgoing traffic is blocked except for local traffic and management ports"
+    },
+    {
+      "subject_id": 20,
+      "question": "How do you make a service permanently added to a zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --add-service=http --permanent",
+        "firewall-cmd --zone=public --service-add=http --permanent",
+        "firewall-cmd --permanent --zone=public --add-service=http",
+        "firewall-cmd --zone=public --service=http --permanent"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --add-service=http --permanent"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you permanently remove a service from a zone in Firewalld?",
+      "options": [
+        "firewall-cmd --zone=public --remove-service=http --permanent",
+        "firewall-cmd --zone=public --del-service=http --permanent",
+        "firewall-cmd --remove-service=http --permanent",
+        "firewall-cmd --zone=public --disable-service=http --permanent"
+      ],
+      "correct_answer": "firewall-cmd --zone=public --remove-service=http --permanent"
+    },
+    {
+      "subject_id": 20,
+      "question": "What happens if you forget to use the --permanent flag when adding or removing a service in Firewalld?",
+      "options": [
+        "The change will only apply temporarily and will be lost after the firewall is reloaded or the system is rebooted",
+        "The system will block all network traffic until the change is applied permanently",
+        "The service will be added, but will be automatically disabled after reboot",
+        "The firewall will apply the change permanently even without the --permanent flag"
+      ],
+      "correct_answer": "The change will only apply temporarily and will be lost after the firewall is reloaded or the system is rebooted"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of Threat Management Gateway (TMG)?",
+      "options": [
+        "To provide comprehensive network security services such as traffic filtering, VPN support, and intrusion detection",
+        "To monitor the system's performance and resource usage",
+        "To detect and block malware in the network",
+        "To provide cloud storage and backup solutions"
+      ],
+      "correct_answer": "To provide comprehensive network security services such as traffic filtering, VPN support, and intrusion detection"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an essential part of TMG installation and configuration?",
+      "options": [
+        "Configuring security policies, network interfaces, and routing rules",
+        "Installing a firewall driver",
+        "Setting up virtual machines for hosting",
+        "Disabling all user accounts"
+      ],
+      "correct_answer": "Configuring security policies, network interfaces, and routing rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to install Threat Management Gateway (TMG)?",
+      "options": [
+        "TMGSetup.exe",
+        "Install-TMG",
+        "tmg-install.sh",
+        "apt-get install tmg"
+      ],
+      "correct_answer": "TMGSetup.exe"
+    },
+    {
+      "subject_id": 20,
+      "question": "What configuration is required after installing Threat Management Gateway (TMG)?",
+      "options": [
+        "Defining security policies and creating network rules",
+        "Configuring a web proxy and setting up user authentication",
+        "Setting up a network bridge between interfaces",
+        "Creating a list of blocked IP addresses"
+      ],
+      "correct_answer": "Defining security policies and creating network rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you add a new network interface in TMG for traffic filtering?",
+      "options": [
+        "By configuring network rules in the TMG Management Console",
+        "By using the `add-interface` command",
+        "By editing the `/etc/tmg/network.conf` file",
+        "By using a firewall-cmd command"
+      ],
+      "correct_answer": "By configuring network rules in the TMG Management Console"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a primary feature of TMG's Web Proxy functionality?",
+      "options": [
+        "It allows users to access external websites while controlling content and blocking unwanted sites",
+        "It prevents access to internal systems through encryption",
+        "It scans all email traffic for viruses",
+        "It manages DNS requests from clients"
+      ],
+      "correct_answer": "It allows users to access external websites while controlling content and blocking unwanted sites"
+    },
+    {
+      "subject_id": 20,
+      "question": "How would you configure VPN support in TMG?",
+      "options": [
+        "By creating a new VPN rule and defining the security settings",
+        "By installing a VPN client on all devices",
+        "By enabling the VPN service in the operating system",
+        "By configuring the firewall rules to allow VPN traffic"
+      ],
+      "correct_answer": "By creating a new VPN rule and defining the security settings"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to reload Firewalld and apply permanent changes?",
+      "options": [
+        "firewall-cmd --reload",
+        "firewall-cmd --apply-changes",
+        "firewall-cmd --restart",
+        "firewall-cmd --commit-changes"
+      ],
+      "correct_answer": "firewall-cmd --reload"
+    },
+    {
+      "subject_id": 20,
+      "question": "What happens when you set Firewalld to Panic Mode?",
+      "options": [
+        "It blocks all incoming and outgoing traffic except for local management",
+        "It allows only trusted connections from the local network",
+        "It encrypts all traffic automatically",
+        "It disables all firewall rules"
+      ],
+      "correct_answer": "It blocks all incoming and outgoing traffic except for local management"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary purpose of Wireshark?",
+      "options": [
+        "To capture and analyze network traffic",
+        "To block malicious network activity",
+        "To test network speeds",
+        "To configure network interfaces"
+      ],
+      "correct_answer": "To capture and analyze network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you start a packet capture in Wireshark?",
+      "options": [
+        "Click on the 'Capture' button and select a network interface",
+        "Click on the 'Network' tab and start scanning",
+        "Select 'File' > 'New Capture'",
+        "Use the 'Capture' menu and select 'Start'"
+      ],
+      "correct_answer": "Click on the 'Capture' button and select a network interface"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which filter type is used in Wireshark to focus on specific packets during capture?",
+      "options": [
+        "Capture Filters",
+        "Display Filters",
+        "Traffic Filters",
+        "Data Filters"
+      ],
+      "correct_answer": "Capture Filters"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which filter would you use to capture only HTTP traffic in Wireshark?",
+      "options": ["tcp port 80", "http", "ip proto 6", "port 80"],
+      "correct_answer": "tcp port 80"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of a Display Filter in Wireshark?",
+      "options": [
+        "To limit the display of packets based on specific criteria",
+        "To capture specific traffic",
+        "To configure network interfaces",
+        "To encrypt network traffic"
+      ],
+      "correct_answer": "To limit the display of packets based on specific criteria"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a valid Display Filter expression for filtering HTTP traffic?",
+      "options": [
+        "http",
+        "tcp.port == 80",
+        "ip.addr == 192.168.1.1",
+        "http.method == GET"
+      ],
+      "correct_answer": "http"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you apply a Display Filter to show only traffic from a specific IP address in Wireshark?",
+      "options": [
+        "ip.addr == 192.168.1.1",
+        "ip.src == 192.168.1.1",
+        "ip.dst == 192.168.1.1",
+        "ip == 192.168.1.1"
+      ],
+      "correct_answer": "ip.addr == 192.168.1.1"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which option allows you to stop a capture in Wireshark?",
+      "options": [
+        "Click on the 'Stop' button",
+        "Use the 'Capture' > 'Stop' menu",
+        "Close the Wireshark window",
+        "Press the 'Esc' key"
+      ],
+      "correct_answer": "Click on the 'Stop' button"
+    },
+    {
+      "subject_id": 20,
+      "question": "In Wireshark, how can you filter for packets that contain a specific string, such as 'login'?",
+      "options": [
+        "frame contains 'login'",
+        "tcp contains 'login'",
+        "http contains 'login'",
+        "data contains 'login'"
+      ],
+      "correct_answer": "frame contains 'login'"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'tcp.port == 443' filter in Wireshark do?",
+      "options": [
+        "It displays only packets on port 443, commonly used for HTTPS traffic",
+        "It filters for traffic from TCP ports to port 443",
+        "It filters all traffic except on TCP port 443",
+        "It displays only packets with TCP headers"
+      ],
+      "correct_answer": "It displays only packets on port 443, commonly used for HTTPS traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you display only the first 10 packets in a capture in Wireshark?",
+      "options": [
+        "Use the 'Display Filter' 'frame.number <= 10'",
+        "Use the 'Capture Filter' 'frame.count <= 10'",
+        "Use the 'Capture' > 'Top 10' option",
+        "Click 'Capture' and select 'Limit to 10 packets'"
+      ],
+      "correct_answer": "Use the 'Display Filter' 'frame.number <= 10'"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of the 'Follow TCP Stream' option in Wireshark?",
+      "options": [
+        "To view the full conversation between two TCP endpoints",
+        "To filter packets based on TCP flags",
+        "To capture only TCP traffic",
+        "To analyze network throughput"
+      ],
+      "correct_answer": "To view the full conversation between two TCP endpoints"
+    },
+    {
+      "subject_id": 20,
+      "question": "In Wireshark, what filter would you apply to capture only DNS traffic?",
+      "options": ["dns", "udp port 53", "ip.proto == 17", "tcp port 53"],
+      "correct_answer": "udp port 53"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which Wireshark tool can help identify protocols used in the captured packets?",
+      "options": [
+        "Protocol Hierarchy",
+        "Packet Details",
+        "Packet List",
+        "Statistics"
+      ],
+      "correct_answer": "Protocol Hierarchy"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you inspect a specific packet's contents in Wireshark?",
+      "options": [
+        "Click on the packet in the Packet List pane",
+        "Use the 'View' > 'Packet Details' menu",
+        "Select the packet and right-click 'Inspect'",
+        "Use the 'Capture' menu to filter the packet"
+      ],
+      "correct_answer": "Click on the packet in the Packet List pane"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the result of the Display Filter 'ip.src == 192.168.1.1 and tcp.port == 80' in Wireshark?",
+      "options": [
+        "Displays packets with a source IP address of 192.168.1.1 and destination port 80",
+        "Displays all traffic from 192.168.1.1 and port 80",
+        "Displays only HTTP traffic from 192.168.1.1",
+        "Displays packets with source IP 192.168.1.1 and port 80 as source"
+      ],
+      "correct_answer": "Displays packets with a source IP address of 192.168.1.1 and destination port 80"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which display filter would you use to show all HTTP GET requests?",
+      "options": [
+        "http.request.method == GET",
+        "http.method == GET",
+        "tcp.port == 80 and http",
+        "http.request == GET"
+      ],
+      "correct_answer": "http.request.method == GET"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'Frame' section of the Packet Details in Wireshark display?",
+      "options": [
+        "Information about the packet’s length, timestamp, and capture details",
+        "TCP header details",
+        "IP address and protocol details",
+        "The packet payload"
+      ],
+      "correct_answer": "Information about the packet’s length, timestamp, and capture details"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you find real-world packet captures for analysis in Wireshark?",
+      "options": [
+        "By visiting websites offering pcap file samples",
+        "By using a packet sniffer to capture your own packets",
+        "By downloading capture files from the Wireshark official site",
+        "By using Wireshark's 'Real-time Capture' feature"
+      ],
+      "correct_answer": "By visiting websites offering pcap file samples"
+    },
+    {
+      "subject_id": 20,
+      "question": "What should you do to identify the protocol used in a packet if it is not obvious?",
+      "options": [
+        "Check the Protocol field in the Packet List pane",
+        "Use 'Follow TCP Stream' to analyze the communication",
+        "Inspect the payload for known protocol patterns",
+        "Use 'Statistics' > 'Protocol Hierarchy'"
+      ],
+      "correct_answer": "Check the Protocol field in the Packet List pane"
+    },
+    {
+      "subject_id": 20,
+      "question": "What can you do with the 'Statistics' menu in Wireshark?",
+      "options": [
+        "Analyze traffic summary, protocol distribution, and packet counts",
+        "View detailed packet payload data",
+        "Apply capture filters",
+        "Inspect individual packet headers"
+      ],
+      "correct_answer": "Analyze traffic summary, protocol distribution, and packet counts"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which option can you use to filter DNS traffic only when it's being queried for a specific domain name?",
+      "options": [
+        "dns.qry.name == 'example.com'",
+        "dns && dns.qry.name == 'example.com'",
+        "dns && tcp.port == 53",
+        "ip.addr == 192.168.1.1 && dns.qry.name == 'example.com'"
+      ],
+      "correct_answer": "dns.qry.name == 'example.com'"
+    },
+    {
+      "subject_id": 20,
+      "question": "What kind of information does a 'Packet List' in Wireshark provide?",
+      "options": [
+        "Summary of captured packets with key details like source, destination, and protocol",
+        "Detailed analysis of each individual packet",
+        "Real-time traffic analysis",
+        "Capture file metadata"
+      ],
+      "correct_answer": "Summary of captured packets with key details like source, destination, and protocol"
+    },
+    {
+      "subject_id": 20,
+      "question": "What would you use Wireshark’s 'Expert Information' tool for?",
+      "options": [
+        "To identify potential network problems and anomalies",
+        "To capture packets more efficiently",
+        "To filter specific protocols during capture",
+        "To configure your Wi-Fi network"
+      ],
+      "correct_answer": "To identify potential network problems and anomalies"
+    },
+    {
+      "subject_id": 20,
+      "question": "How do you save your captured data in Wireshark?",
+      "options": [
+        "Select 'File' > 'Save As' and choose a location",
+        "Click 'Capture' > 'Save Capture'",
+        "Right-click on the packet list and select 'Export'",
+        "Use 'Capture' > 'Export' to save packets"
+      ],
+      "correct_answer": "Select 'File' > 'Save As' and choose a location"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of 'Wireshark display filters' in analyzing network traffic?",
+      "options": [
+        "They allow you to focus on specific data of interest in a large packet capture",
+        "They enable you to capture traffic from remote networks",
+        "They enhance the visibility of all packet types",
+        "They apply security protocols to packets"
+      ],
+      "correct_answer": "They allow you to focus on specific data of interest in a large packet capture"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary purpose of a Linux software firewall like ClearOS or Untangle?",
+      "options": [
+        "To block unauthorized access and manage network traffic",
+        "To provide cloud services",
+        "To monitor system performance",
+        "To run applications securely"
+      ],
+      "correct_answer": "To block unauthorized access and manage network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a feature of ClearOS?",
+      "options": [
+        "Web filtering",
+        "Firewall management",
+        "VPN support",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the function of Nginx as a reverse proxy?",
+      "options": [
+        "To distribute traffic to multiple backend servers",
+        "To provide secure encrypted connections",
+        "To act as a load balancer",
+        "To analyze incoming traffic"
+      ],
+      "correct_answer": "To distribute traffic to multiple backend servers"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does Squid work as a reverse proxy?",
+      "options": [
+        "By caching content and forwarding client requests to backend servers",
+        "By filtering inbound traffic and rejecting malicious packets",
+        "By compressing content for faster delivery",
+        "By encrypting all network traffic"
+      ],
+      "correct_answer": "By caching content and forwarding client requests to backend servers"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does UTM (Unified Threat Management) typically include?",
+      "options": [
+        "Firewall, VPN, antivirus, and content filtering",
+        "Only a firewall",
+        "Only an antivirus solution",
+        "A cloud management portal"
+      ],
+      "correct_answer": "Firewall, VPN, antivirus, and content filtering"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a key advantage of using a UTM solution?",
+      "options": [
+        "It provides comprehensive security by combining multiple security features into one platform",
+        "It focuses only on email security",
+        "It only provides network security without application support",
+        "It limits the number of devices connected to the network"
+      ],
+      "correct_answer": "It provides comprehensive security by combining multiple security features into one platform"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of a VPN (Virtual Private Network)?",
+      "options": [
+        "To create a secure connection over the internet to protect data",
+        "To filter traffic based on location",
+        "To speed up internet browsing",
+        "To block unwanted applications"
+      ],
+      "correct_answer": "To create a secure connection over the internet to protect data"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does Nginx improve website performance when acting as a reverse proxy?",
+      "options": [
+        "By caching responses and serving static content more efficiently",
+        "By blocking unwanted traffic",
+        "By managing DNS requests",
+        "By handling authentication and encryption"
+      ],
+      "correct_answer": "By caching responses and serving static content more efficiently"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is true about ClearOS as a firewall?",
+      "options": [
+        "It can act as both a gateway and a server, with various security features",
+        "It only works as a server management solution",
+        "It is primarily focused on content management and web hosting",
+        "It does not support VPN configuration"
+      ],
+      "correct_answer": "It can act as both a gateway and a server, with various security features"
+    },
+    {
+      "subject_id": 20,
+      "question": "In Squid, how can you improve caching efficiency?",
+      "options": [
+        "By increasing the cache size and configuring cache expiration times",
+        "By using encryption",
+        "By blocking unnecessary traffic",
+        "By limiting user access to certain websites"
+      ],
+      "correct_answer": "By increasing the cache size and configuring cache expiration times"
+    },
+    {
+      "subject_id": 20,
+      "question": "What role does VPN play in network security?",
+      "options": [
+        "Encrypting traffic to ensure secure communication over the internet",
+        "Scanning traffic for viruses",
+        "Compressing data to speed up transfers",
+        "Routing all traffic through a proxy server"
+      ],
+      "correct_answer": "Encrypting traffic to ensure secure communication over the internet"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a Reverse Proxy?",
+      "options": [
+        "A server that sits between the client and the backend server, forwarding requests",
+        "A server that manages only inbound traffic",
+        "A device that acts as a load balancer for DNS queries",
+        "A network device that blocks all outbound traffic"
+      ],
+      "correct_answer": "A server that sits between the client and the backend server, forwarding requests"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an essential feature of a UTM appliance?",
+      "options": [
+        "Integrated firewall, antivirus, content filtering, and intrusion detection",
+        "A dedicated cloud-based backup solution",
+        "Support for only basic firewall configurations",
+        "A database management system"
+      ],
+      "correct_answer": "Integrated firewall, antivirus, content filtering, and intrusion detection"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of encryption does a VPN typically use for secure communication?",
+      "options": [
+        "TLS/SSL encryption",
+        "IPsec or OpenVPN encryption",
+        "WEP encryption",
+        "AES-128 encryption"
+      ],
+      "correct_answer": "IPsec or OpenVPN encryption"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which Nginx feature allows for better load balancing in high-traffic environments?",
+      "options": [
+        "Reverse Proxy Load Balancing",
+        "HTTP/2 support",
+        "SSL termination",
+        "DNS caching"
+      ],
+      "correct_answer": "Reverse Proxy Load Balancing"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following services is NOT typically included in UTM solutions?",
+      "options": [
+        "Cloud storage services",
+        "Firewall and intrusion prevention",
+        "VPN support",
+        "Antivirus protection"
+      ],
+      "correct_answer": "Cloud storage services"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the key benefit of using Nginx as a reverse proxy in front of a web server?",
+      "options": [
+        "Nginx offloads resource-intensive tasks like SSL encryption and caching, improving performance",
+        "Nginx encrypts all traffic automatically",
+        "Nginx is used to monitor website analytics",
+        "Nginx stores large files for faster access"
+      ],
+      "correct_answer": "Nginx offloads resource-intensive tasks like SSL encryption and caching, improving performance"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of a VPN tunnel?",
+      "options": [
+        "To securely route traffic over an untrusted network",
+        "To monitor all network activity",
+        "To increase browsing speed",
+        "To filter malicious traffic from a network"
+      ],
+      "correct_answer": "To securely route traffic over an untrusted network"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a key feature of Untangle in network security?",
+      "options": [
+        "Firewall protection with additional features like anti-virus and content filtering",
+        "Basic routing functions only",
+        "A management console for cloud-based applications",
+        "Basic monitoring and diagnostics"
+      ],
+      "correct_answer": "Firewall protection with additional features like anti-virus and content filtering"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of SSL termination in a reverse proxy?",
+      "options": [
+        "To offload SSL decryption from backend servers",
+        "To encrypt traffic to prevent eavesdropping",
+        "To authenticate users on the network",
+        "To compress data before sending it to the client"
+      ],
+      "correct_answer": "To offload SSL decryption from backend servers"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you protect a remote employee's traffic over the internet using VPN?",
+      "options": [
+        "By establishing a secure encrypted tunnel between their device and the corporate network",
+        "By installing a firewall on their device",
+        "By monitoring the traffic to ensure no sensitive data is leaked",
+        "By using email encryption"
+      ],
+      "correct_answer": "By establishing a secure encrypted tunnel between their device and the corporate network"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is an example of a type of VPN?",
+      "options": ["PPTP", "HTTP/2", "Nginx Proxy", "UDP"],
+      "correct_answer": "PPTP"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does a VPN enhance security for remote workers?",
+      "options": [
+        "By encrypting their internet traffic, making it unreadable to anyone intercepting it",
+        "By filtering malicious websites automatically",
+        "By blocking access to external servers",
+        "By controlling which applications can be accessed remotely"
+      ],
+      "correct_answer": "By encrypting their internet traffic, making it unreadable to anyone intercepting it"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of content filtering in a UTM device?",
+      "options": [
+        "To block access to harmful or unauthorized websites",
+        "To encrypt data transfers",
+        "To limit network bandwidth",
+        "To monitor the system for abnormal behavior"
+      ],
+      "correct_answer": "To block access to harmful or unauthorized websites"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a feature of Squid Proxy Server?",
+      "options": [
+        "Caching content to speed up web browsing",
+        "Filtering web traffic",
+        "Acting as a reverse proxy",
+        "Providing VPN services"
+      ],
+      "correct_answer": "Providing VPN services"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary difference between a traditional firewall and a UTM appliance?",
+      "options": [
+        "UTM integrates multiple security features like antivirus, web filtering, and VPN support into a single device",
+        "UTM only protects against DDoS attacks",
+        "UTM focuses solely on VPN connectivity",
+        "Traditional firewalls are more secure than UTM devices"
+      ],
+      "correct_answer": "UTM integrates multiple security features like antivirus, web filtering, and VPN support into a single device"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is server farming in the context of Nginx and Squid reverse proxy?",
+      "options": [
+        "Using multiple servers to distribute network traffic",
+        "The practice of farming out server maintenance tasks",
+        "Running a single server to handle all traffic",
+        "Distributing traffic using load balancing across a cluster of servers"
+      ],
+      "correct_answer": "Using multiple servers to distribute network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary purpose of load balancing in Nginx?",
+      "options": [
+        "To distribute incoming traffic evenly across multiple backend servers",
+        "To improve server security",
+        "To monitor the server’s hardware performance",
+        "To block malicious requests from clients"
+      ],
+      "correct_answer": "To distribute incoming traffic evenly across multiple backend servers"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a method of load balancing supported by Nginx?",
+      "options": [
+        "Round-robin",
+        "Least connections",
+        "IP hash",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does Nginx perform load balancing with the round-robin method?",
+      "options": [
+        "By distributing each new connection to the next server in a rotating sequence",
+        "By sending requests to the server with the least active connections",
+        "By selecting the server based on the client's IP address",
+        "By using DNS to resolve to a specific server"
+      ],
+      "correct_answer": "By distributing each new connection to the next server in a rotating sequence"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does 'Least Connections' load balancing method in Nginx do?",
+      "options": [
+        "Distributes traffic to the server with the fewest active connections",
+        "Distributes traffic based on geographical location of the client",
+        "Sends all traffic to the server with the fastest response time",
+        "Sends requests to the server with the lowest CPU usage"
+      ],
+      "correct_answer": "Distributes traffic to the server with the fewest active connections"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does IP hash load balancing method in Nginx achieve?",
+      "options": [
+        "Distributes requests based on the client’s IP address",
+        "Distributes traffic to the server with the fastest response time",
+        "Sends all traffic to one server based on the client’s location",
+        "Loads traffic by tracking session cookies"
+      ],
+      "correct_answer": "Distributes requests based on the client’s IP address"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main advantage of using virtual hosting in Nginx?",
+      "options": [
+        "It allows one server to host multiple domains or websites",
+        "It speeds up website content delivery",
+        "It adds redundancy to the network",
+        "It improves server security by isolating websites"
+      ],
+      "correct_answer": "It allows one server to host multiple domains or websites"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the difference between name-based and IP-based virtual hosting in Nginx?",
+      "options": [
+        "Name-based virtual hosting allows multiple websites to share the same IP address",
+        "IP-based hosting uses multiple IP addresses for hosting different websites",
+        "Name-based hosting requires a unique IP address for each website",
+        "IP-based hosting is used for load balancing"
+      ],
+      "correct_answer": "Name-based virtual hosting allows multiple websites to share the same IP address"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which directive is used to configure a virtual server for a specific domain in Nginx?",
+      "options": ["server_name", "listen", "location", "root"],
+      "correct_answer": "server_name"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the function of the 'listen' directive in Nginx virtual hosting?",
+      "options": [
+        "Specifies the IP address and port on which the server should listen for incoming connections",
+        "Defines the root directory for the website",
+        "Configures load balancing methods",
+        "Sets the server's hostname"
+      ],
+      "correct_answer": "Specifies the IP address and port on which the server should listen for incoming connections"
+    },
+    {
+      "subject_id": 20,
+      "question": "How do you enable SSL for a specific server block in Nginx?",
+      "options": [
+        "By adding 'ssl_certificate' and 'ssl_certificate_key' directives",
+        "By setting 'server_name' to 'www' and 'www2'",
+        "By adding 'secure' to the 'listen' directive",
+        "By using the 'https' protocol in the 'location' block"
+      ],
+      "correct_answer": "By adding 'ssl_certificate' and 'ssl_certificate_key' directives"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a valid load balancing method in Nginx?",
+      "options": ["IP hash", "Least connections", "Round-robin", "Time-based"],
+      "correct_answer": "Time-based"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key benefit of using Nginx for reverse proxying and load balancing?",
+      "options": [
+        "It can handle a large number of concurrent connections efficiently",
+        "It requires high-end hardware for best performance",
+        "It blocks access to content from specific regions",
+        "It simplifies the firewall configuration"
+      ],
+      "correct_answer": "It can handle a large number of concurrent connections efficiently"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which configuration file is typically used to configure Nginx virtual hosting?",
+      "options": ["nginx.conf", "default.conf", "host.conf", "site.conf"],
+      "correct_answer": "nginx.conf"
+    },
+    {
+      "subject_id": 20,
+      "question": "What happens when a client sends a request to a Nginx server that uses name-based virtual hosting?",
+      "options": [
+        "Nginx uses the domain name in the HTTP request to determine which virtual server block to serve",
+        "Nginx automatically redirects the client to an IP-based server",
+        "Nginx will reject the request if the IP address does not match",
+        "The client is automatically assigned a subdomain"
+      ],
+      "correct_answer": "Nginx uses the domain name in the HTTP request to determine which virtual server block to serve"
+    },
+    {
+      "subject_id": 20,
+      "question": "What directive is used to define the root directory for a website in Nginx?",
+      "options": ["root", "home", "directory", "path"],
+      "correct_answer": "root"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a 'location' block in Nginx?",
+      "options": [
+        "It defines how to process requests for specific URI patterns",
+        "It specifies the server's name",
+        "It limits the number of concurrent connections",
+        "It sets the server’s SSL configuration"
+      ],
+      "correct_answer": "It defines how to process requests for specific URI patterns"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does Nginx’s reverse proxy feature allow you to do?",
+      "options": [
+        "Forward requests from clients to backend servers and then return the response to the clients",
+        "Encrypt all incoming requests",
+        "Process SSL/TLS certificates",
+        "Store session data on a backend server"
+      ],
+      "correct_answer": "Forward requests from clients to backend servers and then return the response to the clients"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command would you use to restart Nginx after making changes to its configuration?",
+      "options": [
+        "systemctl restart nginx",
+        "nginx -r",
+        "service nginx reload",
+        "nginx -s reload"
+      ],
+      "correct_answer": "systemctl restart nginx"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does Nginx handle caching when configured as a reverse proxy?",
+      "options": [
+        "It can cache static content to reduce backend server load",
+        "It caches all content regardless of type",
+        "It prevents any caching for security reasons",
+        "It only caches content from HTTPS connections"
+      ],
+      "correct_answer": "It can cache static content to reduce backend server load"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'proxy_pass' directive do in Nginx?",
+      "options": [
+        "It defines the backend server to which Nginx forwards client requests",
+        "It passes SSL certificates to the backend server",
+        "It routes traffic based on the client’s IP address",
+        "It loads static files from a specified directory"
+      ],
+      "correct_answer": "It defines the backend server to which Nginx forwards client requests"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of the 'upstream' block in Nginx load balancing?",
+      "options": [
+        "It defines the backend servers that Nginx will load balance traffic between",
+        "It stores SSL certificates for secure connections",
+        "It specifies the maximum number of clients allowed",
+        "It processes incoming static requests"
+      ],
+      "correct_answer": "It defines the backend servers that Nginx will load balance traffic between"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a benefit of using Nginx for virtual hosting?",
+      "options": [
+        "It enables multiple websites to share the same IP address",
+        "It increases server storage capacity",
+        "It accelerates data transfer speeds for a single domain",
+        "It enables server clustering"
+      ],
+      "correct_answer": "It enables multiple websites to share the same IP address"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the advantage of using a reverse proxy with SSL termination in Nginx?",
+      "options": [
+        "It offloads SSL decryption from backend servers, improving their performance",
+        "It encrypts traffic between Nginx and clients",
+        "It prevents backend servers from handling any traffic",
+        "It ensures that all traffic is encrypted at the backend level"
+      ],
+      "correct_answer": "It offloads SSL decryption from backend servers, improving their performance"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of a VPN (Virtual Private Network)?",
+      "options": [
+        "To encrypt internet traffic and create a secure connection over an unsecured network",
+        "To improve the speed of internet browsing",
+        "To increase the number of connected devices in a network",
+        "To monitor internet activity and block malicious websites"
+      ],
+      "correct_answer": "To encrypt internet traffic and create a secure connection over an unsecured network"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a common use case for a VPN?",
+      "options": [
+        "Remote access to a corporate network",
+        "Anonymous web browsing",
+        "Bypassing regional restrictions",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a type of VPN?",
+      "options": [
+        "Remote Access VPN",
+        "Site-to-Site VPN",
+        "Point-to-Point VPN",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a Remote Access VPN?",
+      "options": [
+        "A VPN that allows individual users to securely connect to a corporate network from remote locations",
+        "A VPN that connects two remote offices over the internet",
+        "A VPN for private cloud environments",
+        "A VPN for website management"
+      ],
+      "correct_answer": "A VPN that allows individual users to securely connect to a corporate network from remote locations"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a Site-to-Site VPN?",
+      "options": [
+        "A VPN that connects two remote networks or sites over the internet",
+        "A VPN that allows individual users to access a private network",
+        "A VPN that creates an encrypted tunnel for mobile devices",
+        "A VPN used for web browsing"
+      ],
+      "correct_answer": "A VPN that connects two remote networks or sites over the internet"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a Trusted VPN?",
+      "options": [
+        "A VPN that uses a trusted third party to provide authentication and secure connections",
+        "A VPN that only works on trusted devices",
+        "A VPN that requires a password for every connection",
+        "A VPN with no encryption"
+      ],
+      "correct_answer": "A VPN that uses a trusted third party to provide authentication and secure connections"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a Secure VPN?",
+      "options": [
+        "A VPN that uses encryption protocols like IPSec or SSL/TLS to secure data transmission",
+        "A VPN that allows open access to any internet service without authentication",
+        "A VPN that only allows local network traffic",
+        "A VPN that does not require a password for access"
+      ],
+      "correct_answer": "A VPN that uses encryption protocols like IPSec or SSL/TLS to secure data transmission"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main difference between a SecureVPN and a Trusted VPN?",
+      "options": [
+        "A SecureVPN focuses on encryption, while a Trusted VPN emphasizes authentication using a third party",
+        "A SecureVPN is only for remote workers, while a Trusted VPN is only for site-to-site connections",
+        "A SecureVPN requires a VPN server, while a Trusted VPN does not",
+        "A SecureVPN is only used for web browsing"
+      ],
+      "correct_answer": "A SecureVPN focuses on encryption, while a Trusted VPN emphasizes authentication using a third party"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following protocols is commonly used for SecureVPN?",
+      "options": [
+        "IPSec (Internet Protocol Security)",
+        "PPTP (Point-to-Point Tunneling Protocol)",
+        "L2TP (Layer 2 Tunneling Protocol)",
+        "All of the above"
+      ],
+      "correct_answer": "IPSec (Internet Protocol Security)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main advantage of using a VPN for secure remote access?",
+      "options": [
+        "It provides encryption to protect sensitive data from eavesdropping and man-in-the-middle attacks",
+        "It automatically detects and fixes network issues",
+        "It increases internet speed",
+        "It eliminates the need for internet access"
+      ],
+      "correct_answer": "It provides encryption to protect sensitive data from eavesdropping and man-in-the-middle attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a feature of a trusted VPN?",
+      "options": [
+        "Uses a trusted third-party certificate authority for authentication",
+        "Ensures that both sides of the connection can trust the other party",
+        "Provides strong encryption to secure data",
+        "Requires that only one side of the connection be secure"
+      ],
+      "correct_answer": "Requires that only one side of the connection be secure"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which VPN protocol is known for being fast but less secure?",
+      "options": [
+        "PPTP (Point-to-Point Tunneling Protocol)",
+        "OpenVPN",
+        "IPSec",
+        "L2TP"
+      ],
+      "correct_answer": "PPTP (Point-to-Point Tunneling Protocol)"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which VPN protocol is commonly used in SSL VPNs for secure remote access?",
+      "options": [
+        "SSL/TLS (Secure Sockets Layer/Transport Layer Security)",
+        "PPTP",
+        "IPSec",
+        "L2TP"
+      ],
+      "correct_answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security)"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following VPN types would be most suitable for connecting two branch offices over the internet?",
+      "options": [
+        "Site-to-Site VPN",
+        "Remote Access VPN",
+        "Client-to-Site VPN",
+        "MPLS VPN"
+      ],
+      "correct_answer": "Site-to-Site VPN"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a VPN server in a Remote Access VPN?",
+      "options": [
+        "It authenticates users and establishes the encrypted tunnel for secure communication",
+        "It acts as a DNS server for the VPN client",
+        "It performs content filtering for the VPN client",
+        "It speeds up the VPN connection"
+      ],
+      "correct_answer": "It authenticates users and establishes the encrypted tunnel for secure communication"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an advantage of using a VPN over a public network?",
+      "options": [
+        "It encrypts all traffic, preventing unauthorized access and data interception",
+        "It makes internet browsing faster",
+        "It blocks all types of web ads",
+        "It reduces the cost of internet service"
+      ],
+      "correct_answer": "It encrypts all traffic, preventing unauthorized access and data interception"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main disadvantage of using PPTP as a VPN protocol?",
+      "options": [
+        "It is considered less secure due to known vulnerabilities",
+        "It requires too many resources to maintain",
+        "It is very slow compared to other VPN protocols",
+        "It cannot be used on mobile devices"
+      ],
+      "correct_answer": "It is considered less secure due to known vulnerabilities"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a primary characteristic of IPSec?",
+      "options": [
+        "It provides encryption, integrity, and authentication at the IP layer",
+        "It only provides encryption without authentication",
+        "It uses SSL/TLS to secure communications",
+        "It requires external certificates for authentication"
+      ],
+      "correct_answer": "It provides encryption, integrity, and authentication at the IP layer"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main advantage of using L2TP (Layer 2 Tunneling Protocol) over PPTP?",
+      "options": [
+        "L2TP provides stronger security features when paired with IPSec",
+        "L2TP is faster than PPTP",
+        "L2TP does not require encryption",
+        "L2TP is easier to configure"
+      ],
+      "correct_answer": "L2TP provides stronger security features when paired with IPSec"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which VPN protocol is best known for its ability to bypass firewalls and NAT (Network Address Translation) restrictions?",
+      "options": ["OpenVPN", "PPTP", "IPSec", "L2TP"],
+      "correct_answer": "OpenVPN"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of a certificate authority in a Trusted VPN?",
+      "options": [
+        "To authenticate and verify the identity of parties in the VPN connection",
+        "To provide the encryption key for secure data transmission",
+        "To control the server’s bandwidth",
+        "To monitor and log VPN traffic"
+      ],
+      "correct_answer": "To authenticate and verify the identity of parties in the VPN connection"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a potential risk of using a VPN that is not properly secured?",
+      "options": [
+        "Unencrypted data can be intercepted by attackers",
+        "The VPN connection may become too fast",
+        "The VPN may automatically block malicious websites",
+        "The VPN may slow down the internet connection"
+      ],
+      "correct_answer": "Unencrypted data can be intercepted by attackers"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a Layer 3 VPN?",
+      "options": [
+        "A VPN that operates at the network layer and can route data between networks",
+        "A VPN that is only used for encrypted web traffic",
+        "A VPN that uses secure email protocols",
+        "A VPN that provides secure access for individual devices"
+      ],
+      "correct_answer": "A VPN that operates at the network layer and can route data between networks"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the key benefit of using a VPN with SSL/TLS encryption?",
+      "options": [
+        "It secures data in transit over public networks, such as the internet",
+        "It improves network speed",
+        "It prevents VPN connection drops",
+        "It enables high-bandwidth data transfers"
+      ],
+      "correct_answer": "It secures data in transit over public networks, such as the internet"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is HMAC (Hash-based Message Authentication Code)?",
+      "options": [
+        "A mechanism that combines a cryptographic hash function with a secret key for message integrity and authenticity",
+        "A method of encrypting the data using a symmetric key",
+        "A type of digital signature that uses RSA encryption",
+        "A hashing algorithm used to generate a secure password"
+      ],
+      "correct_answer": "A mechanism that combines a cryptographic hash function with a secret key for message integrity and authenticity"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary purpose of using HMAC?",
+      "options": [
+        "To verify both the data integrity and the authenticity of the message",
+        "To encrypt the entire message content",
+        "To sign a message with a public-private key pair",
+        "To generate a secure session key"
+      ],
+      "correct_answer": "To verify both the data integrity and the authenticity of the message"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which cryptographic hash functions are commonly used with HMAC?",
+      "options": [
+        "SHA-256, SHA-1, and MD5",
+        "RSA and ECC",
+        "AES and Blowfish",
+        "ChaCha20 and Salsa20"
+      ],
+      "correct_answer": "SHA-256, SHA-1, and MD5"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of the secret key in HMAC?",
+      "options": [
+        "It ensures that only the sender and recipient can verify the message",
+        "It encrypts the message content",
+        "It determines the length of the hash output",
+        "It stores session information"
+      ],
+      "correct_answer": "It ensures that only the sender and recipient can verify the message"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the 'keyed hash' in HMAC provide?",
+      "options": [
+        "It ensures message integrity and authenticates the message origin",
+        "It encrypts the data in transit",
+        "It creates a secure key exchange protocol",
+        "It generates a public/private key pair"
+      ],
+      "correct_answer": "It ensures message integrity and authenticates the message origin"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a characteristic of HMAC?",
+      "options": [
+        "It requires a secret key shared between the sender and recipient",
+        "It provides data integrity and authentication",
+        "It is computationally efficient",
+        "It encrypts the message contents"
+      ],
+      "correct_answer": "It encrypts the message contents"
+    },
+    {
+      "subject_id": 20,
+      "question": "In HMAC, which of the following is used to process the input message?",
+      "options": [
+        "A cryptographic hash function",
+        "A symmetric key algorithm",
+        "An asymmetric key algorithm",
+        "A block cipher"
+      ],
+      "correct_answer": "A cryptographic hash function"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following describes how HMAC operates?",
+      "options": [
+        "It hashes the message with the key in two phases to create a unique tag",
+        "It encrypts the entire message with a private key",
+        "It signs the message with a digital signature",
+        "It generates a random key for each message"
+      ],
+      "correct_answer": "It hashes the message with the key in two phases to create a unique tag"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of attack does HMAC help protect against?",
+      "options": [
+        "Man-in-the-middle attacks and tampering with data",
+        "Denial of Service (DoS) attacks",
+        "SQL Injection",
+        "Cross-site scripting (XSS)"
+      ],
+      "correct_answer": "Man-in-the-middle attacks and tampering with data"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a common use case for HMAC?",
+      "options": [
+        "Ensuring integrity and authenticity of messages in secure communications",
+        "Encrypting large volumes of data efficiently",
+        "Generating public/private key pairs",
+        "Signing a document with a digital signature"
+      ],
+      "correct_answer": "Ensuring integrity and authenticity of messages in secure communications"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the output length of an HMAC function typically dependent on?",
+      "options": [
+        "The hash function used (e.g., SHA-1, SHA-256)",
+        "The length of the secret key",
+        "The size of the input message",
+        "The size of the encryption key"
+      ],
+      "correct_answer": "The hash function used (e.g., SHA-1, SHA-256)"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a benefit of using HMAC over traditional hashing?",
+      "options": [
+        "It ensures both data integrity and message authentication using a secret key",
+        "It allows faster encryption of messages",
+        "It prevents the use of plaintext passwords",
+        "It automatically generates public and private keys"
+      ],
+      "correct_answer": "It ensures both data integrity and message authentication using a secret key"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a valid cryptographic choice for the hash function used in HMAC?",
+      "options": ["MD5", "SHA-256", "RSA", "SHA-1"],
+      "correct_answer": "RSA"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one of the advantages of using SHA-256 with HMAC?",
+      "options": [
+        "It offers a high level of security with a 256-bit output",
+        "It is computationally faster than MD5",
+        "It is easier to implement than SHA-1",
+        "It requires a smaller secret key"
+      ],
+      "correct_answer": "It offers a high level of security with a 256-bit output"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a commonly used cryptographic choice for hashing in HMAC?",
+      "options": ["SHA-1", "Blowfish", "AES", "RSA"],
+      "correct_answer": "SHA-1"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is true about HMAC performance?",
+      "options": [
+        "It is computationally efficient and fast to compute",
+        "It requires more processing power than symmetric encryption",
+        "It is slower than RSA encryption algorithms",
+        "It uses more memory than other hashing algorithms"
+      ],
+      "correct_answer": "It is computationally efficient and fast to compute"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does HMAC stand for?",
+      "options": [
+        "Hash-based Message Authentication Code",
+        "High-level Message Authentication Code",
+        "Hashing Module for Authentication Control",
+        "Hardware Message Authentication Code"
+      ],
+      "correct_answer": "Hash-based Message Authentication Code"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of cryptography does HMAC belong to?",
+      "options": [
+        "Symmetric key cryptography",
+        "Asymmetric key cryptography",
+        "Public key cryptography",
+        "Quantum cryptography"
+      ],
+      "correct_answer": "Symmetric key cryptography"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which cryptographic algorithm does HMAC rely on to ensure security?",
+      "options": [
+        "Hashing algorithm",
+        "Symmetric encryption algorithm",
+        "Asymmetric encryption algorithm",
+        "Public key algorithm"
+      ],
+      "correct_answer": "Hashing algorithm"
+    },
+    {
+      "subject_id": 20,
+      "question": "How is the key used in HMAC during the hashing process?",
+      "options": [
+        "The key is combined with the message input to create a unique hash output",
+        "The key is used to encrypt the message content",
+        "The key is stored and never used in the process",
+        "The key is only used for authentication during handshakes"
+      ],
+      "correct_answer": "The key is combined with the message input to create a unique hash output"
+    },
+    {
+      "subject_id": 20,
+      "question": "In HMAC, how is the key length determined?",
+      "options": [
+        "It depends on the hash function being used (e.g., SHA-256)",
+        "It is always fixed at 256 bits",
+        "It must be the same size as the input message",
+        "It is randomly generated for each transaction"
+      ],
+      "correct_answer": "It depends on the hash function being used (e.g., SHA-256)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the key disadvantage of using MD5 as the hashing algorithm in HMAC?",
+      "options": [
+        "MD5 is considered cryptographically broken and vulnerable to attacks",
+        "MD5 is slower than other hashing algorithms",
+        "MD5 requires more processing power than other hashing algorithms",
+        "MD5 cannot be used with symmetric encryption"
+      ],
+      "correct_answer": "MD5 is considered cryptographically broken and vulnerable to attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which cryptographic choice is best suited for high security in HMAC?",
+      "options": ["SHA-256", "MD5", "AES", "RSA"],
+      "correct_answer": "SHA-256"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does HMAC prevent in a communication system?",
+      "options": [
+        "Data manipulation and unauthorized access to the message",
+        "System downtime",
+        "Unauthorized use of public key infrastructure",
+        "Message encryption issues"
+      ],
+      "correct_answer": "Data manipulation and unauthorized access to the message"
+    },
+    {
+      "subject_id": 20,
+      "question": "In which scenario is HMAC most commonly used?",
+      "options": [
+        "In secure communications such as SSL/TLS and VPN",
+        "For encrypting database records",
+        "For generating keys for asymmetric encryption",
+        "For key exchange in public key cryptography"
+      ],
+      "correct_answer": "In secure communications such as SSL/TLS and VPN"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does IDS stand for in the context of network security?",
+      "options": [
+        "Intrusion Detection System",
+        "Intrusive Detection Service",
+        "Internal Data System",
+        "Identity Detection System"
+      ],
+      "correct_answer": "Intrusion Detection System"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of an IDS?",
+      "options": [
+        "To monitor and detect suspicious activity on a network or system",
+        "To prevent unauthorized access to a network",
+        "To provide encryption for sensitive data",
+        "To perform system backups"
+      ],
+      "correct_answer": "To monitor and detect suspicious activity on a network or system"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does IPS stand for in the context of network security?",
+      "options": [
+        "Intrusion Prevention System",
+        "Internal Protection Service",
+        "Internet Protocol Security",
+        "Integrated Prevention System"
+      ],
+      "correct_answer": "Intrusion Prevention System"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main difference between IDS and IPS?",
+      "options": [
+        "IDS detects and alerts on suspicious activity, while IPS actively blocks the attack",
+        "IDS is used for authentication, while IPS is used for encryption",
+        "IDS encrypts data, while IPS performs backups",
+        "IDS is hardware-based, while IPS is software-based"
+      ],
+      "correct_answer": "IDS detects and alerts on suspicious activity, while IPS actively blocks the attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of an attack that an IDS would be designed to detect?",
+      "options": [
+        "Port scanning",
+        "Password brute-forcing",
+        "Man-in-the-middle attack",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of attack is an Intrusion Prevention System (IPS) designed to prevent?",
+      "options": [
+        "Denial of Service (DoS) attack",
+        "Data exfiltration",
+        "Password cracking",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a signature-based IDS?",
+      "options": ["Snort", "OSSEC", "Suricata", "All of the above"],
+      "correct_answer": "Snort"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of a signature-based IDS?",
+      "options": [
+        "It detects known patterns of malicious activity by matching against predefined signatures",
+        "It analyzes network traffic and looks for anomalies",
+        "It learns from new threats and adapts to changes",
+        "It blocks malicious traffic automatically"
+      ],
+      "correct_answer": "It detects known patterns of malicious activity by matching against predefined signatures"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a common limitation of signature-based IDS?",
+      "options": [
+        "It can only detect known attacks, not zero-day attacks",
+        "It is too complex to deploy",
+        "It requires high amounts of processing power",
+        "It cannot monitor network traffic"
+      ],
+      "correct_answer": "It can only detect known attacks, not zero-day attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a type of attack that an IPS would actively block?",
+      "options": [
+        "SQL injection",
+        "Distributed Denial of Service (DDoS)",
+        "Buffer overflow",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is an example of a network attack that would be detected by an anomaly-based IDS?",
+      "options": [
+        "A user accessing files they don't normally access",
+        "A well-known virus signature",
+        "Port scanning",
+        "An encrypted phishing attempt"
+      ],
+      "correct_answer": "A user accessing files they don't normally access"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of attack is a Denial of Service (DoS)?",
+      "options": [
+        "An attack aimed at exhausting the resources of a system or network to make it unavailable",
+        "An attack that involves stealing user credentials",
+        "An attack that involves inserting malicious code into a program",
+        "An attack that involves redirecting traffic to a fake website"
+      ],
+      "correct_answer": "An attack aimed at exhausting the resources of a system or network to make it unavailable"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a characteristic of a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "It involves multiple systems attacking a single target to overwhelm it with traffic",
+        "It requires the attacker to have physical access to the target system",
+        "It uses malware to install a backdoor on the target system",
+        "It is used to steal sensitive data"
+      ],
+      "correct_answer": "It involves multiple systems attacking a single target to overwhelm it with traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which attack is characterized by an attacker exploiting a system’s vulnerabilities to gain unauthorized access?",
+      "options": [
+        "Privilege escalation",
+        "Phishing",
+        "SQL injection",
+        "Man-in-the-middle"
+      ],
+      "correct_answer": "Privilege escalation"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a common method used in SQL injection attacks?",
+      "options": [
+        "Injecting malicious SQL code into a vulnerable web application's database query",
+        "Flooding a server with packets to cause downtime",
+        "Intercepting unencrypted communication between a user and a website",
+        "Spoofing a server’s IP address"
+      ],
+      "correct_answer": "Injecting malicious SQL code into a vulnerable web application's database query"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a key benefit of using an IPS in addition to an IDS?",
+      "options": [
+        "An IPS can automatically block malicious traffic while an IDS can only alert",
+        "An IPS can decrypt encrypted traffic",
+        "An IPS can improve the speed of the network",
+        "An IPS can encrypt communication for secure transfer"
+      ],
+      "correct_answer": "An IPS can automatically block malicious traffic while an IDS can only alert"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of attack is a phishing attempt?",
+      "options": [
+        "A social engineering attack where an attacker impersonates a legitimate entity to steal sensitive information",
+        "A network-based attack that overwhelms a server with traffic",
+        "A physical attack on hardware",
+        "A type of malware attack"
+      ],
+      "correct_answer": "A social engineering attack where an attacker impersonates a legitimate entity to steal sensitive information"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key characteristic of a ‘zero-day’ attack?",
+      "options": [
+        "It exploits a previously unknown vulnerability in software or hardware",
+        "It is detected by signature-based IDS systems",
+        "It occurs after a patch or fix has been released",
+        "It is easily preventable by firewalls"
+      ],
+      "correct_answer": "It exploits a previously unknown vulnerability in software or hardware"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following describes a ‘man-in-the-middle’ attack?",
+      "options": [
+        "An attacker intercepts and potentially alters the communication between two parties",
+        "An attacker floods a network with excessive data to disrupt services",
+        "An attacker directly compromises the target machine with malicious software",
+        "An attacker redirects traffic to a fake website"
+      ],
+      "correct_answer": "An attacker intercepts and potentially alters the communication between two parties"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a passive attack?",
+      "options": [
+        "Sniffing network traffic to gather sensitive information",
+        "Injecting malware into a victim’s system",
+        "Performing a DDoS attack to overload a server",
+        "Exploiting a buffer overflow vulnerability"
+      ],
+      "correct_answer": "Sniffing network traffic to gather sensitive information"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which attack involves an attacker exploiting a flaw in a system’s memory to execute arbitrary code?",
+      "options": [
+        "Buffer overflow",
+        "Cross-site scripting",
+        "Phishing",
+        "DNS poisoning"
+      ],
+      "correct_answer": "Buffer overflow"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of a firewall in network security?",
+      "options": [
+        "To control incoming and outgoing network traffic based on predetermined security rules",
+        "To monitor for malware and prevent attacks",
+        "To encrypt all network communication",
+        "To store backups of sensitive data"
+      ],
+      "correct_answer": "To control incoming and outgoing network traffic based on predetermined security rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a ‘social engineering’ attack?",
+      "options": ["Phishing", "DDoS", "SQL injection", "Buffer overflow"],
+      "correct_answer": "Phishing"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main goal of an attacker performing a Denial of Service (DoS) attack?",
+      "options": [
+        "To disrupt the availability of a network or service",
+        "To steal sensitive data",
+        "To inject malicious code into a system",
+        "To escalate privileges on the target system"
+      ],
+      "correct_answer": "To disrupt the availability of a network or service"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To monitor network traffic and detect suspicious or malicious activity",
+        "To block malicious traffic in real time",
+        "To secure sensitive files from unauthorized access",
+        "To create encryption for communication"
+      ],
+      "correct_answer": "To monitor network traffic and detect suspicious or malicious activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a security event in the context of IDS?",
+      "options": [
+        "A significant event related to a security breach or anomaly in the network",
+        "The installation of an IDS",
+        "The process of encrypting sensitive data",
+        "The network traffic analysis procedure"
+      ],
+      "correct_answer": "A significant event related to a security breach or anomaly in the network"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT a typical security event that an IDS would monitor?",
+      "options": [
+        "Failed login attempts",
+        "Malware detection",
+        "Unusual network traffic patterns",
+        "Routine software updates"
+      ],
+      "correct_answer": "Routine software updates"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the difference between a vulnerability and an exploit?",
+      "options": [
+        "A vulnerability is a weakness, while an exploit is a method to take advantage of that weakness",
+        "A vulnerability is a method of bypassing security, while an exploit is a security breach",
+        "An exploit refers to the discovery of flaws in a network, while a vulnerability is a response",
+        "A vulnerability is a type of malware, and an exploit is the way it spreads"
+      ],
+      "correct_answer": "A vulnerability is a weakness, while an exploit is a method to take advantage of that weakness"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which phase of security design involves identifying vulnerabilities in the system?",
+      "options": [
+        "Design phase",
+        "Implementation phase",
+        "Planning phase",
+        "Testing phase"
+      ],
+      "correct_answer": "Planning phase"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the focus of the vulnerability assessment process in IDS?",
+      "options": [
+        "Identifying potential weaknesses in a system that could be exploited",
+        "Analyzing and blocking malicious network traffic",
+        "Protecting systems from physical breaches",
+        "Encrypting sensitive data"
+      ],
+      "correct_answer": "Identifying potential weaknesses in a system that could be exploited"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a typical goal during the implementation phase of security systems?",
+      "options": [
+        "Deploying security patches and software",
+        "Performing threat analysis",
+        "Designing network security models",
+        "Testing backup procedures"
+      ],
+      "correct_answer": "Deploying security patches and software"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is an example of a security vulnerability in a system?",
+      "options": [
+        "An unpatched software bug that could be exploited by attackers",
+        "An alert generated by an IDS",
+        "A secure password that is difficult to guess",
+        "A firewall blocking unauthorized access"
+      ],
+      "correct_answer": "An unpatched software bug that could be exploited by attackers"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is an important aspect of IDS implementation to ensure accurate detection of security events?",
+      "options": [
+        "Proper configuration and tuning to avoid false positives",
+        "Using weak passwords for all devices",
+        "Allowing unfiltered access to network traffic",
+        "Storing sensitive data unencrypted"
+      ],
+      "correct_answer": "Proper configuration and tuning to avoid false positives"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a core function of a Tcpdump utility?",
+      "options": [
+        "Capturing and analyzing network packets in real-time",
+        "Encrypting communication between networked devices",
+        "Preventing unauthorized access to network devices",
+        "Detecting malicious software infections"
+      ],
+      "correct_answer": "Capturing and analyzing network packets in real-time"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the first step in installing Tcpdump on a Linux system?",
+      "options": [
+        "Use the package manager (e.g., apt or yum) to install it",
+        "Download the source code and compile it manually",
+        "Disable the firewall on the system",
+        "Run a diagnostic test on the system"
+      ],
+      "correct_answer": "Use the package manager (e.g., apt or yum) to install it"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which command can you use to verify if Tcpdump is installed on a Linux system?",
+      "options": [
+        "tcpdump -v",
+        "tcpdump --version",
+        "dpkg -s tcpdump",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How do you use Tcpdump to capture all packets on a specific interface?",
+      "options": [
+        "tcpdump -i eth0",
+        "tcpdump capture all",
+        "tcpdump --interface eth0",
+        "tcpdump -a eth0"
+      ],
+      "correct_answer": "tcpdump -i eth0"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the '-v' flag do when used with Tcpdump?",
+      "options": [
+        "It increases the verbosity of the output to show detailed packet information",
+        "It filters the packets to only show traffic from specific IP addresses",
+        "It encrypts the packet data for privacy",
+        "It shows only TCP traffic"
+      ],
+      "correct_answer": "It increases the verbosity of the output to show detailed packet information"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of the '-c' option in Tcpdump?",
+      "options": [
+        "It limits the capture to a specified number of packets",
+        "It creates a capture file for later analysis",
+        "It specifies the capture interface",
+        "It compresses captured packet data"
+      ],
+      "correct_answer": "It limits the capture to a specified number of packets"
+    },
+    {
+      "subject_id": 20,
+      "question": "How do you stop a running Tcpdump process?",
+      "options": [
+        "Press Ctrl+C",
+        "Type 'exit' in the terminal",
+        "Close the terminal window",
+        "Reboot the system"
+      ],
+      "correct_answer": "Press Ctrl+C"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following commands shows the basic usage of Tcpdump for capturing network traffic?",
+      "options": [
+        "tcpdump -i eth0",
+        "tcpdump -c 10",
+        "tcpdump --capture",
+        "tcpdump capture packets"
+      ],
+      "correct_answer": "tcpdump -i eth0"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the default behavior of Tcpdump if no capture filters are specified?",
+      "options": [
+        "It captures all packets on the network",
+        "It captures only the packets matching a predefined rule set",
+        "It captures only UDP traffic",
+        "It captures traffic from known attackers"
+      ],
+      "correct_answer": "It captures all packets on the network"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of the '-w' option in Tcpdump?",
+      "options": [
+        "To write the captured packets to a file for later analysis",
+        "To display the captured packets in a human-readable format",
+        "To display packets from a specific host",
+        "To specify the packet filter"
+      ],
+      "correct_answer": "To write the captured packets to a file for later analysis"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can Tcpdump be used to capture traffic for a specific protocol, such as HTTP?",
+      "options": [
+        "tcpdump port 80",
+        "tcpdump -i eth0 http",
+        "tcpdump -p http",
+        "tcpdump capture http"
+      ],
+      "correct_answer": "tcpdump port 80"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the common use of Tcpdump in a network security context?",
+      "options": [
+        "To monitor network traffic for suspicious activity or intrusions",
+        "To encrypt communications between endpoints",
+        "To manage DNS servers",
+        "To test website performance"
+      ],
+      "correct_answer": "To monitor network traffic for suspicious activity or intrusions"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following protocols can Tcpdump capture?",
+      "options": ["TCP", "UDP", "ICMP", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What would be the expected output from Tcpdump when capturing HTTP traffic?",
+      "options": [
+        "The source and destination IP addresses and packet details for each HTTP request/response",
+        "Only the DNS queries made by the device",
+        "The summary of network interface configuration",
+        "Information about encrypted packets"
+      ],
+      "correct_answer": "The source and destination IP addresses and packet details for each HTTP request/response"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the benefit of using Tcpdump for IDS/IPS monitoring?",
+      "options": [
+        "It helps identify unusual or malicious network traffic by analyzing packets",
+        "It encrypts all the network traffic",
+        "It blocks suspicious IP addresses automatically",
+        "It creates backups of the network traffic"
+      ],
+      "correct_answer": "It helps identify unusual or malicious network traffic by analyzing packets"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main difference between traditional and distributed attacks?",
+      "options": [
+        "Traditional attacks involve a single attacker, while distributed attacks involve multiple attackers or systems",
+        "Traditional attacks target physical devices, while distributed attacks target network systems",
+        "Traditional attacks are always malicious, while distributed attacks are not",
+        "Distributed attacks are faster than traditional attacks"
+      ],
+      "correct_answer": "Traditional attacks involve a single attacker, while distributed attacks involve multiple attackers or systems"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a traditional attack?",
+      "options": [
+        "Denial of Service (DoS)",
+        "Distributed Denial of Service (DDoS)",
+        "Man-in-the-middle attack",
+        "SQL injection"
+      ],
+      "correct_answer": "Denial of Service (DoS)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of attack uses multiple systems to overwhelm a target's resources?",
+      "options": [
+        "Distributed Denial of Service (DDoS)",
+        "Phishing",
+        "Man-in-the-middle attack",
+        "Cross-site scripting"
+      ],
+      "correct_answer": "Distributed Denial of Service (DDoS)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key characteristic of a distributed attack?",
+      "options": [
+        "It is launched from multiple sources, often botnets or compromised systems",
+        "It involves a single attacker",
+        "It requires physical access to the target system",
+        "It is always a type of malware"
+      ],
+      "correct_answer": "It is launched from multiple sources, often botnets or compromised systems"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following describes an Intruder?",
+      "options": [
+        "An individual or system attempting unauthorized access to a network or system",
+        "A security tool designed to prevent network attacks",
+        "A type of firewall that blocks incoming traffic",
+        "A malicious virus targeting network devices"
+      ],
+      "correct_answer": "An individual or system attempting unauthorized access to a network or system"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a 'black-hat' hacker?",
+      "options": [
+        "A hacker who conducts malicious attacks for personal gain or disruption",
+        "A hacker who helps organizations secure their systems",
+        "A hacker who is authorized to test the security of systems",
+        "A hacker who develops open-source security tools"
+      ],
+      "correct_answer": "A hacker who conducts malicious attacks for personal gain or disruption"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a 'white-hat' hacker?",
+      "options": [
+        "A hacker who is authorized to find and fix security vulnerabilities",
+        "A hacker who uses malicious techniques to breach security",
+        "A hacker who steals sensitive data from organizations",
+        "A hacker who focuses on social engineering attacks"
+      ],
+      "correct_answer": "A hacker who is authorized to find and fix security vulnerabilities"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the term 'gray-hat' hacker refer to?",
+      "options": [
+        "A hacker who finds vulnerabilities without malicious intent but does not have explicit permission",
+        "A hacker who only conducts attacks on government systems",
+        "A hacker who only uses ethical methods to test security",
+        "A hacker who creates malware for personal gain"
+      ],
+      "correct_answer": "A hacker who finds vulnerabilities without malicious intent but does not have explicit permission"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To detect suspicious activity or policy violations on a network or system",
+        "To block malicious traffic and prevent system access",
+        "To secure communications by encrypting data",
+        "To act as a firewall to restrict network access"
+      ],
+      "correct_answer": "To detect suspicious activity or policy violations on a network or system"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is an Intrusion Prevention System (IPS)?",
+      "options": [
+        "A system that monitors network traffic and actively blocks detected threats",
+        "A system that encrypts sensitive data across a network",
+        "A tool for detecting viruses and malware on a system",
+        "A firewall that inspects and filters inbound and outbound traffic"
+      ],
+      "correct_answer": "A system that monitors network traffic and actively blocks detected threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a key difference between IDS and IPS?",
+      "options": [
+        "IDS detects and alerts on malicious activity, while IPS takes action to block it",
+        "IDS only works on hardware systems, while IPS works on software",
+        "IPS is a passive system, while IDS is an active system",
+        "IDS encrypts network data, while IPS filters web traffic"
+      ],
+      "correct_answer": "IDS detects and alerts on malicious activity, while IPS takes action to block it"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of deploying an IDS in a network?",
+      "options": [
+        "To monitor network traffic for signs of malicious activity",
+        "To block all incoming traffic from external sources",
+        "To prevent unauthorized access by encrypting all network traffic",
+        "To optimize network performance by filtering traffic"
+      ],
+      "correct_answer": "To monitor network traffic for signs of malicious activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of attack does an IDS typically detect?",
+      "options": [
+        "Port scanning",
+        "DDoS attacks",
+        "SQL injection",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does an Intrusion Prevention System (IPS) actively protect a network?",
+      "options": [
+        "It analyzes traffic and blocks harmful or suspicious activity in real time",
+        "It monitors network traffic and logs alerts for future analysis",
+        "It encrypts all data in transit to prevent unauthorized access",
+        "It isolates compromised devices from the network"
+      ],
+      "correct_answer": "It analyzes traffic and blocks harmful or suspicious activity in real time"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a network-based IDS?",
+      "options": ["Snort", "OSSEC", "Suricata", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of a signature-based IDS?",
+      "options": [
+        "To detect known patterns of malicious activity using predefined signatures",
+        "To analyze network traffic for anomalies",
+        "To monitor system resources and prevent overload",
+        "To prevent unauthorized access by encrypting data"
+      ],
+      "correct_answer": "To detect known patterns of malicious activity using predefined signatures"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key advantage of anomaly-based IDS over signature-based IDS?",
+      "options": [
+        "It can detect new or unknown attacks by identifying deviations from normal traffic patterns",
+        "It is faster at processing large volumes of traffic",
+        "It uses fewer system resources",
+        "It does not require network traffic to be analyzed"
+      ],
+      "correct_answer": "It can detect new or unknown attacks by identifying deviations from normal traffic patterns"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does 'false positive' mean in the context of IDS/IPS?",
+      "options": [
+        "An alert that indicates malicious activity where there is none",
+        "An alert that accurately identifies an attack",
+        "An attack that bypasses the system undetected",
+        "A network packet that is incorrectly blocked"
+      ],
+      "correct_answer": "An alert that indicates malicious activity where there is none"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a type of IDS that is deployed on individual devices or endpoints?",
+      "options": [
+        "Host-based IDS (HIDS)",
+        "Network-based IDS (NIDS)",
+        "Hybrid IDS",
+        "Signature-based IDS"
+      ],
+      "correct_answer": "Host-based IDS (HIDS)"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of attack involves intercepting and potentially altering communication between two parties?",
+      "options": [
+        "Man-in-the-middle attack",
+        "DDoS attack",
+        "Buffer overflow",
+        "Cross-site scripting"
+      ],
+      "correct_answer": "Man-in-the-middle attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is NOT typically detected by an Intrusion Detection System?",
+      "options": [
+        "A legitimate user's incorrect password attempt",
+        "Malicious traffic from an external attacker",
+        "A botnet attacking a server",
+        "Suspicious access to sensitive data"
+      ],
+      "correct_answer": "A legitimate user's incorrect password attempt"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main purpose of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To detect malicious activity and provide alerts for response",
+        "To block all malicious traffic from the network",
+        "To encrypt network traffic",
+        "To prevent unauthorized access to systems"
+      ],
+      "correct_answer": "To detect malicious activity and provide alerts for response"
+    },
+    {
+      "subject_id": 20,
+      "question": "What are the two primary types of Intrusion Detection Systems (IDS)?",
+      "options": [
+        "Host-based and network-based",
+        "Signature-based and anomaly-based",
+        "Software-based and hardware-based",
+        "Manual and automated"
+      ],
+      "correct_answer": "Host-based and network-based"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of a Host-based IDS (HIDS)?",
+      "options": [
+        "To monitor and analyze activities on a single host or device",
+        "To monitor network traffic for malicious activity",
+        "To block unauthorized access to network devices",
+        "To analyze traffic patterns and detect anomalies"
+      ],
+      "correct_answer": "To monitor and analyze activities on a single host or device"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is true for Network-based IDS (NIDS)?",
+      "options": [
+        "It monitors and analyzes network traffic for suspicious activities",
+        "It focuses on securing individual devices",
+        "It only works in wireless networks",
+        "It provides encryption for sensitive data"
+      ],
+      "correct_answer": "It monitors and analyzes network traffic for suspicious activities"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary role of an Intrusion Prevention System (IPS)?",
+      "options": [
+        "To detect and prevent network intrusions in real time",
+        "To monitor for threats and log network activity",
+        "To prevent unauthorized users from accessing systems",
+        "To encrypt sensitive data during transmission"
+      ],
+      "correct_answer": "To detect and prevent network intrusions in real time"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a category of Intrusion Prevention System (IPS)?",
+      "options": [
+        "Network-based IPS",
+        "Host-based IPS",
+        "Application-layer IPS",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the concept of 'Defense in Depth' in cybersecurity?",
+      "options": [
+        "Layered security strategy that uses multiple defenses to protect against threats",
+        "Using a single firewall to protect all systems in a network",
+        "A strategy of isolating all critical systems from the network",
+        "Encrypting data at rest to ensure security"
+      ],
+      "correct_answer": "Layered security strategy that uses multiple defenses to protect against threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "In the context of IDS/IPS, what is meant by an 'analysis scheme'?",
+      "options": [
+        "The process of evaluating and analyzing data to identify potential security events",
+        "The structure of network devices",
+        "The methodology for managing false positives",
+        "The way packets are encrypted before analysis"
+      ],
+      "correct_answer": "The process of evaluating and analyzing data to identify potential security events"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary goal of an IDS analysis scheme?",
+      "options": [
+        "To detect suspicious activity and trigger alerts for response",
+        "To prevent all types of attacks on the network",
+        "To filter unwanted traffic from the network",
+        "To provide encryption for sensitive data"
+      ],
+      "correct_answer": "To detect suspicious activity and trigger alerts for response"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a detection methodology used by IDS systems?",
+      "options": [
+        "Signature-based detection",
+        "Anomaly-based detection",
+        "Heuristic-based detection",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does signature-based IDS detection work?",
+      "options": [
+        "It uses predefined patterns of known attacks to detect malicious activity",
+        "It analyzes traffic for unusual deviations from the normal baseline",
+        "It detects malware based on the behavior of programs",
+        "It uses machine learning to identify unknown attacks"
+      ],
+      "correct_answer": "It uses predefined patterns of known attacks to detect malicious activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main advantage of anomaly-based IDS detection?",
+      "options": [
+        "It can detect new or unknown attacks by identifying deviations from normal activity",
+        "It can quickly identify specific types of malware",
+        "It requires no configuration and automatically adjusts to network traffic",
+        "It uses fewer resources than signature-based detection"
+      ],
+      "correct_answer": "It can detect new or unknown attacks by identifying deviations from normal activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a heuristic-based detection methodology in IDS?",
+      "options": [
+        "It uses algorithms to detect behavior patterns that indicate possible attacks",
+        "It matches known attack signatures to network traffic",
+        "It monitors for specific signatures of malicious files",
+        "It encrypts the traffic and ensures it is safe"
+      ],
+      "correct_answer": "It uses algorithms to detect behavior patterns that indicate possible attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one of the principles behind IDS systems?",
+      "options": [
+        "To continuously monitor network traffic and identify potential intrusions",
+        "To encrypt sensitive data",
+        "To create backups of network traffic",
+        "To block all external network access"
+      ],
+      "correct_answer": "To continuously monitor network traffic and identify potential intrusions"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of 'false positive' management in IDS?",
+      "options": [
+        "To reduce unnecessary alerts caused by normal traffic being flagged as suspicious",
+        "To prevent the system from detecting actual threats",
+        "To create logs for later analysis",
+        "To block specific IP addresses that generate suspicious activity"
+      ],
+      "correct_answer": "To reduce unnecessary alerts caused by normal traffic being flagged as suspicious"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of IPS is implemented at the network perimeter to protect against external threats?",
+      "options": [
+        "Network-based IPS",
+        "Host-based IPS",
+        "Application-layer IPS",
+        "Distributed IPS"
+      ],
+      "correct_answer": "Network-based IPS"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does a host-based IPS (HIPS) protect systems?",
+      "options": [
+        "By monitoring the activities of individual devices and blocking malicious actions",
+        "By filtering traffic based on the type of application",
+        "By detecting and blocking attacks originating from the network perimeter",
+        "By creating traffic patterns for analyzing network performance"
+      ],
+      "correct_answer": "By monitoring the activities of individual devices and blocking malicious actions"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which category of IPS focuses on detecting and preventing attacks in real time at the application layer?",
+      "options": [
+        "Application-layer IPS",
+        "Network-based IPS",
+        "Host-based IPS",
+        "Cloud-based IPS"
+      ],
+      "correct_answer": "Application-layer IPS"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a primary challenge for anomaly-based detection in IDS?",
+      "options": [
+        "High rate of false positives due to variations in normal network traffic",
+        "The system cannot detect known attacks",
+        "It is too slow to process high volumes of traffic",
+        "It requires large amounts of storage"
+      ],
+      "correct_answer": "High rate of false positives due to variations in normal network traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "In which situation would a hybrid IDS approach be most beneficial?",
+      "options": [
+        "When combining the strengths of both signature-based and anomaly-based detection methods",
+        "When monitoring a small, isolated network",
+        "When a system is using only encrypted traffic",
+        "When using a single detection method to prevent all attacks"
+      ],
+      "correct_answer": "When combining the strengths of both signature-based and anomaly-based detection methods"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one of the goals of defense in depth?",
+      "options": [
+        "To create multiple layers of security controls to mitigate potential threats",
+        "To rely on a single layer of security for all protection",
+        "To allow unrestricted access to critical systems",
+        "To prevent the need for backup systems"
+      ],
+      "correct_answer": "To create multiple layers of security controls to mitigate potential threats"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of system uses predefined attack patterns to identify threats?",
+      "options": [
+        "Signature-based IDS",
+        "Anomaly-based IDS",
+        "Heuristic-based IDS",
+        "Behavioral-based IDS"
+      ],
+      "correct_answer": "Signature-based IDS"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a disadvantage of a signature-based IDS?",
+      "options": [
+        "It cannot detect new or unknown attacks",
+        "It uses too much processing power",
+        "It is prone to high rates of false negatives",
+        "It is unable to generate alerts"
+      ],
+      "correct_answer": "It cannot detect new or unknown attacks"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a key characteristic of an Intrusion Prevention System (IPS)?",
+      "options": [
+        "It not only detects but also prevents malicious activities in real-time",
+        "It only logs detected threats for later analysis",
+        "It requires manual intervention to block attacks",
+        "It uses machine learning to automatically adjust its detection capabilities"
+      ],
+      "correct_answer": "It not only detects but also prevents malicious activities in real-time"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a common symptom of a Denial of Service (DoS) attack?",
+      "options": [
+        "Slowing down of system performance",
+        "Unexpected system shutdowns",
+        "Unauthorized access to critical data",
+        "Increased number of login attempts"
+      ],
+      "correct_answer": "Slowing down of system performance"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does DDoS stand for?",
+      "options": [
+        "Distributed Denial of Service",
+        "Direct Denial of Service",
+        "Direct Data Operation System",
+        "Distributed Data Operation Server"
+      ],
+      "correct_answer": "Distributed Denial of Service"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a key difference between DoS and DDoS attacks?",
+      "options": [
+        "DoS attacks originate from a single source, while DDoS attacks originate from multiple sources",
+        "DoS attacks are more difficult to detect than DDoS attacks",
+        "DDoS attacks only target web servers, while DoS attacks can target any system",
+        "DoS attacks have no impact on system performance, while DDoS attacks are more harmful"
+      ],
+      "correct_answer": "DoS attacks originate from a single source, while DDoS attacks originate from multiple sources"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a symptom of a DDoS attack?",
+      "options": [
+        "Increased latency and slow website performance",
+        "Successful unauthorized access to data",
+        "Changes in user account permissions",
+        "Unexpected system shutdown"
+      ],
+      "correct_answer": "Increased latency and slow website performance"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a symptom of a network-based attack such as a DDoS?",
+      "options": [
+        "Network congestion and slower traffic",
+        "Unauthorized file access",
+        "Significant changes to system configurations",
+        "Higher-than-normal CPU usage with no apparent cause"
+      ],
+      "correct_answer": "Network congestion and slower traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary purpose of a 'Tired Architecture' in cybersecurity?",
+      "options": [
+        "To create layers of defense that can be bypassed by a single attack",
+        "To build fault-tolerant systems by using multiple layers of protection",
+        "To reduce redundancy in network components",
+        "To simplify network configurations"
+      ],
+      "correct_answer": "To build fault-tolerant systems by using multiple layers of protection"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes 'Tired Architecture'?",
+      "options": [
+        "A system with multiple defense layers, making it harder for attackers to penetrate",
+        "A system with minimal security, making it easier to bypass defenses",
+        "A single layer of security that is highly secure",
+        "A strategy that isolates critical systems from the rest of the network"
+      ],
+      "correct_answer": "A system with multiple defense layers, making it harder for attackers to penetrate"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of sensors in a network-based IDS?",
+      "options": [
+        "To monitor network traffic and identify suspicious activities",
+        "To filter out all incoming traffic from external sources",
+        "To encrypt network traffic for confidentiality",
+        "To block unauthorized access from the network"
+      ],
+      "correct_answer": "To monitor network traffic and identify suspicious activities"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a type of sensor used in IDS systems?",
+      "options": [
+        "Network-based sensor",
+        "Host-based sensor",
+        "Hybrid sensor",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does a host-based IDS sensor work?",
+      "options": [
+        "It monitors and analyzes activities on individual hosts or devices",
+        "It filters network traffic before it enters the network",
+        "It blocks incoming attacks from external sources",
+        "It inspects system files for malware"
+      ],
+      "correct_answer": "It monitors and analyzes activities on individual hosts or devices"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes a network-based IDS sensor?",
+      "options": [
+        "It monitors network traffic and looks for patterns of malicious activity",
+        "It detects only physical layer attacks",
+        "It isolates compromised devices from the network",
+        "It focuses on securing individual devices"
+      ],
+      "correct_answer": "It monitors network traffic and looks for patterns of malicious activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one of the main objectives of a Denial of Service (DoS) attack?",
+      "options": [
+        "To exhaust a target's system resources, making it unavailable to legitimate users",
+        "To steal sensitive information from the system",
+        "To inject malicious code into a system",
+        "To change system configurations"
+      ],
+      "correct_answer": "To exhaust a target's system resources, making it unavailable to legitimate users"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following could indicate a potential DoS attack?",
+      "options": [
+        "A sudden increase in web traffic with no apparent legitimate source",
+        "Frequent login failures from multiple IP addresses",
+        "Anomalous data being transferred across network connections",
+        "Unauthorized changes in file permissions"
+      ],
+      "correct_answer": "A sudden increase in web traffic with no apparent legitimate source"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one way that attackers distribute the load in a DDoS attack?",
+      "options": [
+        "By using a botnet, where many compromised systems work together to launch the attack",
+        "By using a single high-powered server to overwhelm the target",
+        "By encrypting the traffic to avoid detection",
+        "By disguising the source IP address"
+      ],
+      "correct_answer": "By using a botnet, where many compromised systems work together to launch the attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a typical symptom of a successful DDoS attack?",
+      "options": [
+        "The targeted system becomes slow or unresponsive",
+        "A large amount of data is exfiltrated from the target system",
+        "Unauthorized access to the system is gained",
+        "The attacker directly alters system configurations"
+      ],
+      "correct_answer": "The targeted system becomes slow or unresponsive"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following best describes how a DDoS attack overwhelms a target?",
+      "options": [
+        "By flooding the target with a large volume of traffic from multiple sources",
+        "By exploiting vulnerabilities in the target's software to crash it",
+        "By introducing malware into the target system",
+        "By bypassing firewalls to infiltrate the network"
+      ],
+      "correct_answer": "By flooding the target with a large volume of traffic from multiple sources"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of DoS attack uses a single source to overwhelm a system?",
+      "options": [
+        "DoS (Denial of Service)",
+        "DDoS (Distributed Denial of Service)",
+        "Man-in-the-middle attack",
+        "Spoofing attack"
+      ],
+      "correct_answer": "DoS (Denial of Service)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a primary method used in DDoS attacks to make it harder to trace the origin?",
+      "options": [
+        "IP address spoofing",
+        "Encryption of traffic",
+        "Use of malware",
+        "Password cracking"
+      ],
+      "correct_answer": "IP address spoofing"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a type of DDoS attack that involves sending an overwhelming amount of requests to the target system?",
+      "options": [
+        "Flood attack",
+        "Amplification attack",
+        "SYN flood attack",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can an IDS help mitigate the effects of a DoS or DDoS attack?",
+      "options": [
+        "By identifying the source of the attack and alerting administrators",
+        "By blocking all network traffic",
+        "By stopping all legitimate traffic",
+        "By increasing system resource allocation"
+      ],
+      "correct_answer": "By identifying the source of the attack and alerting administrators"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one potential method for defending against DDoS attacks?",
+      "options": [
+        "Implementing rate-limiting to restrict excessive traffic",
+        "Disabling all incoming traffic from external sources",
+        "Allowing all traffic through firewalls",
+        "Increasing the number of open ports on the server"
+      ],
+      "correct_answer": "Implementing rate-limiting to restrict excessive traffic"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following symptoms could indicate a potential DDoS attack on a web server?",
+      "options": [
+        "Slow response times for legitimate users accessing the website",
+        "High CPU usage on the server with no active processes",
+        "Sudden unexpected reboots of the server",
+        "Change in file permissions"
+      ],
+      "correct_answer": "Slow response times for legitimate users accessing the website"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of the 'Tired Architecture' in defending against DDoS attacks?",
+      "options": [
+        "It provides multiple layers of defense, making it more difficult for attackers to succeed",
+        "It isolates critical systems from the rest of the network",
+        "It limits the number of connections allowed per IP address",
+        "It encrypts all incoming traffic to prevent it from being analyzed"
+      ],
+      "correct_answer": "It provides multiple layers of defense, making it more difficult for attackers to succeed"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the primary function of an IDS agent in a sensor deployment?",
+      "options": [
+        "To monitor and analyze network traffic for malicious activity",
+        "To encrypt sensitive data before transmission",
+        "To block unauthorized access to a system",
+        "To optimize system performance"
+      ],
+      "correct_answer": "To monitor and analyze network traffic for malicious activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does an IDS agent typically do when it detects suspicious activity?",
+      "options": [
+        "It triggers an alert or action to notify administrators",
+        "It blocks all incoming traffic",
+        "It shuts down the system to prevent further damage",
+        "It increases the available bandwidth to handle the attack"
+      ],
+      "correct_answer": "It triggers an alert or action to notify administrators"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a typical deployment for an IDS agent?",
+      "options": [
+        "On network gateways to monitor incoming and outgoing traffic",
+        "On end-user devices to monitor local system activity",
+        "On web servers to detect potential web application attacks",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following describes a key role of an IDS agent in detecting threats?",
+      "options": [
+        "Analyzing packet headers and payloads for known attack signatures",
+        "Blocking unauthorized devices from connecting to the network",
+        "Encrypting all network traffic to prevent eavesdropping",
+        "Controlling access to sensitive files"
+      ],
+      "correct_answer": "Analyzing packet headers and payloads for known attack signatures"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one of the primary functions of a host-based IDS agent?",
+      "options": [
+        "To monitor system and application logs for suspicious activities",
+        "To filter network traffic entering the system",
+        "To block all incoming data packets from the network",
+        "To authenticate users before granting system access"
+      ],
+      "correct_answer": "To monitor system and application logs for suspicious activities"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of an agent in a network-based IDS deployment?",
+      "options": [
+        "To analyze network traffic and detect signs of malicious behavior",
+        "To isolate compromised systems from the network",
+        "To authenticate users on the network",
+        "To increase network bandwidth during an attack"
+      ],
+      "correct_answer": "To analyze network traffic and detect signs of malicious behavior"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a key advantage of using IDS agents in a network?",
+      "options": [
+        "They provide granular monitoring of specific systems or devices",
+        "They ensure that no traffic is allowed to enter the network",
+        "They block all internal traffic to prevent attack propagation",
+        "They automatically decrypt all encrypted communications"
+      ],
+      "correct_answer": "They provide granular monitoring of specific systems or devices"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of agent is typically used to detect threats in network traffic?",
+      "options": [
+        "Network-based IDS agent",
+        "Host-based IDS agent",
+        "Application-based IDS agent",
+        "Packet-based IDS agent"
+      ],
+      "correct_answer": "Network-based IDS agent"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is Snort?",
+      "options": [
+        "A popular open-source intrusion detection and prevention system",
+        "A type of malware that attacks network systems",
+        "A hardware firewall used for packet filtering",
+        "A network encryption tool"
+      ],
+      "correct_answer": "A popular open-source intrusion detection and prevention system"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of writing Snort rules?",
+      "options": [
+        "To define patterns or behaviors that Snort will use to detect suspicious activity",
+        "To control the traffic flow in the network",
+        "To configure firewalls for access control",
+        "To encrypt network traffic"
+      ],
+      "correct_answer": "To define patterns or behaviors that Snort will use to detect suspicious activity"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is the correct syntax for writing a basic Snort rule?",
+      "options": [
+        "action protocol ip src_ip -> dst_ip (options)",
+        "src_ip -> dst_ip protocol action options",
+        "action src_ip -> dst_ip protocol options",
+        "action protocol src_ip -> dst_ip options"
+      ],
+      "correct_answer": "action protocol ip src_ip -> dst_ip (options)"
+    },
+    {
+      "subject_id": 20,
+      "question": "In Snort, what does the 'alert' action do in a rule?",
+      "options": [
+        "It triggers an alert when a packet matching the rule is detected",
+        "It drops the malicious packet from the network",
+        "It sends an automatic response to block the attacker",
+        "It logs the packet data for later analysis"
+      ],
+      "correct_answer": "It triggers an alert when a packet matching the rule is detected"
+    },
+    {
+      "subject_id": 20,
+      "question": "What type of information would a Snort rule typically include?",
+      "options": [
+        "The IP addresses, protocols, and port numbers associated with the attack",
+        "The usernames and passwords of authorized users",
+        "The physical location of the attack source",
+        "The encryption algorithm used for the traffic"
+      ],
+      "correct_answer": "The IP addresses, protocols, and port numbers associated with the attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following would be an example of a Snort rule option?",
+      "options": [
+        "msg: 'SQL Injection Attempt';",
+        "action: alert;",
+        "protocol: TCP;",
+        "ip_src: 192.168.1.1;"
+      ],
+      "correct_answer": "msg: 'SQL Injection Attempt';"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is BASE in the context of Snort?",
+      "options": [
+        "A web-based front-end for viewing and managing Snort alerts",
+        "A tool for configuring Snort rules",
+        "A database for storing Snort alerts",
+        "A method for encrypting Snort logs"
+      ],
+      "correct_answer": "A web-based front-end for viewing and managing Snort alerts"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the main purpose of BASE?",
+      "options": [
+        "To provide a user-friendly interface for Snort alert management and analysis",
+        "To encrypt Snort logs for secure storage",
+        "To automatically block traffic based on Snort alerts",
+        "To create and test new Snort rules"
+      ],
+      "correct_answer": "To provide a user-friendly interface for Snort alert management and analysis"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of Snort rule would be used to detect an attack targeting a specific port?",
+      "options": [
+        "alert tcp any any -> any 80 (msg: 'HTTP Attack';)",
+        "alert icmp any any -> any any (msg: 'ICMP Attack';)",
+        "alert udp any any -> any 443 (msg: 'HTTPS Attack';)",
+        "alert tcp any any -> any 22 (msg: 'SSH Attack';)"
+      ],
+      "correct_answer": "alert tcp any any -> any 80 (msg: 'HTTP Attack';)"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the 'msg' option in a Snort rule used for?",
+      "options": [
+        "To specify a message that will be logged when the rule is triggered",
+        "To define the packet data to be matched",
+        "To configure the protocol used in the rule",
+        "To indicate the IP addresses affected by the rule"
+      ],
+      "correct_answer": "To specify a message that will be logged when the rule is triggered"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is a common method for tuning Snort to minimize false positives?",
+      "options": [
+        "By writing more specific and granular rules",
+        "By enabling all rule options",
+        "By using the default configuration without modification",
+        "By adding more sensors to the network"
+      ],
+      "correct_answer": "By writing more specific and granular rules"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is an example of a protocol specified in a Snort rule?",
+      "options": ["tcp", "http", "udp", "All of the above"],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "In Snort, what does 'tcpdump' capture?",
+      "options": [
+        "Network traffic data for analysis and troubleshooting",
+        "Snort rule configurations",
+        "User access logs",
+        "System event logs"
+      ],
+      "correct_answer": "Network traffic data for analysis and troubleshooting"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does Snort handle traffic that matches a rule with the 'drop' action?",
+      "options": [
+        "It drops the matching packet and prevents it from reaching the target system",
+        "It triggers an alert and passes the packet",
+        "It encrypts the packet before allowing it through",
+        "It redirects the packet to a quarantine server"
+      ],
+      "correct_answer": "It drops the matching packet and prevents it from reaching the target system"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following tools is used to analyze and visualize Snort alerts?",
+      "options": ["BASE", "Wireshark", "Snortconsole", "Netcat"],
+      "correct_answer": "BASE"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the function of 'sid' in a Snort rule?",
+      "options": [
+        "It specifies a unique identifier for the rule",
+        "It defines the severity level of the alert",
+        "It indicates the source IP address",
+        "It sets the time for rule execution"
+      ],
+      "correct_answer": "It specifies a unique identifier for the rule"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the role of an IDS manager?",
+      "options": [
+        "To configure and monitor IDS sensors and alerts",
+        "To create firewall rules for the network",
+        "To optimize network performance",
+        "To provide encryption for network traffic"
+      ],
+      "correct_answer": "To configure and monitor IDS sensors and alerts"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can you test Snort's configuration and functionality?",
+      "options": [
+        "By using the Snort test mode and reviewing logs for alerts",
+        "By running Snort with no traffic to check for errors",
+        "By restarting the IDS and verifying its operational status",
+        "By scanning for malware on the network"
+      ],
+      "correct_answer": "By using the Snort test mode and reviewing logs for alerts"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a common method to test Snort's functionality?",
+      "options": [
+        "Sending known attack patterns or test traffic to the network",
+        "Running Snort in passive mode with no network traffic",
+        "Performing a full system scan using Snort",
+        "Running Snort without any rules loaded"
+      ],
+      "correct_answer": "Sending known attack patterns or test traffic to the network"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of Snort's test mode?",
+      "options": [
+        "To simulate traffic and verify if rules trigger appropriate alerts",
+        "To upgrade Snort's rule set",
+        "To monitor network traffic without logging events",
+        "To perform real-time threat analysis"
+      ],
+      "correct_answer": "To simulate traffic and verify if rules trigger appropriate alerts"
+    },
+    {
+      "subject_id": 20,
+      "question": "In Snort, how can you generate test traffic to verify rule functionality?",
+      "options": [
+        "By using the 'snort -T' command with specific options",
+        "By connecting Snort to a live network",
+        "By disabling Snort's logging feature",
+        "By manually editing the rule set"
+      ],
+      "correct_answer": "By using the 'snort -T' command with specific options"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one key component of an IDS architecture?",
+      "options": [
+        "Sensors to monitor traffic and detect suspicious behavior",
+        "A VPN to secure communications between nodes",
+        "A firewall to filter unwanted traffic",
+        "A router to direct network traffic"
+      ],
+      "correct_answer": "Sensors to monitor traffic and detect suspicious behavior"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is the primary role of an IDS sensor in the architecture?",
+      "options": [
+        "To monitor network traffic for suspicious patterns or known attack signatures",
+        "To encrypt traffic between endpoints",
+        "To block all incoming traffic",
+        "To route traffic to its correct destination"
+      ],
+      "correct_answer": "To monitor network traffic for suspicious patterns or known attack signatures"
+    },
+    {
+      "subject_id": 20,
+      "question": "What are the key components of an IDS architecture?",
+      "options": [
+        "Sensors, management consoles, and analysis systems",
+        "Firewalls, routers, and switches",
+        "Servers, databases, and endpoints",
+        "Antivirus software, firewalls, and routers"
+      ],
+      "correct_answer": "Sensors, management consoles, and analysis systems"
+    },
+    {
+      "subject_id": 20,
+      "question": "What function does an IDS management console serve?",
+      "options": [
+        "To receive and display alerts from sensors and facilitate analysis",
+        "To store historical traffic data",
+        "To block malicious traffic in real-time",
+        "To encrypt and decrypt network traffic"
+      ],
+      "correct_answer": "To receive and display alerts from sensors and facilitate analysis"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which type of IDS architecture uses a centralized management system?",
+      "options": [
+        "Distributed architecture",
+        "Client-server architecture",
+        "Decentralized architecture",
+        "Hybrid architecture"
+      ],
+      "correct_answer": "Client-server architecture"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one of the challenges of an IDS in terms of performance?",
+      "options": [
+        "Processing large volumes of data in real-time without generating false positives",
+        "Handling encrypted traffic efficiently",
+        "Providing detailed insights into application layer behavior",
+        "Performing deep packet inspection without slowing down the system"
+      ],
+      "correct_answer": "Processing large volumes of data in real-time without generating false positives"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is an IDS bypass attack?",
+      "options": [
+        "An attempt to evade or bypass detection by an intrusion detection system",
+        "A method of increasing the efficiency of an IDS",
+        "An attack targeting IDS configuration vulnerabilities",
+        "A way to encrypt IDS traffic to avoid detection"
+      ],
+      "correct_answer": "An attempt to evade or bypass detection by an intrusion detection system"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following techniques is used to bypass an IDS?",
+      "options": [
+        "Traffic obfuscation, such as IP spoofing or fragmentation",
+        "Encrypting the traffic using SSL/TLS",
+        "Generating legitimate traffic to overwhelm the IDS",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "How does IP spoofing help an attacker bypass an IDS?",
+      "options": [
+        "By altering the source IP address, making it difficult to trace the origin",
+        "By encrypting the data to prevent IDS from inspecting it",
+        "By using a high volume of traffic to overwhelm the IDS",
+        "By disguising the attack within normal traffic patterns"
+      ],
+      "correct_answer": "By altering the source IP address, making it difficult to trace the origin"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of packet fragmentation in bypassing an IDS?",
+      "options": [
+        "To break the attack into smaller packets that may evade detection",
+        "To encrypt the attack data for confidentiality",
+        "To reduce the overall size of the attack traffic",
+        "To slow down the attack to avoid triggering alerts"
+      ],
+      "correct_answer": "To break the attack into smaller packets that may evade detection"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can attackers use SSL/TLS encryption to bypass an IDS?",
+      "options": [
+        "By encrypting the attack traffic, preventing the IDS from inspecting its contents",
+        "By obscuring the attack signature within the encrypted traffic",
+        "By disguising the attack as legitimate HTTPS traffic",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is the purpose of traffic obfuscation in bypassing IDS systems?",
+      "options": [
+        "To hide the malicious nature of the traffic and avoid detection",
+        "To slow down the network to create delays",
+        "To use excessive bandwidth to overwhelm the IDS",
+        "To trigger IDS alerts intentionally for misdirection"
+      ],
+      "correct_answer": "To hide the malicious nature of the traffic and avoid detection"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following methods could be used to hide malicious traffic from an IDS?",
+      "options": [
+        "Encryption of the traffic",
+        "IP fragmentation",
+        "Protocol tunneling",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
+    },
+    {
+      "subject_id": 20,
+      "question": "What does the term 'evading detection' mean in the context of IDS?",
+      "options": [
+        "Successfully bypassing IDS detection mechanisms to launch an attack",
+        "Improving IDS detection capabilities",
+        "Testing the IDS to verify its functionality",
+        "Upgrading IDS to handle more traffic"
+      ],
+      "correct_answer": "Successfully bypassing IDS detection mechanisms to launch an attack"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is 'protocol tunneling' in the context of bypassing IDS?",
+      "options": [
+        "Encapsulating malicious traffic inside a legitimate protocol to avoid detection",
+        "Using encryption to disguise traffic patterns",
+        "Sending traffic through multiple network interfaces",
+        "Changing network protocols during an attack"
+      ],
+      "correct_answer": "Encapsulating malicious traffic inside a legitimate protocol to avoid detection"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following is a possible consequence of a successful IDS bypass attack?",
+      "options": [
+        "The attacker can freely execute attacks on the target without being detected",
+        "The IDS becomes more sensitive to future attacks",
+        "The IDS can block legitimate traffic",
+        "The network performance improves due to fewer alerts"
+      ],
+      "correct_answer": "The attacker can freely execute attacks on the target without being detected"
+    },
+    {
+      "subject_id": 20,
+      "question": "How can IDS systems mitigate the risk of bypass attacks?",
+      "options": [
+        "By regularly updating signature databases and using behavior-based detection methods",
+        "By disabling encryption on the network",
+        "By ignoring traffic from known attack sources",
+        "By allowing unlimited bandwidth for critical systems"
+      ],
+      "correct_answer": "By regularly updating signature databases and using behavior-based detection methods"
+    },
+    {
+      "subject_id": 20,
+      "question": "What is one potential countermeasure against packet fragmentation used to bypass IDS?",
+      "options": [
+        "Reassembling fragmented packets before inspecting them",
+        "Allowing only encrypted traffic through the firewall",
+        "Blocking fragmented packets entirely",
+        "Filtering out all incoming traffic"
+      ],
+      "correct_answer": "Reassembling fragmented packets before inspecting them"
+    },
+    {
+      "subject_id": 20,
+      "question": "Which of the following IDS evasion techniques involves manipulating packet contents?",
+      "options": [
+        "Buffer overflow",
+        "Packet fragmentation",
+        "IP spoofing",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above"
     }
   ]
 }
